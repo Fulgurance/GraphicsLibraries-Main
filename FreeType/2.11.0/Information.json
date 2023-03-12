@@ -1,0 +1,14 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "FreeType",
+  "version": "2.11.0",
+  "architectures": ["x86_64"],
+  "description": "Freely available software library to render fonts written in C",
+  "website": "https://freetype.org/",
+  "downloadLinks": ["https://downloads.sourceforge.net/freetype/freetype-2.11.0.tar.xz"],
+  "md5sums": ["f931582653774e310ed3a7e49b7167a3"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [],
+  "options": []
+}
