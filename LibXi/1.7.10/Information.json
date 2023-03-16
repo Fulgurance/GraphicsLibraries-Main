@@ -1,0 +1,14 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "LibXi",
+  "version": "1.7.10",
+  "architectures": ["x86_64"],
+  "description": "Xlib library for the X Input Extension",
+  "website": "https://www.x.org",
+  "downloadLinks": ["https://www.x.org/pub/individual/lib/libXi-1.7.10.tar.bz2"],
+  "md5sums": ["62c4af0839072024b4b1c8cbe84216c7"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [],
+  "options": []
+}

@@ -1,0 +1,14 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "LibXdamage",
+  "version": "1.1.5",
+  "architectures": ["x86_64"],
+  "description": "X Damage Extension library",
+  "website": "https://www.x.org",
+  "downloadLinks": ["https://www.x.org/pub/individual/lib/libXdamage-1.1.5.tar.bz2"],
+  "md5sums": ["e3f554267a7a04b042dc1f6352bd6d99"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [],
+  "options": []
+}

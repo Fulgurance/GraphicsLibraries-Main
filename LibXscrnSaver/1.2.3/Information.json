@@ -1,0 +1,14 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "LibXscrnSaver",
+  "version": "1.2.3",
+  "architectures": ["x86_64"],
+  "description": "Xlib-based X11 Screen Saver extension client library",
+  "website": "https://www.x.org",
+  "downloadLinks": ["https://www.x.org/pub/individual/lib/libXScrnSaver-1.2.3.bz2"],
+  "md5sums": ["eeea9d5af3e6c143d0ea1721d27a5e49"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [],
+  "options": []
+}

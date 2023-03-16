@@ -1,0 +1,14 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "LibXinerama",
+  "version": "1.1.4",
+  "architectures": ["x86_64"],
+  "description": "Xlib API for Xinerama extension to X11 Protocol",
+  "website": "https://www.x.org",
+  "downloadLinks": ["https://www.x.org/pub/individual/lib/libXinerama-1.1.4.tar.bz2"],
+  "md5sums": ["0d5f826a197dae74da67af4a9ef35885"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [],
+  "options": []
+}

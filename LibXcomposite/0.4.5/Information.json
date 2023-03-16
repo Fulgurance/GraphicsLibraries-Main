@@ -1,0 +1,14 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "LibXcomposite",
+  "version": "0.4.5",
+  "architectures": ["x86_64"],
+  "description": "Xlib-based client library for the Composite extension to the X11 protocol",
+  "website": "https://www.x.org",
+  "downloadLinks": ["https://www.x.org/pub/individual/lib/libXcomposite-0.4.5.tar.bz2"],
+  "md5sums": ["3fa0841ea89024719b20cd702a9b54e0"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [],
+  "options": []
+}

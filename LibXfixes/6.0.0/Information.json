@@ -1,0 +1,14 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "LibXfixes",
+  "version": "6.0.0",
+  "architectures": ["x86_64"],
+  "description": "Xlib-based library for the XFIXES Extension",
+  "website": "https://www.x.org",
+  "downloadLinks": ["https://www.x.org/pub/individual/lib/libXfixes-6.0.0.tar.bz2"],
+  "md5sums": ["86f182f487f4f54684ef6b142096bb0f"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [],
+  "options": []
+}

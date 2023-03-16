@@ -1,0 +1,14 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "LibXt",
+  "version": "1.2.1",
+  "architectures": ["x86_64"],
+  "description": "X Toolkit Intrinsics library",
+  "website": "https://www.x.org",
+  "downloadLinks": ["https://www.x.org/pub/individual/lib/libXt-1.2.1.tar.bz2"],
+  "md5sums": ["b122ff9a7ec70c94dbbfd814899fffa5"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [],
+  "options": []
+}

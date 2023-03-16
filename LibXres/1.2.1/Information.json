@@ -1,0 +1,14 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "LibXres",
+  "version": "1.2.1",
+  "architectures": ["x86_64"],
+  "description": "Xlib-based X-Resource extension client library",
+  "website": "https://www.x.org",
+  "downloadLinks": ["https://www.x.org/pub/individual/lib/libXres-1.2.1.tar.bz2"],
+  "md5sums": ["e142ef0ed0366ae89c771c27cfc2ccd1"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [],
+  "options": []
+}

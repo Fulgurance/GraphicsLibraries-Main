@@ -1,0 +1,14 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "LibIce",
+  "version": "1.0.10",
+  "architectures": ["x86_64"],
+  "description": "Inter-Client Exchange Library",
+  "website": "https://www.x.org",
+  "downloadLinks": ["https://www.x.org/pub/individual/lib/libICE-1.0.10.tar.bz2"],
+  "md5sums": ["76d77499ee7120a56566891ca2c0dbcf"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [],
+  "options": []
+}
