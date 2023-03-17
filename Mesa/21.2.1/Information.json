@@ -1,0 +1,87 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "Mesa",
+  "version": "21.2.1",
+  "architectures": ["x86_64"],
+  "description": "Open source implementations of OpenGL, OpenGL ES, Vulkan, OpenCL, and more",
+  "website": "https://mesa.freedesktop.org",
+  "downloadLinks": ["https://mesa.freedesktop.org/archive/mesa-21.2.1.tar.xz"],
+  "md5sums": ["f81336168864b1f890edfa5db8587f2b"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Xorg-Libraries",
+      "version": "1.20.13",
+      "options": []
+    },
+    {
+      "name": "Libdrm",
+      "version": "2.4.107",
+      "options": []
+    },
+    {
+      "name": "Mako",
+      "version": "1.1.5",
+      "options": []
+    }
+  ],
+  "options": [
+    {
+      "name": "Libva",
+      "description": "Enable libva support for VA-API support for gallium drivers",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libva",
+          "version": "2.12.0",
+          "options": []
+        }
+      ],
+      "downloadLinks": [],
+      "md5sums": []
+    },
+    {
+      "name": "Libvdpau",
+      "description": "Enable libvdpau support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libvdpau",
+          "version": "1.4.0",
+          "options": []
+        }
+      ],
+      "downloadLinks": [],
+      "md5sums": []
+    },
+    {
+      "name": "Llvm",
+      "description": "Enable llvm support for Gallium3D, nouveau, r300 and radeon drivers",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Llvm",
+          "version": "12.0.1",
+          "options": []
+        }
+      ],
+      "downloadLinks": [],
+      "md5sums": []
+    },
+    {
+      "name": "Wayland-Protocols",
+      "description": "Enable wayland-protocols support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Wayland-Protocols",
+          "version": "1.21.0",
+          "options": []
+        }
+      ],
+      "downloadLinks": [],
+      "md5sums": []
+    }
+  ]
+}
