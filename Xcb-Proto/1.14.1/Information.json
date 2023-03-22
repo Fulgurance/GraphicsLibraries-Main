@@ -1,0 +1,29 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "Xcb-Proto",
+  "version": "1.14.1",
+  "architectures": ["x86_64"],
+  "description": "XML-XCB protocol descriptions used by libxcb for the X11 protocol & extensions",
+  "website": "https://xorg.freedesktop.org",
+  "downloadLinks": ["https://xorg.freedesktop.org/archive/individual/proto/xcb-proto-1.14.1.tar.xz"],
+  "md5sums": ["ecd6955dab1a7b9ba9756a11b8bdb48f"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [],
+  "options": [
+    {
+      "name": "Libxml2",
+      "description": "Enable libxml2 support for test",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libxml2",
+          "version": "2.9.12",
+          "options": []
+        }
+      ],
+      "downloadLinks": [],
+      "md5sums": []
+    }
+  ]
+}
