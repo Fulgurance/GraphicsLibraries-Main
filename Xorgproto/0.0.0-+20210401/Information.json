@@ -11,7 +11,7 @@
   "installedFiles": [],
   "dependencies": [
     {
-      "name": "Util-Macro",
+      "name": "Util-Macros",
       "version": "1.19.3",
       "options": []
     }
