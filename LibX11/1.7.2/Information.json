@@ -14,6 +14,11 @@
       "name": "Xorgproto",
       "version": "0.0.0-+20210401",
       "options": []
+    },
+    {
+      "name": "Libxcb",
+      "version": "1.14.0",
+      "options": []
     }
   ],
   "options": []
