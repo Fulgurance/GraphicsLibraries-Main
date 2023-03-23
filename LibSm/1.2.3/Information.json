@@ -9,6 +9,17 @@
   "md5sums": ["87c7fad1c1813517979184c8ccd76628"],
   "patchesLinks": [],
   "installedFiles": [],
-  "dependencies": [],
+  "dependencies": [
+    {
+      "name": "LibIce",
+      "version": "1.0.10",
+      "options": []
+    },
+    {
+      "name": "Xorgproto",
+      "version": "0.0.0-+20210401",
+      "options": []
+    }
+  ],
   "options": []
 }
