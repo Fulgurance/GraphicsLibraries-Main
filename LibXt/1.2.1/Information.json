@@ -9,6 +9,32 @@
   "md5sums": ["b122ff9a7ec70c94dbbfd814899fffa5"],
   "patchesLinks": [],
   "installedFiles": [],
-  "dependencies": [],
+  "dependencies": [
+    {
+      "name": "LibSm",
+      "version": "1.2.3",
+      "options": []
+    },
+    {
+      "name": "LibIce",
+      "version": "1.0.10",
+      "options": []
+    },
+    {
+      "name": "LibX11",
+      "version": "1.7.2",
+      "options": []
+    },
+    {
+      "name": "Xorgproto",
+      "version": "0.0.0-+20210401",
+      "options": []
+    },
+    {
+      "name": "Xcb-Proto",
+      "version": "1.14.1",
+      "options": []
+    }
+  ],
   "options": []
 }
