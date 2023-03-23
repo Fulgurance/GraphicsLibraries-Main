@@ -9,6 +9,32 @@
   "md5sums": ["c1ce21c296bbf3da3e30cf651649563e"],
   "patchesLinks": [],
   "installedFiles": [],
-  "dependencies": [],
+  "dependencies": [
+    {
+      "name": "Xorgproto",
+      "version": "0.0.0-+20210401",
+      "options": []
+    },
+    {
+      "name": "LibX11",
+      "version": "1.7.2",
+      "options": []
+    },
+    {
+      "name": "LibXext",
+      "version": "1.3.4",
+      "options": []
+    },
+    {
+      "name": "LibXt",
+      "version": "1.2.1",
+      "options": []
+    },
+    {
+      "name": "LibXmu",
+      "version": "1.1.3",
+      "options": []
+    }
+  ],
   "options": []
 }
