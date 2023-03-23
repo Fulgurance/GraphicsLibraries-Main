@@ -10,5 +10,11 @@
   "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [],
-  "options": []
+  "options": [
+    {
+      "name": "Xorgproto",
+      "version": "0.0.0-+20210401",
+      "options": []
+    }
+  ]
 }
