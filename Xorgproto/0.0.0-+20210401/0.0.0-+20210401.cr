@@ -11,7 +11,6 @@ class Target < ISM::Software
         runMesonCommand([   "--prefix=/usr",
                             "--sysconfdir=/etc",
                             "--localstatedir=/var",
-                            "--disable-static",
                             "-Dlegacy=true",
                             ".."],
                             buildDirectoryPath)
