@@ -9,6 +9,12 @@
   "md5sums": ["76d77499ee7120a56566891ca2c0dbcf"],
   "patchesLinks": [],
   "installedFiles": [],
-  "dependencies": [],
+  "dependencies": [
+    {
+      "name": "Xorgproto",
+      "version": "0.0.0-+20210401",
+      "options": []
+    }
+  ],
   "options": []
 }
