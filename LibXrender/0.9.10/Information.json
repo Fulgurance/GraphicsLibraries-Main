@@ -9,6 +9,12 @@
   "md5sums": ["802179a76bded0b658f4e9ec5e1830a4"],
   "patchesLinks": [],
   "installedFiles": [],
-  "dependencies": [],
+  "dependencies": [
+    {
+      "name": "LibX11",
+      "version": "1.7.2",
+      "options": []
+    }
+  ],
   "options": []
 }
