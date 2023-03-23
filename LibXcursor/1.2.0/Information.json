@@ -9,6 +9,22 @@
   "md5sums": ["9b9be0e289130fb820aedf67705fc549"],
   "patchesLinks": [],
   "installedFiles": [],
-  "dependencies": [],
+  "dependencies": [
+    {
+      "name": "LibXrender",
+      "version": "0.9.10",
+      "options": []
+    },
+    {
+      "name": "LibXfixes",
+      "version": "6.0.0",
+      "options": []
+    },
+    {
+      "name": "LibX11",
+      "version": "1.7.2",
+      "options": []
+    }
+  ],
   "options": []
 }
