@@ -26,8 +26,8 @@
       "options": []
     },
     {
-      "name": "Wayland",
-      "version": "1.19.0",
+      "name": "Wayland-Protocols",
+      "version": "1.21.0",
       "options": []
     }
   ],
