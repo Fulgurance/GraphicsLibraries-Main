@@ -10,7 +10,7 @@ class Target < ISM::Software
 
         runMesonCommand([   "--prefix=/usr",
                             "--buildtype=release",
-                            "-Ddri-drivers=$DRI_DRIVERS"
+                            "-Ddri-drivers=$DRI_DRIVERS",
                             "-Dgallium-drivers=$GALLIUM_DRV",
                             "-Dgallium-nine=false",
                             "-Dglx=dri",
@@ -23,7 +23,7 @@ class Target < ISM::Software
     def build
         super
 
-        runNinjaCommand([] of String,buildDirectoryPath)
+        runNinjaCommand(path: buildDirectoryPath)
     end
     
     def prepareInstallation
