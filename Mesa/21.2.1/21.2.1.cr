@@ -10,8 +10,8 @@ class Target < ISM::Software
 
         runMesonCommand([   "--prefix=/usr",
                             "--buildtype=release",
-                            "-Ddri-drivers=$DRI_DRIVERS",
-                            "-Dgallium-drivers=$GALLIUM_DRV",
+                            "-Ddri-drivers=\"i965,nouveau\"",
+                            "-Dgallium-drivers=\"crocus,i915,iris,nouveau,r600,radeonsi,svga,swrast,virgl\"",
                             "-Dgallium-nine=false",
                             "-Dglx=dri",
                             "-Dvalgrind=disabled",
