@@ -1,0 +1,14 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "Libpng",
+  "version": "1.6.37",
+  "architectures": ["x86_64"],
+  "description": "Reference library for supporting the Portable Network Graphics format",
+  "website": " https://downloads.sourceforge.net/libpng",
+  "downloadLinks": ["https://downloads.sourceforge.net/libpng/libpng-1.6.37.tar.xz"],
+  "md5sums": ["015e8e15db1eecde5f2eb9eb5b6e59e9"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [],
+  "options": []
+}
