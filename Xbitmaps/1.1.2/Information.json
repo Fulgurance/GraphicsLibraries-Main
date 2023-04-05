@@ -1,0 +1,20 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "Xbitmaps",
+  "version": "1.1.2",
+  "architectures": ["x86_64"],
+  "description": "X BitMap format bitmaps commonly used in X.Org applications",
+  "website": "https://www.x.org",
+  "downloadLinks": ["https://www.x.org/pub/individual/data/xbitmaps-1.1.2.tar.bz2"],
+  "md5sums": ["cedeef095918aca86da79a2934e03daf"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Util-Macros",
+      "version": "1.19.3",
+      "options": []
+    }
+  ],
+  "options": []
+}
