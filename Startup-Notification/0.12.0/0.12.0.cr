@@ -11,7 +11,7 @@ class Target < ISM::Software
     def build
         super
 
-        makeSource([path: buildDirectoryPath)
+        makeSource([path: buildDirectoryPath])
     end
     
     def prepareInstallation
