@@ -14,6 +14,11 @@
       "name": "Xcb-Util",
       "version": "0.4.0",
       "options": []
+    },
+    {
+      "name": "Xcb-Util-Renderutil",
+      "version": "0.3.9",
+      "options": []
     }
   ],
   "options": []
