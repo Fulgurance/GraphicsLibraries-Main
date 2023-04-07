@@ -17,7 +17,7 @@ class Target < ISM::Software
     def build
         super
 
-        runNinjaCommand([] of String,buildDirectoryPath)
+        runNinjaCommand(path: buildDirectoryPath)
     end
     
     def prepareInstallation
