@@ -10,7 +10,7 @@ class Target < ISM::Software
 
         runMesonCommand([   "--prefix=/usr",
                             "--buildtype=release",
-                            "-Denable-docs=false"
+                            "-Denable-docs=false",
                             ".."],
                             buildDirectoryPath)
     end
