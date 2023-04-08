@@ -1,0 +1,78 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "Pango",
+  "version": "1.48.9",
+  "architectures": ["x86_64"],
+  "description": "Library for laying out and rendering of text with an emphasis on internationalization",
+  "website": "https://pango.gnome.org/",
+  "downloadLinks": ["https://download.gnome.org/sources/pango/1.48/pango-1.48.9.tar.xz"],
+  "md5sums": ["243f05e6b2de17e5129402307e323e14"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Fontconfig",
+      "version": "2.13.1",
+      "options": []
+    },
+    {
+      "name": "FreeType",
+      "version": "2.11.0",
+      "options": ["Harfbuzz"]
+    },
+    {
+      "name": "Fribidi",
+      "version": "1.0.9",
+      "options": []
+    },
+    {
+      "name": "Glib",
+      "version": "2.68.4",
+      "options": []
+    }
+  ],
+  "options": [
+    {
+      "name": "Cairo",
+      "description": "Enable cairo support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Cairo",
+          "version": "1.48.9",
+          "options": []
+        }
+      ],
+      "downloadLinks": [],
+      "md5sums": []
+    },
+    {
+      "name": "Gobject-Instrospection",
+      "description": "Enable Gobject-Instrospection support required for Gnome",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Gobject-Instrospection",
+          "version": "1.68.0",
+          "options": []
+        }
+      ],
+      "downloadLinks": [],
+      "md5sums": []
+    },
+    {
+      "name": "Xorg-Libraries",
+      "description": "Enable xorg libraries support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Xorg-Libraries",
+          "version": "1.20.13",
+          "options": []
+        }
+      ],
+      "downloadLinks": [],
+      "md5sums": []
+    }
+  ]
+}

@@ -10,5 +10,48 @@
   "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [],
-  "options": []
+  "options": [
+    {
+      "name": "Harfbuzz",
+      "description": "Enable harfbuzz support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Harfbuzz",
+          "version": "2.9.0",
+          "options": []
+        }
+      ],
+      "downloadLinks": [],
+      "md5sums": []
+    },
+    {
+      "name": "Libpng",
+      "description": "Enable libpng support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libpng",
+          "version": "1.6.37",
+          "options": []
+        }
+      ],
+      "downloadLinks": [],
+      "md5sums": []
+    },
+    {
+      "name": "Which",
+      "description": "Enable which support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Which",
+          "version": "2.21.0",
+          "options": []
+        }
+      ],
+      "downloadLinks": [],
+      "md5sums": []
+    },
+  ]
 }
