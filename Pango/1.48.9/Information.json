@@ -39,7 +39,7 @@
       "dependencies": [
         {
           "name": "Cairo",
-          "version": "1.48.9",
+          "version": "1.17.4",
           "options": []
         }
       ],
