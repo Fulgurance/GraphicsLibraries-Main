@@ -4,7 +4,7 @@ class Target < ISM::Software
         @buildDirectory = true
         super
 
-        fileReplaceLineContaining("#{buildDirectoryPath(false)}/tests/CMakeLists.txt","cmptest","")
+        fileReplaceLineContaining("#{workDirectoryPath(false)}/tests/CMakeLists.txt","cmptest","")
     end
     
     def configure
