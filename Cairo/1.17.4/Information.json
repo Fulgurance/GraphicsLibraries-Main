@@ -1,0 +1,25 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "Cairo",
+  "version": "1.17.4",
+  "architectures": ["x86_64"],
+  "description": "Cairo is a 2D graphics library with support for multiple output devices",
+  "website": "https://www.cairographics.org/",
+  "downloadLinks": ["https://www.cairographics.org/snapshots/cairo-1.17.4.tar.xz"],
+  "md5sums": ["bf9d0d324ecbd350d0e9308125fa4ce0"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Libpng",
+      "version": "1.6.37",
+      "options": []
+    },
+    {
+      "name": "Pixman",
+      "version": "0.40.0",
+      "options": []
+    }
+  ],
+  "options": []
+}
