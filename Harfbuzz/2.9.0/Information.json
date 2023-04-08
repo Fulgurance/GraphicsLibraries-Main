@@ -9,6 +9,12 @@
   "md5sums": ["b1977caae59978c2fea28a4b66a60da0"],
   "patchesLinks": [],
   "installedFiles": [],
-  "dependencies": [],
+  "dependencies": [
+    {
+      "name": "Graphite2",
+      "version": "1.3.14",
+      "options": []
+    }
+  ],
   "options": []
 }
