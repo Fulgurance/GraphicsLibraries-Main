@@ -9,7 +9,13 @@
   "md5sums": ["f931582653774e310ed3a7e49b7167a3"],
   "patchesLinks": [],
   "installedFiles": [],
-  "dependencies": [],
+  "dependencies": [
+    {
+      "name": "SystemBase",
+      "version": "0.2.0",
+      "options": []
+    }
+  ],
   "options": [
     {
       "name": "Harfbuzz",
