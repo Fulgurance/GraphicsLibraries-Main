@@ -1,0 +1,20 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "Qrencode",
+  "version": "4.1.1",
+  "architectures": ["x86_64"],
+  "description": "Fast and compact library for encoding data in a QR Code symbol",
+  "website": "https://fukuchi.org/works/qrencode/",
+  "downloadLinks": ["https://fukuchi.org/works/qrencode/qrencode-4.1.1.tar.bz2"],
+  "md5sums": ["de7185bcab635a34730e1b73d4efa705"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Libpng",
+      "version": "1.6.37",
+      "options": []
+    }
+  ],
+  "options": []
+}
