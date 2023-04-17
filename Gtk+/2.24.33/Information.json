@@ -1,0 +1,30 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "Gtk+",
+  "version": "2.24.33",
+  "architectures": ["x86_64"],
+  "description": "Complete set of UI elements",
+  "website": "https://www.gtk.org/",
+  "downloadLinks": ["https://download.gnome.org/sources/gtk+/2.24/gtk+-2.24.33.tar.xz"],
+  "md5sums": ["0118e98dbe0e4dab90ce475f9f0e6c0c"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Atk",
+      "version": "2.36.0",
+      "options": []
+    },
+    {
+      "name": "Gdk-Pixbuf",
+      "version": "2.42.6",
+      "options": []
+    },
+    {
+      "name": "Pango",
+      "version": "1.48.9",
+      "options": []
+    }
+  ],
+  "options": []
+}

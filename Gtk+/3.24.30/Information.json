@@ -1,0 +1,35 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "Gtk+",
+  "version": "3.24.30",
+  "architectures": ["x86_64"],
+  "description": "Complete set of UI elements",
+  "website": "https://www.gtk.org/",
+  "downloadLinks": ["https://download.gnome.org/sources/gtk+/3.24/gtk+-3.24.30.tar.xz"],
+  "md5sums": ["1cfb66b3460ae5a62f964a5cc14c66b6"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "At-Spi2-Atk",
+      "version": "2.38.0",
+      "options": []
+    },
+    {
+      "name": "Gdk-Pixbuf",
+      "version": "2.42.6",
+      "options": []
+    },
+    {
+      "name": "Libepoxy",
+      "version": "1.5.9",
+      "options": []
+    },
+    {
+      "name": "Pango",
+      "version": "1.48.9",
+      "options": []
+    }
+  ],
+  "options": []
+}
