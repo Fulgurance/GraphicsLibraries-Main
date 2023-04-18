@@ -1,0 +1,20 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "Atk",
+  "version": "2.36.0",
+  "architectures": ["x86_64"],
+  "description": "Cairo is a 2D graphics library with support for multiple output devices",
+  "website": "https://www.cairographics.org/",
+  "downloadLinks": ["https://download.gnome.org/sources/atk/2.36/atk-2.36.0.tar.xz"],
+  "md5sums": ["01aa5ec5138f5f8c9b3a4e3196ed2900"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Glib",
+      "version": "2.68.4",
+      "options": []
+    }
+  ],
+  "options": []
+}
