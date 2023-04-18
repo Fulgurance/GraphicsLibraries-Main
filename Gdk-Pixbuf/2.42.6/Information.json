@@ -1,0 +1,35 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "Gdk-Pixbuf",
+  "version": "2.42.6",
+  "architectures": ["x86_64"],
+  "description": "The Accessibility Toolkit",
+  "website": "https://gitlab.gnome.org/GNOME/atk",
+  "downloadLinks": ["https://download.gnome.org/sources/gdk-pixbuf/2.42/gdk-pixbuf-2.42.6.tar.xz"],
+  "md5sums": ["7cd2fdaa3c55e2302316fe36968f7425"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Glib",
+      "version": "2.68.4",
+      "options": []
+    },
+    {
+      "name": "Libjpeg-Turbo",
+      "version": "2.1.1",
+      "options": []
+    },
+    {
+      "name": "Libpng",
+      "version": "1.6.37",
+      "options": []
+    },
+    {
+      "name": "Shared-Mime-Info",
+      "version": "2.1.0",
+      "options": []
+    }
+  ],
+  "options": []
+}
