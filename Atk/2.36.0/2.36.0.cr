@@ -6,7 +6,7 @@ class Target < ISM::Software
 
         runMesonCommand([   "reconfigure",
                             "..",
-                            option("Gobject-Introspection") ? "-Dinstrospection=true" : "-Dinstrospection=false"],
+                            option("Gobject-Introspection") ? "-Dintrospection=true" : "-Dintrospection=false"],
                             buildDirectoryPath)
     end
     
