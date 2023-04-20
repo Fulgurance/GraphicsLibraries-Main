@@ -5,7 +5,7 @@ class Target < ISM::Software
         super
 
         runMesonCommand([   "configure",
-                            "builddir"
+                            "builddir",
                             "--prefix=/usr",
                             "--buildtype=release",
                             option("Gobject-Introspection") ? "Dinstrospection=true" : "Dinstrospection=false",
