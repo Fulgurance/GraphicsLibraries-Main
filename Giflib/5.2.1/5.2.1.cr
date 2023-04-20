@@ -16,6 +16,8 @@ class Target < ISM::Software
         deleteAllFilesRecursivelyFinishing("#{buildDirectoryPath(false)}/doc",".1")
         deleteAllFilesRecursivelyFinishing("#{buildDirectoryPath(false)}/doc",".xml")
 
+        makeDirectory("#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}usr/share/doc/")
+
         copyDirectory("#{buildDirectoryPath(false)}/doc","#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}usr/share/doc/giflib-5.2.1")
     end
 
