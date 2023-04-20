@@ -1,16 +1,8 @@
 class Target < ISM::Software
 
     def prepare
-        @buildDirectoryPath = true
+        @buildDirectory = true
         super
-
-        runMesonCommand([   "configure",
-                            "builddir",
-                            "--prefix=/usr",
-                            "--buildtype=release",
-                            option("Gobject-Introspection") ? "Dinstrospection=true" : "Dinstrospection=false",
-                            ".."],
-                            buildDirectoryPath)
     end
     
     def configure
