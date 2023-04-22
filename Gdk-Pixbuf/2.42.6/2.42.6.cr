@@ -6,7 +6,9 @@ class Target < ISM::Software
 
         runMesonCommand([   "reconfigure",
                             "..",
-                            "-Dinstalled_tests=false"],
+                            "-Dinstalled_tests=false",
+                            "-Dgtk_doc=false",
+                            "-Dintrospection=disabled"],
                             buildDirectoryPath)
     end
     
@@ -17,6 +19,8 @@ class Target < ISM::Software
                             "--buildtype=release",
                             "--wrap-mode=nofallback",
                             "-Dinstalled_tests=false",
+                            "-Dgtk_doc=false",
+                            "-Dintrospection=disabled"
                             ".."],
                             buildDirectoryPath)
     end
