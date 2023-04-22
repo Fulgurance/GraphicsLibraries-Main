@@ -6,6 +6,9 @@ class Target < ISM::Software
 
         runMesonCommand([   "reconfigure",
                             "..",
+                            "--prefix=/usr",
+                            "--buildtype=release",
+                            "--wrap-mode=nofallback",
                             "-Dinstalled_tests=false"],
                             buildDirectoryPath)
     end
