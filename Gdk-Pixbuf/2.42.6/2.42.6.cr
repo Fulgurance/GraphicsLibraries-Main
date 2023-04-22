@@ -3,6 +3,11 @@ class Target < ISM::Software
     def prepare
         @buildDirectory = true
         super
+
+        runMesonCommand([   "reconfigure",
+                            "..",
+                            "-Dinstalled_tests=false",
+                            buildDirectoryPath)
     end
     
     def configure
