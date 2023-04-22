@@ -6,7 +6,7 @@ class Target < ISM::Software
 
         runMesonCommand([   "reconfigure",
                             "..",
-                            "-Dinstalled_tests=false",
+                            "-Dinstalled_tests=false"],
                             buildDirectoryPath)
     end
     
