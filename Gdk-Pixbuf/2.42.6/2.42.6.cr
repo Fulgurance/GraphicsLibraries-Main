@@ -11,6 +11,7 @@ class Target < ISM::Software
         runMesonCommand([   "--prefix=/usr",
                             "--buildtype=release",
                             "--wrap-mode=nofallback",
+                            "-Dinstalled_tests=false"
                             ".."],
                             buildDirectoryPath)
     end
