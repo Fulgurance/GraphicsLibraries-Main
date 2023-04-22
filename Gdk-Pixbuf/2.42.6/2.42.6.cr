@@ -20,7 +20,7 @@ class Target < ISM::Software
                             "--wrap-mode=nofallback",
                             "-Dinstalled_tests=false",
                             "-Dgtk_doc=false",
-                            "-Dintrospection=disabled"
+                            "-Dintrospection=disabled",
                             ".."],
                             buildDirectoryPath)
     end
