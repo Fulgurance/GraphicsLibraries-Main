@@ -23,11 +23,6 @@
     {
       "name": "Pango",
       "version": "1.48.9",
-      "options": []
-    },
-    {
-      "name": "Pango",
-      "version": "1.48.9",
       "options": ["Cairo"]
     }
   ],
