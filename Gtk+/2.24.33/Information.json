@@ -26,9 +26,9 @@
       "options": []
     },
     {
-      "name": "Cairo",
-      "version": ">=1.6.0",
-      "options": []
+      "name": "Pango",
+      "version": "1.48.9",
+      "options": ["Cairo"]
     }
   ],
   "options": []
