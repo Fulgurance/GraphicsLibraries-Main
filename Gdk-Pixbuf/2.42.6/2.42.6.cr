@@ -4,13 +4,7 @@ class Target < ISM::Software
         @buildDirectory = true
         super
 
-        runMesonCommand([   "reconfigure",
-                            "..",
-                            "--prefix=/usr",
-                            "--buildtype=release",
-                            "--wrap-mode=nofallback",
-                            "-Dinstalled_tests=false"],
-                            buildDirectoryPath)
+        fileDeleteLine("#{mainWorkDirectoryPath(false)}/meson.build",407)
     end
     
     def configure
@@ -19,7 +13,6 @@ class Target < ISM::Software
         runMesonCommand([   "--prefix=/usr",
                             "--buildtype=release",
                             "--wrap-mode=nofallback",
-                            "-Dinstalled_tests=false",
                             ".."],
                             buildDirectoryPath)
     end
