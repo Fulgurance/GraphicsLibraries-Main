@@ -3,8 +3,6 @@ class Target < ISM::Software
     def prepare
         @buildDirectory = true
         super
-
-        fileDeleteLine("#{mainWorkDirectoryPath(false)}/meson.build",407)
     end
     
     def configure
