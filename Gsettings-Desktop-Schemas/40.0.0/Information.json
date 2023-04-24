@@ -3,8 +3,7 @@
   "name": "Gsettings-Desktop-Schemas",
   "version": "40.0.0",
   "architectures": ["x86_64"],
-  "description": "Collection of GSettings schemas for
-settings shared by various components of a desktop",
+  "description": "Collection of GSettings schemas for settings shared by various components of a desktop",
   "website": "https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas",
   "downloadLinks": ["https://download.gnome.org/sources/gsettings-desktop-schemas/40/gsettings-desktop-schemas-40.0.tar.xz"],
   "md5sums": ["345e5b2340f4c6fd1b90597745761ddf"],
