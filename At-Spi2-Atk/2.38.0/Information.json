@@ -1,0 +1,25 @@
+{
+  "port": "GraphicLibraries-Main",
+  "name": "At-Spi2-Atk",
+  "version": "2.38.0",
+  "architectures": ["x86_64"],
+  "description": "Assistive Technology Service Provider Interface",
+  "website": "https://gitlab.gnome.org/GNOME/at-spi2-atk",
+  "downloadLinks": ["ftp://ftp.acc.umu.se/pub/gnome/sources/at-spi2-atk/2.38/at-spi2-atk-2.38.0.tar.xz"],
+  "md5sums": ["aed95be54ef213d210331dda88298b92"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "At-Spi2-Core",
+      "version": "2.40.3",
+      "options": []
+    },
+    {
+      "name": "Atk",
+      "version": "2.36.0",
+      "options": []
+    }
+  ],
+  "options": []
+}
