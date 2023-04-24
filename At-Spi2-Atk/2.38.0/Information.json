@@ -1,5 +1,5 @@
 {
-  "port": "GraphicLibraries-Main",
+  "port": "GraphicsLibraries-Main",
   "name": "At-Spi2-Atk",
   "version": "2.38.0",
   "architectures": ["x86_64"],
