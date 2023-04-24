@@ -4,8 +4,8 @@ class Target < ISM::Software
         @buildDirectory = true
         super
 
-        fileReplaceTextAtLineNumber("#{buildDirectoryPath(false)}schemas/org.gnome.system.locale.gschema.xml.in","/system/locale/","/org/gnome/system/locale/",3)
-        fileReplaceTextAtLineNumber("#{buildDirectoryPath(false)}schemas/org.gnome.system.proxy.gschema.xml.in","/system/proxy/","/org/gnome/system/proxy/",3)
+        fileReplaceTextAtLineNumber("#{buildDirectoryPath(false)}/schemas/org.gnome.system.locale.gschema.xml.in","/system/locale/","/org/gnome/system/locale/",3)
+        fileReplaceTextAtLineNumber("#{buildDirectoryPath(false)}/schemas/org.gnome.system.proxy.gschema.xml.in","/system/proxy/","/org/gnome/system/proxy/",3)
     end
 
     def configure
