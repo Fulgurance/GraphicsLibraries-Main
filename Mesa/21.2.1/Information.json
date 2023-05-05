@@ -29,11 +29,6 @@
       "name": "Wayland-Protocols",
       "version": "1.21.0",
       "options": []
-    },
-    {
-      "name": "E2fsprogs",
-      "version": "1.46.4",
-      "options": []
     }
   ],
   "options": [
