@@ -29,6 +29,11 @@
       "name": "Wayland-Protocols",
       "version": "1.21.0",
       "options": []
+    },
+    {
+      "name": "Libelf",
+      "version": "0.185.0",
+      "options": []
     }
   ],
   "options": [
