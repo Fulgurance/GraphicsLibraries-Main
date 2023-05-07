@@ -11,6 +11,11 @@
   "installedFiles": [],
   "dependencies": [
     {
+      "name": "Atk",
+      "version": "2.36.0",
+      "options": ["Gobject-Introspection"]
+    },
+    {
       "name": "At-Spi2-Atk",
       "version": "2.38.0",
       "options": []
