@@ -39,7 +39,7 @@
           "version": "1.17.4",
           "options": []
         }
-      ],
+      ]
     },
     {
       "name": "Gobject-Instrospection",
@@ -51,7 +51,7 @@
           "version": "1.68.0",
           "options": []
         }
-      ],
+      ]
     },
     {
       "name": "Xorg-Libraries",
@@ -63,7 +63,7 @@
           "version": "1.20.13",
           "options": []
         }
-      ],
+      ]
     }
   ]
 }

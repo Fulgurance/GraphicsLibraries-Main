@@ -24,7 +24,7 @@
           "version": "1.14.0",
           "options": []
         }
-      ],
+      ]
     },
     {
       "name": "Wayland",
@@ -36,7 +36,7 @@
           "version": "1.19.0",
           "options": []
         }
-      ],
+      ]
     },
     {
       "name": "Wayland-Protocols",
@@ -48,7 +48,7 @@
           "version": "1.21.0",
           "options": []
         }
-      ],
+      ]
     }
   ]
 }
