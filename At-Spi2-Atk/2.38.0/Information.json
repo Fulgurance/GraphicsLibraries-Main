@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Assistive Technology Service Provider Interface",
   "website": "https://gitlab.gnome.org/GNOME/at-spi2-atk",
-  "downloadLinks": ["ftp.acc.umu.se/pub/gnome/sources/at-spi2-atk/2.38/at-spi2-atk-2.38.0.tar.xz"],
-  "md5sums": ["aed95be54ef213d210331dda88298b92"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

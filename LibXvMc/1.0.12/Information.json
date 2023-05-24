@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Xlib-based X-Video Motion Compensation API",
   "website": "https://www.x.org",
-  "downloadLinks": ["https://www.x.org/pub/individual/lib/libXvMC-1.0.12.tar.bz2"],
-  "md5sums": ["3569ff7f3e26864d986d6a21147eaa58"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

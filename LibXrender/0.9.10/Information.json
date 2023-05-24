@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Xlib library for the Render Extension to the X11 protocol",
   "website": "https://www.x.org",
-  "downloadLinks": ["https://www.x.org/pub/individual/lib/libXrender-0.9.10.tar.bz2"],
-  "md5sums": ["802179a76bded0b658f4e9ec5e1830a4"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

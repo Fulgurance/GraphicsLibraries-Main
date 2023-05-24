@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Xlib-based library for the XFree86-DGA extension",
   "website": "https://www.x.org",
-  "downloadLinks": ["https://www.x.org/pub/individual/lib/libXxf86dga-1.1.5.tar.bz2"],
-  "md5sums": ["0ddeafc13b33086357cfa96fae41ee8e"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

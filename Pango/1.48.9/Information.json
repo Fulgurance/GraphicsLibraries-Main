@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Library for laying out and rendering of text with an emphasis on internationalization",
   "website": "https://pango.gnome.org/",
-  "downloadLinks": ["https://download.gnome.org/sources/pango/1.48/pango-1.48.9.tar.xz"],
-  "md5sums": ["243f05e6b2de17e5129402307e323e14"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {
@@ -43,8 +40,6 @@
           "options": []
         }
       ],
-      "downloadLinks": [],
-      "md5sums": []
     },
     {
       "name": "Gobject-Instrospection",
@@ -57,8 +52,6 @@
           "options": []
         }
       ],
-      "downloadLinks": [],
-      "md5sums": []
     },
     {
       "name": "Xorg-Libraries",
@@ -71,8 +64,6 @@
           "options": []
         }
       ],
-      "downloadLinks": [],
-      "md5sums": []
     }
   ]
 }

@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Complete set of UI elements",
   "website": "https://www.gtk.org/",
-  "downloadLinks": ["https://download.gnome.org/sources/gtk+/2.24/gtk+-2.24.33.tar.xz"],
-  "md5sums": ["0118e98dbe0e4dab90ce475f9f0e6c0c"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

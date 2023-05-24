@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "The pixel-manipulation library for X and cairo",
   "website": " https://www.cairographics.org",
-  "downloadLinks": ["https://www.cairographics.org/releases/pixman-0.40.0.tar.gz"],
-  "md5sums": ["73858c0862dd9896fb5f62ae267084a4"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

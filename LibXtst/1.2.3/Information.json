@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Xlib-based library for XTEST & RECORD extensions",
   "website": "https://www.x.org",
-  "downloadLinks": ["https://www.x.org/pub/individual/lib/libXtst-1.2.3.tar.bz2"],
-  "md5sums": ["ef8c2c1d16a00bd95b9fdcef63b8a2ca"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

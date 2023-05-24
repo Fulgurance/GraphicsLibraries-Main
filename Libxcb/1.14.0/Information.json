@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "C interface to the X Window System protocol which replaces the traditional Xlib interface",
   "website": "https://xorg.freedesktop.org",
-  "downloadLinks": ["https://xorg.freedesktop.org/archive/individual/lib/libxcb-1.14.tar.xz"],
-  "md5sums": ["f90b6e4541e9518b4c373b734f475ae7"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {
@@ -33,8 +30,6 @@
           "options": []
         }
       ],
-      "downloadLinks": [],
-      "md5sums": []
     }
   ]
 }

@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "X font encoding library",
   "website": "https://www.x.org",
-  "downloadLinks": ["https://www.x.org/pub/individual/lib/libfontenc-1.1.4.tar.bz2"],
-  "md5sums": ["6447db6a689fb530c218f0f8328c3abc"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

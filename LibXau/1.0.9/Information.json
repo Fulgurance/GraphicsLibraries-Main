@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Functions for handling Xauthority files and entries",
   "website": "https://www.x.org",
-  "downloadLinks": ["https://www.x.org/pub/individual/lib/libXau-1.0.9.tar.bz2"],
-  "md5sums": ["c5f16288f2da9f071b29111d68797480"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

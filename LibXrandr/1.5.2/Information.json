@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Xlib Resize Rotate and Reflection (RandR) extension library",
   "website": "https://www.x.org",
-  "downloadLinks": ["https://www.x.org/pub/individual/lib/libXrandr-1.5.2.tar.bz2"],
-  "md5sums": ["18f3b20d522f45e4dadd34afb5bea048"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

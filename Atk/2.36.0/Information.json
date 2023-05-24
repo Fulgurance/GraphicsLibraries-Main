@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "The Accessibility Toolkit",
   "website": "https://gitlab.gnome.org/GNOME/atk",
-  "downloadLinks": ["https://download.gnome.org/sources/atk/2.36/atk-2.36.0.tar.xz"],
-  "md5sums": ["01aa5ec5138f5f8c9b3a4e3196ed2900"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {
@@ -28,8 +25,6 @@
           "options": []
         }
       ],
-      "downloadLinks": [],
-      "md5sums": []
     }
   ]
 }

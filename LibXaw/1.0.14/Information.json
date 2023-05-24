@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "X Athena Widget Set based on the X Toolkit Intrinsics (Xt) Library",
   "website": "https://www.x.org",
-  "downloadLinks": ["https://www.x.org/pub/individual/lib/libXaw-1.0.14.tar.bz2"],
-  "md5sums": ["c1ce21c296bbf3da3e30cf651649563e"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

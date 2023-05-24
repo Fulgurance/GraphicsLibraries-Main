@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "X Session Management Library",
   "website": "https://www.x.org",
-  "downloadLinks": ["https://www.x.org/pub/individual/lib/libSM-1.2.3.tar.bz2"],
-  "md5sums": ["87c7fad1c1813517979184c8ccd76628"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

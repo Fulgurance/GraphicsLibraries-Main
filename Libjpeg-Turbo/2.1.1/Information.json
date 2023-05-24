@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": " JPEG image codec that uses SIMD instructions to accelerate baseline JPEG compression and decompression",
   "website": "https://sourceforge.net/projects/libjpeg-turbo/",
-  "downloadLinks": ["https://downloads.sourceforge.net/libjpeg-turbo/libjpeg-turbo-2.1.1.tar.gz"],
-  "md5sums": ["cf16866976ab31cd6fc478eac8c2c54e"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

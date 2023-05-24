@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "XCB convenience functions for the Render extension",
   "website": "https://gitlab.freedesktop.org/xorg/lib/libxcb-render-util",
-  "downloadLinks": ["https://xcb.freedesktop.org/dist/xcb-util-renderutil-0.3.9.tar.bz2"],
-  "md5sums": ["468b119c94da910e1291f3ffab91019a"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

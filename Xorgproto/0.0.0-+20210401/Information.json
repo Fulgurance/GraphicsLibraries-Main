@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "X Window System unified protocol definitions",
   "website": "https://xorg.freedesktop.org",
-  "downloadLinks": ["https://xorg.freedesktop.org/archive/individual/proto/xorgproto-2021.4.tar.bz2"],
-  "md5sums": ["fb7593911f90727adc03d731e286c685"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

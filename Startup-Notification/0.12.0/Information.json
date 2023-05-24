@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Reference implementation of the startup notification protocol",
   "website": "https://freedesktop.org/wiki/Software/startup-notification/",
-  "downloadLinks": ["https://www.freedesktop.org/software/startup-notification/releases/startup-notification-0.12.tar.gz"],
-  "md5sums": ["2cd77326d4dcaed9a5a23a1232fb38e9"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

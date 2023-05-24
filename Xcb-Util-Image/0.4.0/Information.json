@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "XCB port of Xlib's XImage and XShmImage functions",
   "website": "https://gitlab.freedesktop.org/xorg/lib/libxcb-image",
-  "downloadLinks": ["https://xcb.freedesktop.org/dist/xcb-util-image-0.4.0.tar.bz2"],
-  "md5sums": ["08fe8ffecc8d4e37c0ade7906b3f4c87"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

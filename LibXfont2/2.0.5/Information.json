@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "X font handling library for server & utilities",
   "website": "https://www.x.org",
-  "downloadLinks": ["https://www.x.org/pub/individual/lib/libXfont2-2.0.5.tar.bz2"],
-  "md5sums": ["bdf528f1d337603c7431043824408668"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

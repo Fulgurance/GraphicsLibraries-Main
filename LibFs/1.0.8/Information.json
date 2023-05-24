@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "X Font Service client library",
   "website": "https://www.x.org",
-  "downloadLinks": ["https://www.x.org/pub/individual/lib/libFS-1.0.8.tar.bz2"],
-  "md5sums": ["4e1196275aa743d6ebd3d3d5ec1dff9c"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

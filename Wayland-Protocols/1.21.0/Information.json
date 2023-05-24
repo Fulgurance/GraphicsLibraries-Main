@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Display server protocols for Wayland",
   "website": "https://wayland.freedesktop.org",
-  "downloadLinks": ["https://wayland.freedesktop.org/releases/wayland-protocols-1.21.tar.xz"],
-  "md5sums": ["8196416baac07cd833bcb86b69da41a7"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

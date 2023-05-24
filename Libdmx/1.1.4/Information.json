@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Xlib-based library for the DMX (Distributed Multihead X) extension",
   "website": "https://www.x.org",
-  "downloadLinks": ["https://www.x.org/pub/individual/lib/libdmx-1.1.4.tar.bz2"],
-  "md5sums": ["d2f1f0ec68ac3932dd7f1d9aa0a7a11c"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

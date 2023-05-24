@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Replacement for the X11 window system protocol and architecture",
   "website": "https://wayland.freedesktop.org",
-  "downloadLinks": ["https://wayland.freedesktop.org/releases/wayland-1.19.0.tar.xz"],
-  "md5sums": ["5d59ac3d8a8f4e42de2ceb8bb19dfca9"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

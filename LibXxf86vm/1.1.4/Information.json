@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Xlib-based library for the XFree86-VidMode X extension",
   "website": "https://www.x.org",
-  "downloadLinks": ["https://www.x.org/pub/individual/lib/libXxf86vm-1.1.4.tar.bz2"],
-  "md5sums": ["298b8fff82df17304dfdb5fe4066fe3a"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {
