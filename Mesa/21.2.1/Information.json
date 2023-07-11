@@ -2,7 +2,9 @@
   "port": "GraphicsLibraries-Main",
   "name": "Mesa",
   "version": "21.2.1",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Open source implementations of OpenGL, OpenGL ES, Vulkan, OpenCL, and more",
   "website": "https://mesa.freedesktop.org",
   "installedFiles": [],
@@ -45,7 +47,8 @@
           "version": "2.12.0",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     },
     {
       "name": "Libvdpau",
@@ -57,7 +60,8 @@
           "version": "1.4.0",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     },
     {
       "name": "Llvm",
@@ -69,7 +73,8 @@
           "version": "12.0.1",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     }
   ]
 }

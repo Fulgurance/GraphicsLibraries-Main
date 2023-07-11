@@ -2,7 +2,9 @@
   "port": "GraphicsLibraries-Main",
   "name": "Libpciaccess",
   "version": "0.16.0",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Generic PCI access library",
   "website": "https://www.x.org",
   "installedFiles": [],

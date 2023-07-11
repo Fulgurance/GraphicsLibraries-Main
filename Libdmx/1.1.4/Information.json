@@ -2,7 +2,9 @@
   "port": "GraphicsLibraries-Main",
   "name": "Libdmx",
   "version": "1.1.4",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Xlib-based library for the DMX (Distributed Multihead X) extension",
   "website": "https://www.x.org",
   "installedFiles": [],

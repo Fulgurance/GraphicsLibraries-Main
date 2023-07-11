@@ -2,7 +2,9 @@
   "port": "GraphicsLibraries-Main",
   "name": "Gtk+",
   "version": "3.24.30",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Complete set of UI elements",
   "website": "https://www.gtk.org/",
   "installedFiles": [],
@@ -10,7 +12,9 @@
     {
       "name": "Atk",
       "version": "2.36.0",
-      "options": ["Gobject-Introspection"]
+      "options": [
+        "Gobject-Introspection"
+      ]
     },
     {
       "name": "At-Spi2-Atk",

@@ -2,7 +2,9 @@
   "port": "GraphicsLibraries-Main",
   "name": "Startup-Notification",
   "version": "0.12.0",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Reference implementation of the startup notification protocol",
   "website": "https://freedesktop.org/wiki/Software/startup-notification/",
   "installedFiles": [],

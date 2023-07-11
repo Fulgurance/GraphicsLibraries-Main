@@ -2,7 +2,9 @@
   "port": "GraphicsLibraries-Main",
   "name": "Libpng",
   "version": "1.6.37",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Reference library for supporting the Portable Network Graphics format",
   "website": " https://downloads.sourceforge.net/libpng",
   "installedFiles": [],

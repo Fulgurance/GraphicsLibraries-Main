@@ -2,7 +2,9 @@
   "port": "GraphicsLibraries-Main",
   "name": "Cairo",
   "version": "1.17.4",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Cairo is a 2D graphics library with support for multiple output devices",
   "website": "https://www.cairographics.org/",
   "installedFiles": [],

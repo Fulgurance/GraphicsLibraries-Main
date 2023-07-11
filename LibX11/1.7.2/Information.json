@@ -2,7 +2,9 @@
   "port": "GraphicsLibraries-Main",
   "name": "LibX11",
   "version": "1.7.2",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Core X11 protocol client library",
   "website": "https://www.x.org",
   "installedFiles": [],

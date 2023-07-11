@@ -2,7 +2,9 @@
   "port": "GraphicsLibraries-Main",
   "name": "At-Spi2-Atk",
   "version": "2.38.0",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Assistive Technology Service Provider Interface",
   "website": "https://gitlab.gnome.org/GNOME/at-spi2-atk",
   "installedFiles": [],

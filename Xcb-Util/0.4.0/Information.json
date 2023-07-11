@@ -2,7 +2,9 @@
   "port": "GraphicsLibraries-Main",
   "name": "Xcb-Util",
   "version": "0.4.0",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Replacement for Xlib featuring a small footprint, latency hiding, direct access to the protocol, improved threading support, and extensibility",
   "website": "https://xcb.freedesktop.org",
   "installedFiles": [],

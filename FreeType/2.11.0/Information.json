@@ -2,7 +2,9 @@
   "port": "GraphicsLibraries-Main",
   "name": "FreeType",
   "version": "2.11.0",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Freely available software library to render fonts written in C",
   "website": "https://freetype.org/",
   "installedFiles": [],
@@ -25,7 +27,8 @@
           "version": "2.9.0",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     },
     {
       "name": "Libpng",
@@ -37,7 +40,8 @@
           "version": "1.6.37",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     },
     {
       "name": "Which",
@@ -49,7 +53,8 @@
           "version": "2.21.0",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     }
   ]
 }

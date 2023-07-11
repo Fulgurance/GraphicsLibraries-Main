@@ -2,7 +2,9 @@
   "port": "GraphicsLibraries-Main",
   "name": "Fontconfig",
   "version": "2.13.1",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Library for configuring and customizing font access",
   "website": "https://www.freedesktop.org/software/fontconfig",
   "installedFiles": [],

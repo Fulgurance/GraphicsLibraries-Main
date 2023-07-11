@@ -2,7 +2,9 @@
   "port": "GraphicsLibraries-Main",
   "name": "LibXvMc",
   "version": "1.0.12",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Xlib-based X-Video Motion Compensation API",
   "website": "https://www.x.org",
   "installedFiles": [],

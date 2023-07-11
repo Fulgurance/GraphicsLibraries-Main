@@ -2,7 +2,9 @@
   "port": "GraphicsLibraries-Main",
   "name": "LibXtst",
   "version": "1.2.3",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Xlib-based library for XTEST & RECORD extensions",
   "website": "https://www.x.org",
   "installedFiles": [],

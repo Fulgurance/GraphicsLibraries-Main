@@ -2,7 +2,9 @@
   "port": "GraphicsLibraries-Main",
   "name": "Atk",
   "version": "2.36.0",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "The Accessibility Toolkit",
   "website": "https://gitlab.gnome.org/GNOME/atk",
   "installedFiles": [],
@@ -25,7 +27,8 @@
           "version": "1.68.0",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     }
   ]
 }

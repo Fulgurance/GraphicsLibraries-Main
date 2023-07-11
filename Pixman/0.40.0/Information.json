@@ -2,7 +2,9 @@
   "port": "GraphicsLibraries-Main",
   "name": "Pixman",
   "version": "0.40.0",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "The pixel-manipulation library for X and cairo",
   "website": " https://www.cairographics.org",
   "installedFiles": [],

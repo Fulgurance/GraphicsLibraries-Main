@@ -2,7 +2,9 @@
   "port": "GraphicsLibraries-Main",
   "name": "Libxshmfence",
   "version": "1.3.0",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Shared memory 'SyncFence' synchronization primitive",
   "website": "https://www.x.org",
   "installedFiles": [],

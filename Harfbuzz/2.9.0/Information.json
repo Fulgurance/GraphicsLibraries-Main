@@ -2,7 +2,9 @@
   "port": "GraphicsLibraries-Main",
   "name": "Harfbuzz",
   "version": "2.9.0",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "HarfBuzz text shaping engine",
   "website": "https://github.com/harfbuzz/harfbuzz",
   "installedFiles": [],

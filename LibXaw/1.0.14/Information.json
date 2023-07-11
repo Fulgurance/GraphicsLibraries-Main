@@ -2,7 +2,9 @@
   "port": "GraphicsLibraries-Main",
   "name": "LibXaw",
   "version": "1.0.14",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "X Athena Widget Set based on the X Toolkit Intrinsics (Xt) Library",
   "website": "https://www.x.org",
   "installedFiles": [],

@@ -2,7 +2,9 @@
   "port": "GraphicsLibraries-Main",
   "name": "LibSm",
   "version": "1.2.3",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "X Session Management Library",
   "website": "https://www.x.org",
   "installedFiles": [],

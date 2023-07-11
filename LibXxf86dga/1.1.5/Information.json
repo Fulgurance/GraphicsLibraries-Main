@@ -2,7 +2,9 @@
   "port": "GraphicsLibraries-Main",
   "name": "LibXxf86dga",
   "version": "1.1.5",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Xlib-based library for the XFree86-DGA extension",
   "website": "https://www.x.org",
   "installedFiles": [],

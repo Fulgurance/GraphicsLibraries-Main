@@ -2,7 +2,9 @@
   "port": "GraphicsLibraries-Main",
   "name": "LibXi",
   "version": "1.7.10",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Xlib library for the X Input Extension",
   "website": "https://www.x.org",
   "installedFiles": [],

@@ -2,7 +2,9 @@
   "port": "GraphicsLibraries-Main",
   "name": "Qrencode",
   "version": "4.1.1",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Fast and compact library for encoding data in a QR Code symbol",
   "website": "https://fukuchi.org/works/qrencode/",
   "installedFiles": [],

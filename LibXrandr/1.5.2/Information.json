@@ -2,7 +2,9 @@
   "port": "GraphicsLibraries-Main",
   "name": "LibXrandr",
   "version": "1.5.2",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Xlib Resize Rotate and Reflection (RandR) extension library",
   "website": "https://www.x.org",
   "installedFiles": [],

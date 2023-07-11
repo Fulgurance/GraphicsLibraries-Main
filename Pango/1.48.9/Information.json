@@ -2,7 +2,9 @@
   "port": "GraphicsLibraries-Main",
   "name": "Pango",
   "version": "1.48.9",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Library for laying out and rendering of text with an emphasis on internationalization",
   "website": "https://pango.gnome.org/",
   "installedFiles": [],
@@ -15,7 +17,9 @@
     {
       "name": "FreeType",
       "version": "2.11.0",
-      "options": ["Harfbuzz"]
+      "options": [
+        "Harfbuzz"
+      ]
     },
     {
       "name": "Fribidi",
@@ -40,7 +44,8 @@
           "version": "1.17.4",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     },
     {
       "name": "Gobject-Instrospection",
@@ -52,7 +57,8 @@
           "version": "1.68.0",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     },
     {
       "name": "Xorg-Libraries",
@@ -64,7 +70,8 @@
           "version": "1.20.13",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     }
   ]
 }

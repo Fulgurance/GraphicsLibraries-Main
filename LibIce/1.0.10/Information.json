@@ -2,7 +2,9 @@
   "port": "GraphicsLibraries-Main",
   "name": "LibIce",
   "version": "1.0.10",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Inter-Client Exchange Library",
   "website": "https://www.x.org",
   "installedFiles": [],

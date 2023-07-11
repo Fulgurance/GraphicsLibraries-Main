@@ -2,7 +2,9 @@
   "port": "GraphicsLibraries-Main",
   "name": "Libnotify",
   "version": "0.7.9",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Send desktop notifications",
   "website": "https://gitlab.gnome.org/GNOME/libnotify",
   "installedFiles": [],
@@ -25,7 +27,8 @@
           "version": "1.68.0",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     }
   ]
 }

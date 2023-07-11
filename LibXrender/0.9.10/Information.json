@@ -2,7 +2,9 @@
   "port": "GraphicsLibraries-Main",
   "name": "LibXrender",
   "version": "0.9.10",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Xlib library for the Render Extension to the X11 protocol",
   "website": "https://www.x.org",
   "installedFiles": [],

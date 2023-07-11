@@ -2,7 +2,9 @@
   "port": "GraphicsLibraries-Main",
   "name": "Gtk+",
   "version": "2.24.33",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Complete set of UI elements",
   "website": "https://www.gtk.org/",
   "installedFiles": [],
@@ -20,7 +22,9 @@
     {
       "name": "Pango",
       "version": "1.48.9",
-      "options": ["Cairo"]
+      "options": [
+        "Cairo"
+      ]
     }
   ],
   "kernelDependencies": [],

@@ -2,7 +2,9 @@
   "port": "GraphicsLibraries-Main",
   "name": "LibXfont2",
   "version": "2.0.5",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "X font handling library for server & utilities",
   "website": "https://www.x.org",
   "installedFiles": [],

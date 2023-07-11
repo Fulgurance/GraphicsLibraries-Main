@@ -2,7 +2,9 @@
   "port": "GraphicsLibraries-Main",
   "name": "Xcb-Proto",
   "version": "1.14.1",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "XML-XCB protocol descriptions used by libxcb for the X11 protocol & extensions",
   "website": "https://xorg.freedesktop.org",
   "installedFiles": [],
@@ -25,7 +27,8 @@
           "version": "2.9.12",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     }
   ]
 }

@@ -2,7 +2,9 @@
   "port": "GraphicsLibraries-Main",
   "name": "LibXau",
   "version": "1.0.9",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Functions for handling Xauthority files and entries",
   "website": "https://www.x.org",
   "installedFiles": [],

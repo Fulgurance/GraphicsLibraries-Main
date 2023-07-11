@@ -2,7 +2,9 @@
   "port": "GraphicsLibraries-Main",
   "name": "LibXcursor",
   "version": "1.2.0",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Xlib-based Cursor management library",
   "website": "https://www.x.org",
   "installedFiles": [],
