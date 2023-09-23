@@ -29,7 +29,7 @@ class Target < ISM::Software
     def install
         super
 
-        runGlibCompileSchemasCommand(["#{Ism.settings.rootPath}/usr/share/glib-2.0/schemas"])
+        runGlibCompileSchemasCommand(["/usr/share/glib-2.0/schemas"])
     end
 
 end
