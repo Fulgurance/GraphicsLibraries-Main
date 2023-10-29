@@ -1,7 +1,7 @@
 {
   "port": "GraphicsLibraries-Main",
   "name": "Xorgproto",
-  "version": "0.0.0-+20210401",
+  "version": "0.0.0-20210401",
   "architectures": [
     "x86_64"
   ],
