@@ -27,7 +27,7 @@ class Target < ISM::Software
         super
 
         runGtkQueryImmodules3Command(["--update-cache"])
-        runGlibCompileSchemasCommand(["#{Ism.settings.rootPath}usr/share/glib-2.0/schemas"])
+        runGlibCompileSchemasCommand(["/usr/share/glib-2.0/schemas"])
     end
 
 end
