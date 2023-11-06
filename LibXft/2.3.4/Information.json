@@ -18,6 +18,11 @@
       "name": "LibX11",
       "version": "1.7.2",
       "options": []
+    },
+    {
+      "name": "FreeType",
+      "version": "2.11.0",
+      "options": []
     }
   ],
   "kernelDependencies": [],
