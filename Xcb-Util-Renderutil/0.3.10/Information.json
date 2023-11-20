@@ -1,0 +1,21 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "Xcb-Util-Renderutil",
+  "version": "0.3.10",
+  "architectures": [
+    "x86_64"
+  ],
+  "description": "XCB convenience functions for the Render extension",
+  "website": "https://gitlab.freedesktop.org/xorg/lib/libxcb-render-util",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Libxcb",
+      "version": "1.16.0",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueOptions": []
+}

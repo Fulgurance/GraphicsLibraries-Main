@@ -1,0 +1,31 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "Xcb-Util-Cursor",
+  "version": "0.1.4",
+  "architectures": [
+    "x86_64"
+  ],
+  "description": "XCB port of libXcursor",
+  "website": "https://gitlab.freedesktop.org/xorg/lib/libxcb-cursor",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Xcb-Util",
+      "version": "0.4.1",
+      "options": []
+    },
+    {
+      "name": "Xcb-Util-Renderutil",
+      "version": "0.3.10",
+      "options": []
+    },
+    {
+      "name": "Xcb-Util-Image",
+      "version": "0.4.1",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueOptions": []
+}

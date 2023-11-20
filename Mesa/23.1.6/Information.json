@@ -1,0 +1,149 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "Mesa",
+  "version": "23.1.6",
+  "architectures": [
+    "x86_64"
+  ],
+  "description": "Open source implementations of OpenGL, OpenGL ES, Vulkan, OpenCL, and more",
+  "website": "https://mesa.freedesktop.org",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Xorg-Libraries",
+      "version": "21.1.8",
+      "options": []
+    },
+    {
+      "name": "Libdrm",
+      "version": "2.4.1115",
+      "options": []
+    },
+    {
+      "name": "Mako",
+      "version": "1.2.4",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [
+    {
+      "name": "Libva",
+      "description": "Enable libva support for VA-API support for gallium drivers",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libva",
+          "version": "2.19.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libvdpau",
+      "description": "Enable libvdpau support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libvdpau",
+          "version": "1.5.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Llvm",
+      "description": "Enable llvm support for Gallium3D, nouveau, r300 and radeon drivers",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Llvm",
+          "version": "16.0.5",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Wayland-Protocols",
+      "description": "Enable wayland-protocols support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Wayland-Protocols",
+          "version": "1.32.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libgcrypt",
+      "description": "Enable libgcrypt support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libgcrypt",
+          "version": "1.10.2",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libunwind",
+      "description": "Enable libunwind support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libunwind",
+          "version": "1.6.2",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Lm-Sensors",
+      "description": "Enable lm-sensors support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Lm-Sensors",
+          "version": "3.6.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Nettle",
+      "description": "Enable nettle support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Nettle",
+          "version": "3.9.1",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Valgrind",
+      "description": "Enable valgrind support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Valgrind",
+          "version": "3.21.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    }
+  ],
+  "uniqueOptions": []
+}

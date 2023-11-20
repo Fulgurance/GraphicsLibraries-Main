@@ -1,27 +1,27 @@
 {
   "port": "GraphicsLibraries-Main",
-  "name": "LibXrandr",
-  "version": "1.5.2",
+  "name": "LibXmu",
+  "version": "1.1.4",
   "architectures": [
     "x86_64"
   ],
-  "description": "Xlib Resize Rotate and Reflection (RandR) extension library",
+  "description": "X.org Xmu library",
   "website": "https://www.x.org",
   "installedFiles": [],
   "dependencies": [
     {
-      "name": "LibX11",
-      "version": "1.7.2",
+      "name": "LibXt",
+      "version": "1.3.0",
       "options": []
     },
     {
       "name": "LibXext",
-      "version": "1.3.4",
+      "version": "1.3.5",
       "options": []
     },
     {
-      "name": "LibXrender",
-      "version": "0.9.10",
+      "name": "LibX11",
+      "version": "1.8.6",
       "options": []
     }
   ],
