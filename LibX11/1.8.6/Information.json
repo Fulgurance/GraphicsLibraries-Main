@@ -1,0 +1,26 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "LibX11",
+  "version": "1.8.6",
+  "architectures": [
+    "x86_64"
+  ],
+  "description": "Core X11 protocol client library",
+  "website": "https://www.x.org",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Xorgproto",
+      "version": "0.0.0-20230201",
+      "options": []
+    },
+    {
+      "name": "Libxcb",
+      "version": "1.16.0",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueOptions": []
+}

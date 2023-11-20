@@ -1,0 +1,31 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "LibXcursor",
+  "version": "1.2.1",
+  "architectures": [
+    "x86_64"
+  ],
+  "description": "Xlib-based Cursor management library",
+  "website": "https://www.x.org",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "LibXrender",
+      "version": "0.9.11",
+      "options": []
+    },
+    {
+      "name": "LibXfixes",
+      "version": "6.0.1",
+      "options": []
+    },
+    {
+      "name": "LibX11",
+      "version": "1.8.6",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueOptions": []
+}

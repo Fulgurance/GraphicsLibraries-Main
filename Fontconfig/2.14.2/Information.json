@@ -1,0 +1,21 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "Fontconfig",
+  "version": "2.14.2",
+  "architectures": [
+    "x86_64"
+  ],
+  "description": "Library for configuring and customizing font access",
+  "website": "https://www.freedesktop.org/software/fontconfig",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "FreeType",
+      "version": "2.13.1",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueOptions": []
+}

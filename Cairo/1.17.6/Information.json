@@ -1,0 +1,66 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "Cairo",
+  "version": "1.17.6",
+  "architectures": [
+    "x86_64"
+  ],
+  "description": "Cairo is a 2D graphics library with support for multiple output devices",
+  "website": "https://www.cairographics.org/",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Libpng",
+      "version": "1.6.40",
+      "options": []
+    },
+    {
+      "name": "Pixman",
+      "version": "0.42.2",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [
+    {
+      "name": "Fontconfig",
+      "description": "Enable fontconfig support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Fontconfig",
+          "version": "2.14.2",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Glib",
+      "description": "Enable glib support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Glib",
+          "version": "2.76.4",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Xorg-Libraries",
+      "description": "Enable xorg-libraries support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Xorg-Libraries",
+          "version": "21.1.8",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    }
+  ],
+  "uniqueOptions": []
+}

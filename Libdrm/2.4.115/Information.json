@@ -1,0 +1,21 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "Libdrm",
+  "version": "2.4.115",
+  "architectures": [
+    "x86_64"
+  ],
+  "description": "Direct Rendering Manager headers and kernel modules",
+  "website": "https://dri.freedesktop.org",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Xorg-Libraries",
+      "version": "21.1.8",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueOptions": []
+}

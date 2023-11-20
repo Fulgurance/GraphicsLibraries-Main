@@ -1,0 +1,21 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "LibFs",
+  "version": "1.0.9",
+  "architectures": [
+    "x86_64"
+  ],
+  "description": "X Font Service client library",
+  "website": "https://www.x.org",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Xorgproto",
+      "version": "0.0.0-20230201",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueOptions": []
+}

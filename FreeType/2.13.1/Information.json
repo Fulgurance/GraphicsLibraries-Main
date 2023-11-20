@@ -1,0 +1,87 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "FreeType",
+  "version": "2.13.1",
+  "architectures": [
+    "x86_64"
+  ],
+  "description": "Freely available software library to render fonts written in C",
+  "website": "https://freetype.org/",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "SystemBase",
+      "version": "0.2.0",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [
+    {
+      "name": "Harfbuzz",
+      "description": "Enable harfbuzz support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Harfbuzz",
+          "version": "8.1.1",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libpng",
+      "description": "Enable libpng support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libpng",
+          "version": "1.6.40",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Which",
+      "description": "Enable which support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Which",
+          "version": "2.21.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Brotli",
+      "description": "Enable brotli support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Brotli",
+          "version": "1.0.9",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Librsvg",
+      "description": "Enable libsrvg support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Librsvg",
+          "version": "2.56.3",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    }
+  ],
+  "uniqueOptions": []
+}
