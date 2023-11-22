@@ -17,8 +17,7 @@ class Target < ISM::Software
                             @buildDirectoryName,
                             "--prefix=/usr",
                             "--buildtype=release",
-                            "--wrap-mode=nofallback",
-                            ".."],
+                            "--wrap-mode=nofallback"],
                             mainWorkDirectoryPath)
     end
     

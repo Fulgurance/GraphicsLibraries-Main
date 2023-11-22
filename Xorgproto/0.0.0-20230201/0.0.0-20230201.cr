@@ -15,8 +15,7 @@ class Target < ISM::Software
                             "--prefix=/usr",
                             "--sysconfdir=/etc",
                             "--localstatedir=/var",
-                            "-Dlegacy=true",
-                            ".."],
+                            "-Dlegacy=true"],
                             mainWorkDirectoryPath)
     end
     

@@ -14,8 +14,7 @@ class Target < ISM::Software
                             @buildDirectoryName,
                             "--prefix=/usr",
                             "--buildtype=release",
-                            "-Denable-docs=false",
-                            ".."],
+                            "-Denable-docs=false"],
                             mainWorkDirectoryPath)
     end
     
