@@ -14,7 +14,7 @@ class Target < ISM::Software
                             @buildDirectoryName,
                             "--prefix=/usr",
                             "--buildtype=release",
-                            "-Dgraphite2=#{option("Graphite2")? "enabled" : "disabled" }",
+                            "-Dgraphite2=#{option("Graphite2") ? "enabled" : "disabled" }",
                             "-Ddocs=disabled"],
                             mainWorkDirectoryPath)
     end
