@@ -13,7 +13,6 @@ class Target < ISM::Software
         runMesonCommand([   "--prefix=/usr",
                             "--sysconfdir=/etc",
                             "--localstatedir=/var",
-                            "--disable-static",
                             "--buildtype=release"],
                             mainWorkDirectoryPath)
     end
