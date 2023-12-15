@@ -10,7 +10,9 @@ class Target < ISM::Software
     def configure
         super
 
-        runMesonCommand([   "--prefix=/usr",
+        runMesonCommand([   "configure",
+                            @buildDirectoryNames["MainBuild"],
+                            "--prefix=/usr",
                             "--sysconfdir=/etc",
                             "--localstatedir=/var",
                             "--buildtype=release"],
