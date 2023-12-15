@@ -11,12 +11,12 @@
   "dependencies": [
     {
       "name": "At-Spi2-Core",
-      "version": "2.40.3",
+      "version": ">=2.40.3",
       "options": []
     },
     {
       "name": "Atk",
-      "version": "2.36.0",
+      "version": ">=2.36.0",
       "options": []
     }
   ],

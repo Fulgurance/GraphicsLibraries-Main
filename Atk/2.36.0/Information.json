@@ -11,7 +11,7 @@
   "dependencies": [
     {
       "name": "Glib",
-      "version": "2.68.4",
+      "version": ">=2.68.4",
       "options": []
     }
   ],
@@ -24,7 +24,7 @@
       "dependencies": [
         {
           "name": "Gobject-Introspection",
-          "version": "1.68.0",
+          "version": ">=1.68.0",
           "options": []
         }
       ],
