@@ -7,14 +7,14 @@ class Target < ISM::Software
         fileDeleteLine("#{mainWorkDirectoryPath(false)}meson.build",92)
         fileDeleteLine("#{mainWorkDirectoryPath(false)}meson.build",134)
 
-        runMesonCommand(["setup",@buildDirectoryNames[:mainBuild]],mainWorkDirectoryPath)
+        runMesonCommand(["setup",@buildDirectoryNames["MainBuild"]],mainWorkDirectoryPath)
     end
 
     def configure
         super
 
         runMesonCommand([   "configure",
-                            @buildDirectoryNames[:mainBuild],
+                            @buildDirectoryNames["MainBuild"],
                             "--prefix=/usr",
                             "--buildtype=release",
                             "--wrap-mode=nofallback"],
