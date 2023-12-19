@@ -15,8 +15,7 @@ class Target < ISM::Software
                             "--prefix=/usr",
                             "--buildtype=release",
                             "-Dman=true",
-                            "-Dbroadway_backend=true",
-                            ".."],
+                            "-Dbroadway_backend=true"],
                             mainWorkDirectoryPath)
     end
 

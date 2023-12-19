@@ -15,8 +15,7 @@ class Target < ISM::Software
                             "--prefix=/usr",
                             "--buildtype=release",
                             "--wrap-mode=nofallback",
-                            "-Dman=false",
-                            ".."],
+                            "-Dman=false"],
                             mainWorkDirectoryPath)
     end
     
