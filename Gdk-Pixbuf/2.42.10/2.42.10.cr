@@ -17,7 +17,7 @@ class Target < ISM::Software
                             "--wrap-mode=nofallback",
                             "-Dman=false",
                             ".."],
-                            buildDirectoryPath)
+                            mainWorkDirectoryPath)
     end
     
     def build
