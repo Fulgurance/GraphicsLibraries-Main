@@ -11,7 +11,7 @@ class Target < ISM::Software
         runMesonCommand([   "--prefix=/usr",
                             "--buildtype=release",
                             "-Dudev=true",
-                            "-Dvalgrind=false"],
+                            "-Dvalgrind=disabled"],
                             buildDirectoryPath)
     end
     
