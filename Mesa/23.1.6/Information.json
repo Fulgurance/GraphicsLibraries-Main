@@ -56,7 +56,7 @@
     {
       "name": "Llvm",
       "description": "Enable llvm support for Gallium3D, nouveau, r300 and radeon drivers",
-      "active": false,
+      "active": true,
       "dependencies": [
         {
           "name": "Llvm",
