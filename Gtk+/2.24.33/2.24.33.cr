@@ -11,7 +11,8 @@ class Target < ISM::Software
         super
 
         configureSource([   "--prefix=/usr",
-                            "--sysconfdir=/etc"],
+                            "--sysconfdir=/etc",
+                            "--enable-introspection=#{option("Gobject-Introspection") ? "yes" : "no"}"],
                             buildDirectoryPath)
     end
     
