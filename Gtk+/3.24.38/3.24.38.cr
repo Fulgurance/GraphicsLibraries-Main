@@ -14,6 +14,7 @@ class Target < ISM::Software
                             @buildDirectoryNames["MainBuild"],
                             "--prefix=/usr",
                             "--buildtype=release",
+                            "-Dintrospection=#{option("Gobject-Introspection") ? "true" : "false"}",
                             "-Dman=true",
                             "-Dbroadway_backend=true"],
                             mainWorkDirectoryPath)

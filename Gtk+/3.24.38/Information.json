@@ -12,7 +12,7 @@
     {
       "name": "At-Spi2-Core",
       "version": "2.48.3",
-      "options": ["Gobject-Introspection"]
+      "options": []
     },
     {
       "name": "Gdk-Pixbuf",
