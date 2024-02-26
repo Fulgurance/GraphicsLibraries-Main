@@ -70,12 +70,12 @@
       "kernelDependencies": []
     },
     {
-      "name": "Freetype",
+      "name": "FreeType",
       "description": "Enable freetype support",
       "active": false,
       "dependencies": [
         {
-          "name": "Freetype",
+          "name": "FreeType",
           "version": "2.13.1",
           "options": []
         }
