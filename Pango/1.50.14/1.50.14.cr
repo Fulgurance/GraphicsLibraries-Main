@@ -17,7 +17,8 @@ class Target < ISM::Software
                             @buildDirectoryNames["MainBuild"],
                             "--prefix=/usr",
                             "--buildtype=release",
-                            "--wrap-mode=nofallback"],
+                            "--wrap-mode=nofallback",
+                            "-Dintrospection=#{option("Gobject-Instrospection") ? "enabled" : "disabled" }",],
                             mainWorkDirectoryPath)
     end
     
