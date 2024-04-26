@@ -4,7 +4,12 @@ class Target < ISM::Software
         @buildDirectory = true
         super
 
-        runMesonCommand(["setup",@buildDirectoryNames["MainBuild"]],mainWorkDirectoryPath)
+        runMesonCommand(["setup",
+                        @buildDirectoryNames["MainBuild"],
+                        "-Dfreetype=#{option("FreeType") ? "enabled" : "disabled" }",
+                        "-Dgraphite2=#{option("Graphite2") ? "enabled" : "disabled" }",
+                        "-Ddocs=disabled"],
+                        mainWorkDirectoryPath)
     end
 
     def configure
