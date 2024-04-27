@@ -3,19 +3,14 @@ class Target < ISM::Software
     def prepare
         @buildDirectory = true
         super
-
-        runMesonCommand(["setup",
-                        @buildDirectoryNames["MainBuild"],
-                        "-Dfreetype=#{option("FreeType") ? "enabled" : "disabled" }",
-                        "-Dgraphite2=#{option("Graphite2") ? "enabled" : "disabled" }",
-                        "-Ddocs=disabled"],
-                        mainWorkDirectoryPath)
     end
 
     def configure
         super
 
-        runMesonCommand([   "configure",
+        runMesonCommand([   "setup",
+                            "--reconfigure",
+                            "-Dauto_features=disabled",
                             @buildDirectoryNames["MainBuild"],
                             "--prefix=/usr",
                             "--buildtype=release",

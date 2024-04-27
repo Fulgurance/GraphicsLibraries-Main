@@ -6,14 +6,14 @@ class Target < ISM::Software
 
         fileDeleteLine("#{mainWorkDirectoryPath(false)}meson.build",92)
         fileDeleteLine("#{mainWorkDirectoryPath(false)}meson.build",134)
-
-        runMesonCommand(["setup",@buildDirectoryNames["MainBuild"]],mainWorkDirectoryPath)
     end
 
     def configure
         super
 
-        runMesonCommand([   "configure",
+        runMesonCommand([   "setup",
+                            "--reconfigure",
+                            "-Dauto_features=disabled",
                             @buildDirectoryNames["MainBuild"],
                             "--prefix=/usr",
                             "--buildtype=release",

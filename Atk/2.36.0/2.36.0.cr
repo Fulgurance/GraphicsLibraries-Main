@@ -3,19 +3,17 @@ class Target < ISM::Software
     def prepare
         @buildDirectory = true
         super
-
-        runMesonCommand([   "reconfigure",
-                            "..",
-                            option("Gobject-Introspection") ? "-Dintrospection=true" : "-Dintrospection=false"],
-                            buildDirectoryPath)
     end
     
     def configure
         super
 
-        runMesonCommand([   "--prefix=/usr",
+        runMesonCommand([   "setup",
+                            "--reconfigure",
+                            "-Dauto_features=disabled",
+                            "--prefix=/usr",
                             "--buildtype=release",
-                            option("Gobject-Introspection") ? "-Dintrospection=true" : "-Dintrospection=false",
+                            "-Dintrospection=#{option("Gobject-Introspection") ? "true" : "false"}",
                             ".."],
                             buildDirectoryPath)
     end
