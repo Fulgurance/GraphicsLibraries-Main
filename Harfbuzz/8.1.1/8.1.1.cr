@@ -14,7 +14,7 @@ class Target < ISM::Software
                             @buildDirectoryNames["MainBuild"],
                             "--prefix=/usr",
                             "--buildtype=release",
-                            "-Dfreetype=#{option("FreeType") ? "enabled" : "disabled" }",
+                            "-Dfreetype=enabled",
                             "-Dgraphite2=#{option("Graphite2") ? "enabled" : "disabled" }",
                             "-Ddocs=disabled"],
                             mainWorkDirectoryPath)
