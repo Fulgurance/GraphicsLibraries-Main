@@ -13,6 +13,11 @@
       "name": "SystemBase",
       "version": "0.2.0",
       "options": []
+    },
+    {
+      "name": "FreeType",
+      "version": "2.13.1",
+      "options": []
     }
   ],
   "kernelDependencies": [],
@@ -64,19 +69,6 @@
         {
           "name": "Icu",
           "version": "73.2.0",
-          "options": []
-        }
-      ],
-      "kernelDependencies": []
-    },
-    {
-      "name": "FreeType",
-      "description": "Enable freetype support",
-      "active": false,
-      "dependencies": [
-        {
-          "name": "FreeType",
-          "version": "2.13.1",
           "options": []
         }
       ],
