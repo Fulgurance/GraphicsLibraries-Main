@@ -10,6 +10,7 @@ class Target < ISM::Software
 
         runMesonCommand([   "setup",
                             "--reconfigure",
+                            "-Dauto_features=disabled",
                             @buildDirectoryNames["MainBuild"],
                             "--prefix=/usr",
                             "--buildtype=release",
@@ -17,7 +18,11 @@ class Target < ISM::Software
                             "-Dgallium-drivers=auto",
                             "-Dvulkan-drivers=\"\"",
                             "-Dvalgrind=disabled",
-                            "-Dlibunwind=disabled"],
+                            "-Dlibunwind=disabled",
+                            "-Dshared-glapi=enabled",
+                            "-Dllvm=enabled",
+                            "-Degl=enabled",
+                            "-Ddri3=enabled"],
                             mainWorkDirectoryPath)
     end
     
