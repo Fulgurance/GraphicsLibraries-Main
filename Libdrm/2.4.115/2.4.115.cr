@@ -16,7 +16,8 @@ class Target < ISM::Software
                             "-Dudev=true",
                             "-Dvalgrind=disabled",
                             "-Dintel=enabled",
-                            "-Damdgpu=enabled"],
+                            "-Damdgpu=enabled",
+                            "-Dradeon=enabled"],
                             buildDirectoryPath)
     end
     
