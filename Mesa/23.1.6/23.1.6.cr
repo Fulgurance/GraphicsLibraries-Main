@@ -21,7 +21,8 @@ class Target < ISM::Software
                             "-Dlibunwind=disabled",
                             "-Dshared-glapi=enabled",
                             "-Dllvm=enabled",
-                            "-Degl=enabled"],
+                            "-Degl=enabled",
+                            "-Ddri3=enabled"],
                             mainWorkDirectoryPath)
     end
     
