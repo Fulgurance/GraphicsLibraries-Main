@@ -14,14 +14,15 @@ class Target < ISM::Software
                             "--prefix=/usr",
                             "--buildtype=release",
                             "-Dudev=true",
-                            "-Dvalgrind=disabled"],
+                            "-Dvalgrind=disabled",
+                            "-Dintel=true"],
                             buildDirectoryPath)
     end
     
     def build
         super
 
-        runNinjaCommand([] of String,buildDirectoryPath)
+        runNinjaCommand(path: buildDirectoryPath)
     end
     
     def prepareInstallation
