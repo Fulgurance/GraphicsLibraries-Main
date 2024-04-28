@@ -19,7 +19,8 @@ class Target < ISM::Software
                             "-Dvulkan-drivers=\"\"",
                             "-Dvalgrind=disabled",
                             "-Dlibunwind=disabled",
-                            "-Dshared-glapi=enabled"],
+                            "-Dshared-glapi=enabled",
+                            "-Dllvm=enabled"],
                             mainWorkDirectoryPath)
     end
     
