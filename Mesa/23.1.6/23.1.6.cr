@@ -20,7 +20,8 @@ class Target < ISM::Software
                             "-Dvalgrind=disabled",
                             "-Dlibunwind=disabled",
                             "-Dshared-glapi=enabled",
-                            "-Dllvm=enabled"],
+                            "-Dllvm=enabled",
+                            "-Degl=enabled"],
                             mainWorkDirectoryPath)
     end
     
