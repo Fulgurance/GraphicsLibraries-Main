@@ -10,15 +10,10 @@ class Target < ISM::Software
 
         runMesonCommand([   "setup",
                             "--reconfigure",
-                            "-Dauto_features=disabled",
                             "--prefix=/usr",
                             "--buildtype=release",
                             "-Dudev=true",
-                            "-Dvalgrind=disabled",
-                            "-Dintel=enabled",
-                            "-Damdgpu=enabled",
-                            "-Dradeon=enabled",
-                            "-Dnouveau=enabled"],
+                            "-Dvalgrind=disabled"],
                             buildDirectoryPath)
     end
     

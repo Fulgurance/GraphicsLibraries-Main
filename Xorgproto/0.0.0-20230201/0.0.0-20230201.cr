@@ -10,12 +10,10 @@ class Target < ISM::Software
 
         runMesonCommand([   "setup",
                             "--reconfigure",
-                            "-Dauto_features=disabled",
                             @buildDirectoryNames["MainBuild"],
                             "--prefix=/usr",
                             "--sysconfdir=/etc",
-                            "--localstatedir=/var",
-                            "-Dlegacy=true"],
+                            "--localstatedir=/var"],
                             mainWorkDirectoryPath)
     end
     
