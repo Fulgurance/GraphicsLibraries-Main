@@ -2,16 +2,15 @@
   "port": "GraphicsLibraries-Main",
   "name": "Libepoxy",
   "version": "1.5.10",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "Library for handling OpenGL function pointer management for you",
   "website": "https://github.com/anholt/libepoxy",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "GraphicsLibraries-Main",
       "name": "Mesa",
-      "version": "23.1.6",
+      "version": ">=23.1.6",
       "options": []
     }
   ],

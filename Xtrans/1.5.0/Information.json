@@ -2,16 +2,15 @@
   "port": "GraphicsLibraries-Main",
   "name": "Xtrans",
   "version": "1.5.0",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "X Network Transport layer shared code",
   "website": "https://www.x.org",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "SystemBase-Main",
       "name": "SystemBase",
-      "version": "0.2.0",
+      "version": ">=0.2.0",
       "options": []
     }
   ],

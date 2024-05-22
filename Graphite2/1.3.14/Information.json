@@ -2,14 +2,13 @@
   "port": "GraphicsLibraries-Main",
   "name": "Graphite2",
   "version": "1.3.14",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "Smart font system developed specifically to handle the complexities of languages",
   "website": "https://github.com/silnrsi/graphite",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "ProgrammingTools-Main",
       "name": "Cmake",
       "version": ">=3.21.2",
       "options": []

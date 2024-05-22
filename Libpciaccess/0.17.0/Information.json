@@ -2,16 +2,15 @@
   "port": "GraphicsLibraries-Main",
   "name": "Libpciaccess",
   "version": "0.17.0",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "Generic PCI access library",
   "website": "https://www.x.org",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "SystemBase-Main",
       "name": "SystemBase",
-      "version": "0.2.0",
+      "version": ">=0.2.0",
       "options": []
     }
   ],

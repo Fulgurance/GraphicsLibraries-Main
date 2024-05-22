@@ -2,16 +2,15 @@
   "port": "GraphicsLibraries-Main",
   "name": "Fribidi",
   "version": "1.0.13",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "Free Implementation of the Unicode Bidirectional Algorithm",
   "website": "https://github.com/fribidi/fribidi",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "SystemBase-Main",
       "name": "SystemBase",
-      "version": "0.2.0",
+      "version": ">=0.2.0",
       "options": []
     }
   ],

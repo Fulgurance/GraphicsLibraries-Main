@@ -2,16 +2,15 @@
   "port": "GraphicsLibraries-Main",
   "name": "Libxkbcommon",
   "version": "1.5.0",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "Library for handling of keyboard descriptions",
   "website": "https://xkbcommon.org/",
   "installedFiles": [],
   "dependencies": [
     {
-      "name": "Libxcb",
-      "version": "1.16.0",
+      "port": "XorgBase-Main",
+      "name": "Xkeyboard-Config",
+      "version": ">=2.39.0",
       "options": []
     }
   ],
@@ -23,8 +22,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "GraphicsLibraries-Main",
           "name": "Libxcb",
-          "version": "1.16.0",
+          "version": ">=1.16.0",
           "options": []
         }
       ],
@@ -36,8 +36,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "GraphicsLibraries-Main",
           "name": "Wayland",
-          "version": "1.22.0",
+          "version": ">=1.22.0",
           "options": []
         }
       ],
@@ -49,8 +50,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "GraphicsLibraries-Main",
           "name": "Wayland-Protocols",
-          "version": "1.32.0",
+          "version": ">=1.32.0",
           "options": []
         }
       ],

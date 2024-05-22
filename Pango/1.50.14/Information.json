@@ -2,33 +2,33 @@
   "port": "GraphicsLibraries-Main",
   "name": "Pango",
   "version": "1.50.14",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "Library for laying out and rendering of text with an emphasis on internationalization",
   "website": "https://pango.gnome.org/",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "GraphicsLibraries-Main",
       "name": "Fontconfig",
-      "version": "2.14.2",
+      "version": ">=2.14.2",
       "options": []
     },
     {
+      "port": "GraphicsLibraries-Main",
       "name": "FreeType",
-      "version": "2.13.1",
-      "options": [
-        "Harfbuzz"
-      ]
+      "version": ">=2.13.1",
+      "options": ["Harfbuzz"]
     },
     {
+      "port": "GraphicsLibraries-Main",
       "name": "Fribidi",
-      "version": "1.0.13",
+      "version": ">=1.0.13",
       "options": []
     },
     {
+      "port": "BaseLibraries-Main",
       "name": "Glib",
-      "version": "2.76.4",
+      "version": ">2.76.4",
       "options": []
     }
   ],
@@ -40,8 +40,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "GraphicsLibraries-Main",
           "name": "Cairo",
-          "version": "1.17.6",
+          "version": ">=1.17.6",
           "options": []
         }
       ],
@@ -53,8 +54,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "BaseLibraries-Main",
           "name": "Gobject-Instrospection",
-          "version": "1.76.1",
+          "version": ">=1.76.1",
           "options": []
         }
       ],
@@ -66,8 +68,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "XorgBase-Main",
           "name": "Xorg-Libraries",
-          "version": "21.1.8",
+          "version": ">=21.1.8",
           "options": []
         }
       ],

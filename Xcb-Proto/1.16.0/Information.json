@@ -2,16 +2,15 @@
   "port": "GraphicsLibraries-Main",
   "name": "Xcb-Proto",
   "version": "1.16.0",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "XML-XCB protocol descriptions used by libxcb for the X11 protocol & extensions",
   "website": "https://xorg.freedesktop.org",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "SystemBase-Main",
       "name": "SystemBase",
-      "version": "0.2.0",
+      "version": ">=0.2.0",
       "options": []
     }
   ],

@@ -2,21 +2,21 @@
   "port": "GraphicsLibraries-Main",
   "name": "LibSm",
   "version": "1.2.4",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "X Session Management Library",
   "website": "https://www.x.org",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "GraphicsLibraries-Main",
       "name": "LibIce",
-      "version": "1.1.1",
+      "version": ">=1.1.1",
       "options": []
     },
     {
+      "port": "GraphicsLibraries-Main",
       "name": "Xorgproto",
-      "version": "0.0.0-20230201",
+      "version": ">=0.0.0-20230201",
       "options": []
     }
   ],

@@ -2,31 +2,33 @@
   "port": "GraphicsLibraries-Main",
   "name": "Gtk+",
   "version": "3.24.38",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "Complete set of UI elements",
   "website": "https://www.gtk.org/",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "GraphicsLibraries-Main",
       "name": "At-Spi2-Core",
-      "version": "2.48.3",
+      "version": ">=2.48.3",
       "options": []
     },
     {
+      "port": "GraphicsLibraries-Main",
       "name": "Gdk-Pixbuf",
-      "version": "2.42.10",
+      "version": ">=2.42.10",
       "options": []
     },
     {
+      "port": "GraphicsLibraries-Main",
       "name": "Libepoxy",
       "version": "1.5.10",
       "options": []
     },
     {
+      "port": "GraphicsLibraries-Main",
       "name": "Pango",
-      "version": "1.50.14",
+      "version": ">=1.50.14",
       "options": []
     }
   ],
@@ -38,8 +40,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "IconThemes-Main",
           "name": "Adwaita-Icon-Theme",
-          "version": "44.0.0",
+          "version": ">=44.0.0",
           "options": []
         }
       ],
@@ -51,8 +54,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "GraphicsLibraries-Main",
           "name": "Wayland",
-          "version": "1.22.0",
+          "version": ">=1.22.0",
           "options": []
         }
       ],
@@ -64,8 +68,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "GraphicsLibraries-Main",
           "name": "Wayland-Protocols",
-          "version": "1.32.0",
+          "version": ">=1.32.0",
           "options": []
         }
       ],
@@ -77,8 +82,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "BaseLibraries-Main",
           "name": "Gobject-Introspection",
-          "version": "1.76.1",
+          "version": ">=1.76.1",
           "options": []
         }
       ],
@@ -90,8 +96,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "Utilities-Main",
           "name": "Colord",
-          "version": "1.4.6",
+          "version": ">=1.4.6",
           "options": []
         }
       ],
@@ -103,8 +110,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "Utilities-Main",
           "name": "Cups",
-          "version": "2.4.6",
+          "version": ">=2.4.6",
           "options": []
         }
       ],

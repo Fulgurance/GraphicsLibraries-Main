@@ -2,16 +2,15 @@
   "port": "GraphicsLibraries-Main",
   "name": "FreeType",
   "version": "2.13.1",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "Freely available software library to render fonts written in C",
   "website": "https://freetype.org/",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "SystemBase-Main",
       "name": "SystemBase",
-      "version": "0.2.0",
+      "version": ">=0.2.0",
       "options": []
     }
   ],
@@ -23,8 +22,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "GraphicsLibraries-Main",
           "name": "Harfbuzz",
-          "version": "8.1.1",
+          "version": ">=8.1.1",
           "options": []
         }
       ],
@@ -36,8 +36,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "GraphicsLibraries-Main",
           "name": "Libpng",
-          "version": "1.6.40",
+          "version": ">=1.6.40",
           "options": []
         }
       ],
@@ -49,8 +50,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "Utilities-Main",
           "name": "Which",
-          "version": "2.21.0",
+          "version": ">=2.21.0",
           "options": []
         }
       ],
@@ -62,8 +64,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "BaseLibraries-Main",
           "name": "Brotli",
-          "version": "1.0.9",
+          "version": ">=1.0.9",
           "options": []
         }
       ],
@@ -75,8 +78,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "GraphicsLibraries-Main",
           "name": "Librsvg",
-          "version": "2.56.3",
+          "version": ">=2.56.3",
           "options": []
         }
       ],

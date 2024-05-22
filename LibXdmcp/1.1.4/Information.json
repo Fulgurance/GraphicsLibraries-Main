@@ -2,14 +2,13 @@
   "port": "GraphicsLibraries-Main",
   "name": "LibXdmcp",
   "version": "1.1.4",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "X Display Manager Control Protocol library",
   "website": "https://gitlab.freedesktop.org/xorg/lib/libxdmcp",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "GraphicsLibraries-Main",
       "name": "Xorgproto",
       "version": ">=0.0.0-20230201",
       "options": []
@@ -23,6 +22,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "Xml-Main",
           "name": "Xmlto",
           "version": ">=0.0.28",
           "options": []
@@ -36,6 +36,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "GraphicsLibraries-Main",
           "name": "Fop",
           "version": ">=2.9.0",
           "options": []
@@ -49,6 +50,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "BaseLibraries-Main",
           "name": "Libxslt",
           "version": ">=1.1.38",
           "options": []

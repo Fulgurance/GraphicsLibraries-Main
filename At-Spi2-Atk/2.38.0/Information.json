@@ -2,19 +2,19 @@
   "port": "GraphicsLibraries-Main",
   "name": "At-Spi2-Atk",
   "version": "2.38.0",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "Assistive Technology Service Provider Interface",
   "website": "https://gitlab.gnome.org/GNOME/at-spi2-atk",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "GraphicsLibraries-Main",
       "name": "At-Spi2-Core",
       "version": ">=2.40.3",
       "options": []
     },
     {
+      "port": "GraphicsLibraries-Main",
       "name": "Atk",
       "version": ">=2.36.0",
       "options": []

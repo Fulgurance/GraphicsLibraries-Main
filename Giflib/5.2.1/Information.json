@@ -2,14 +2,13 @@
   "port": "GraphicsLibraries-Main",
   "name": "Giflib",
   "version": "5.2.1",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "Library for reading and writing gif images",
   "website": "https://sourceforge.net/projects/giflib/",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "Xml-Main",
       "name": "Xmlto",
       "version": ">=0.0.28",
       "options": []

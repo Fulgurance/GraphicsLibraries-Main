@@ -2,16 +2,15 @@
   "port": "GraphicsLibraries-Main",
   "name": "Libnotify",
   "version": "0.8.2",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "Send desktop notifications",
   "website": "https://gitlab.gnome.org/GNOME/libnotify",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "GraphicsLibraries-Main",
       "name": "Gtk+",
-      "version": "3.24.38",
+      "version": ">=3.24.38",
       "options": []
     }
   ],
@@ -23,8 +22,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "BaseLibraries-Main",
           "name": "Gobject-Introspection",
-          "version": "1.76.1",
+          "version": ">=1.76.1",
           "options": []
         }
       ],
