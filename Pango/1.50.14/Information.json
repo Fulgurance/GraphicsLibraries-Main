@@ -28,7 +28,7 @@
     {
       "port": "BaseLibraries-Main",
       "name": "Glib",
-      "version": ">2.76.4",
+      "version": ">=2.76.4",
       "options": []
     }
   ],
