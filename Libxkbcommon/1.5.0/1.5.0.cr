@@ -13,6 +13,8 @@ class Target < ISM::Software
                             @buildDirectoryNames["MainBuild"],
                             "--prefix=/usr",
                             "--buildtype=release",
+                            "-Denable-x11=#{option("Libxcb") ? "true" : "false"}",
+                            "-Denable-wayland=#{option("Wayland") ? "true" : "false"}",
                             "-Denable-docs=false"],
                             mainWorkDirectoryPath)
     end
