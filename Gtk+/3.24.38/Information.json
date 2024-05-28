@@ -30,6 +30,12 @@
       "name": "Pango",
       "version": ">=1.50.14",
       "options": []
+    },
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "Cairo",
+      "version": ">=1.17.6",
+      "options": ["Glib"]
     }
   ],
   "kernelDependencies": [],
