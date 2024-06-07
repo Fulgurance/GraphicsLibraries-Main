@@ -14,6 +14,7 @@ class Target < ISM::Software
                             "--prefix=/usr",
                             "--buildtype=release",
                             "-Dplatforms=x11,wayland",
+                            "-Degl-native-platform=x11,wayland",
                             "-Dgallium-drivers=auto",
                             "-Dvulkan-drivers=\"\"",
                             "-Dvalgrind=disabled",
