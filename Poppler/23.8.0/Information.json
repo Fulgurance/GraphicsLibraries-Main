@@ -14,7 +14,7 @@
       "options": []
     },
     {
-      "port": "ProgrammingTools-Main",
+      "port": "GraphicsLibraries",
       "name": "Fontconfig",
       "version": ">=2.14.2",
       "options": []
