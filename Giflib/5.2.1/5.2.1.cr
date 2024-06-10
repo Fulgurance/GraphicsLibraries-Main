@@ -9,12 +9,16 @@ class Target < ISM::Software
     def prepareInstallation
         super
 
-        makeSource(["PREFIX=/usr","DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}","install"],buildDirectoryPath)
+        makeSource(["PREFIX=/usr",
+                    "DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}",
+                    "install"],
+                    path: buildDirectoryPath)
 
         deleteFile("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/lib/libgif.a")
         deleteFile("#{buildDirectoryPath}/doc/Makefile")
-        deleteAllFilesRecursivelyFinishing("#{buildDirectoryPath}/doc",".1")
-        deleteAllFilesRecursivelyFinishing("#{buildDirectoryPath}/doc",".xml")
+
+        deleteAllFilesRecursivelyFinishing( path: "#{buildDirectoryPath}/doc",
+                                            extensions: ["1","xml"])
 
         makeDirectory("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/share/doc/")
 
