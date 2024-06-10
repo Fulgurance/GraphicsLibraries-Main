@@ -3,9 +3,9 @@ class Target < ISM::Software
     def prepare
         super
 
-        fileReplaceLineContaining("#{mainWorkDirectoryPath(false)}modules.cfg","# AUX_MODULES += gxvalid","AUX_MODULES += gxvalid")
-        fileReplaceLineContaining("#{mainWorkDirectoryPath(false)}modules.cfg","# AUX_MODULES += otvalid","AUX_MODULES += otvalid")
-        fileReplaceLineContaining("#{mainWorkDirectoryPath(false)}include/freetype/config/ftoption.h","/* #define FT_CONFIG_OPTION_SUBPIXEL_RENDERING */","#define FT_CONFIG_OPTION_SUBPIXEL_RENDERING")
+        fileReplaceLineContaining("#{mainWorkDirectoryPath}modules.cfg","# AUX_MODULES += gxvalid","AUX_MODULES += gxvalid")
+        fileReplaceLineContaining("#{mainWorkDirectoryPath}modules.cfg","# AUX_MODULES += otvalid","AUX_MODULES += otvalid")
+        fileReplaceLineContaining("#{mainWorkDirectoryPath}include/freetype/config/ftoption.h","/* #define FT_CONFIG_OPTION_SUBPIXEL_RENDERING */","#define FT_CONFIG_OPTION_SUBPIXEL_RENDERING")
     end
     
     def configure

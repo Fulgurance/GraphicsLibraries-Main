@@ -19,8 +19,8 @@ class Target < ISM::Software
 
         makeSource(["DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}","install"],buildDirectoryPath)
 
-        makeDirectory("#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}usr/share/doc/startup-notification-0.12")
-        copyFile("#{buildDirectoryPath(false)}doc/startup-notification.txt","#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}usr/share/doc/startup-notification-0.12/startup-notification.txt")
+        makeDirectory("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/share/doc/startup-notification-0.12")
+        copyFile("#{buildDirectoryPath}doc/startup-notification.txt","#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/share/doc/startup-notification-0.12/startup-notification.txt")
     end
 
     def install

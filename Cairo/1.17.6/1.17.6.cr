@@ -3,9 +3,9 @@ class Target < ISM::Software
     def prepare
         super
 
-        fileReplaceTextAtLineNumber("#{buildDirectoryPath(false)}util/cairo-trace/lookup-symbol.c","PTR","void *",109)
-        fileReplaceTextAtLineNumber("#{buildDirectoryPath(false)}util/cairo-trace/lookup-symbol.c","PTR","void *",112)
-        fileReplaceTextAtLineNumber("#{buildDirectoryPath(false)}util/cairo-script/cairo-script-interpreter.pc.in","ir@\n","ir@\nexec_prefix=@exec_prefix@\n",2)
+        fileReplaceTextAtLineNumber("#{buildDirectoryPath}util/cairo-trace/lookup-symbol.c","PTR","void *",109)
+        fileReplaceTextAtLineNumber("#{buildDirectoryPath}util/cairo-trace/lookup-symbol.c","PTR","void *",112)
+        fileReplaceTextAtLineNumber("#{buildDirectoryPath}util/cairo-script/cairo-script-interpreter.pc.in","ir@\n","ir@\nexec_prefix=@exec_prefix@\n",2)
     end
     
     def configure

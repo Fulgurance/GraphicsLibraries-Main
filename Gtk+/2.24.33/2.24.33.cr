@@ -3,8 +3,8 @@ class Target < ISM::Software
     def prepare
         super
 
-        fileReplaceTextAtLineNumber("#{buildDirectoryPath(false)}docs/faq/Makefile.in","sgml","sgml -o gtk-faq",650)
-        fileReplaceTextAtLineNumber("#{buildDirectoryPath(false)}docs/tutorial/Makefile.in","sgml","sgml -o gtk-tut",663)
+        fileReplaceTextAtLineNumber("#{buildDirectoryPath}docs/faq/Makefile.in","sgml","sgml -o gtk-faq",650)
+        fileReplaceTextAtLineNumber("#{buildDirectoryPath}docs/tutorial/Makefile.in","sgml","sgml -o gtk-tut",663)
     end
     
     def configure

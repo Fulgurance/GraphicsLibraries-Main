@@ -19,9 +19,9 @@ class Target < ISM::Software
 
         makeSource(["DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}","install"],buildDirectoryPath)
 
-        makeDirectory("#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}usr/share/doc/libpng-1.6.40")
-        copyFile("#{buildDirectoryPath(false)}README","#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}usr/share/doc/libpng-1.6.40")
-        copyFile("#{buildDirectoryPath(false)}libpng-manual.txt","#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}usr/share/doc/libpng-1.6.40")
+        makeDirectory("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/share/doc/libpng-1.6.40")
+        copyFile("#{buildDirectoryPath}README","#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/share/doc/libpng-1.6.40")
+        copyFile("#{buildDirectoryPath}libpng-manual.txt","#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/share/doc/libpng-1.6.40")
     end
 
 end
