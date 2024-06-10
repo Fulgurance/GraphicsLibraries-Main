@@ -25,7 +25,8 @@ class Target < ISM::Software
 
     def install
         super
-        setPermissions("#{Ism.settings.rootPath}usr/share/doc/startup-notification-0.12/startup-notification.txt",0o644)
+
+        runChmodCommand(["0644","/usr/share/doc/startup-notification-0.12/startup-notification.txt"])
     end
 
 end

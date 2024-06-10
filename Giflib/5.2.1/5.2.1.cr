@@ -24,7 +24,7 @@ class Target < ISM::Software
     def install
         super
 
-        setPermissions("#{Ism.settings.rootPath}usr/share/doc/giflib-5.2.1",0o755)
+        runChmodCommand(["0755","/usr/share/doc/giflib-5.2.1"])
     end
 
 end
