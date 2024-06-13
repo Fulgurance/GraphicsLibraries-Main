@@ -8,15 +8,14 @@ class Target < ISM::Software
     def configure
         super
 
-        runMesonCommand([   "setup",
-                            "--reconfigure",
-                            @buildDirectoryNames["MainBuild"],
-                            "--prefix=/usr",
-                            "--buildtype=release",
-                            "-Dintrospection=#{option("Gobject-Introspection") ? "true" : "false"}",
-                            "-Dman=true",
-                            "-Dbroadway_backend=true"],
-                            mainWorkDirectoryPath)
+        runMesonCommand(arguments:  "setup --reconfigure                                                    \
+                                    #{@buildDirectoryNames["MainBuild"]}                                    \
+                                    --prefix=/usr                                                           \
+                                    --buildtype=release                                                     \
+                                    -Dintrospection=#{option("Gobject-Introspection") ? "true" : "false"}   \
+                                    -Dman=true                                                              \
+                                    -Dbroadway_backend=true",
+                        path:       mainWorkDirectoryPath)
     end
 
     def build
@@ -28,14 +27,16 @@ class Target < ISM::Software
     def prepareInstallation
         super
 
-        runNinjaCommand(["install"],buildDirectoryPath,{"DESTDIR" => "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}"})
+        runNinjaCommand(arguments:      "install",
+                        path:           buildDirectoryPath,
+                        environment:    {"DESTDIR" => "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}"})
     end
 
     def install
         super
 
-        runGtkQueryImmodules3Command(["--update-cache"])
-        runGlibCompileSchemasCommand(["/usr/share/glib-2.0/schemas"])
+        runGtkQueryImmodules3Command("--update-cache")
+        runGlibCompileSchemasCommand("/usr/share/glib-2.0/schemas")
     end
 
 end

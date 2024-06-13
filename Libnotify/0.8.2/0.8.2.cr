@@ -9,14 +9,13 @@ class Target < ISM::Software
     def configure
         super
 
-        runMesonCommand([   "setup",
-                            "--reconfigure",
-                            "--prefix=/usr",
-                            "--buildtype=release",
-                            "-Dgtk_doc=false",
-                            "-Dman=false",
-                            ".."],
-                            buildDirectoryPath)
+        runMesonCommand(arguments:  "setup --reconfigure    \
+                                    --prefix=/usr           \
+                                    --buildtype=release     \
+                                    -Dgtk_doc=false         \
+                                    -Dman=false             \
+                                    ..",
+                        path:   buildDirectoryPath)
     end
 
     def build
@@ -28,8 +27,12 @@ class Target < ISM::Software
     def prepareInstallation
         super
 
-        runNinjaCommand(["install"],buildDirectoryPath,{"DESTDIR" => "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}"})
-        moveFile("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}/usr/share/doc/libnotify","#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}/usr/share/doc/libnotify-0.8.2")
+        runNinjaCommand(arguments:      "install",
+                        path:           buildDirectoryPath,
+                        environment:    {"DESTDIR" => "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}"})
+
+        moveFile(   "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}/usr/share/doc/libnotify",
+                    "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}/usr/share/doc/libnotify-0.8.2")
     end
 
 end

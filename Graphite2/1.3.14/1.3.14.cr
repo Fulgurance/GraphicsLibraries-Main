@@ -4,15 +4,17 @@ class Target < ISM::Software
         @buildDirectory = true
         super
 
-        fileReplaceLineContaining("#{mainWorkDirectoryPath}/tests/CMakeLists.txt","cmptest","")
+        fileReplaceLineContaining(  path:       "#{mainWorkDirectoryPath}/tests/CMakeLists.txt",
+                                    text:       "cmptest",
+                                    newLine:    "")
     end
     
     def configure
         super
 
-        runCmakeCommand([   "-DCMAKE_INSTALL_PREFIX=/usr",
-                            ".."],
-                            buildDirectoryPath)
+        runCmakeCommand(arguments:  "-DCMAKE_INSTALL_PREFIX=/usr \
+                                    ..",
+                        path:       buildDirectoryPath)
     end
     
     def build
@@ -24,7 +26,8 @@ class Target < ISM::Software
     def prepareInstallation
         super
 
-        makeSource(["DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}","install"],buildDirectoryPath)
+        makeSource( arguments:  "DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath} install",
+                    path:       buildDirectoryPath)
     end
 
 end

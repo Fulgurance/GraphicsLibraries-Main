@@ -3,19 +3,27 @@ class Target < ISM::Software
     def prepare
         super
 
-        fileReplaceLineContaining("#{mainWorkDirectoryPath}modules.cfg","# AUX_MODULES += gxvalid","AUX_MODULES += gxvalid")
-        fileReplaceLineContaining("#{mainWorkDirectoryPath}modules.cfg","# AUX_MODULES += otvalid","AUX_MODULES += otvalid")
-        fileReplaceLineContaining("#{mainWorkDirectoryPath}include/freetype/config/ftoption.h","/* #define FT_CONFIG_OPTION_SUBPIXEL_RENDERING */","#define FT_CONFIG_OPTION_SUBPIXEL_RENDERING")
+        fileReplaceLineContaining(  path:       "#{mainWorkDirectoryPath}modules.cfg",
+                                    text:       "# AUX_MODULES += gxvalid",
+                                    newLine:    "AUX_MODULES += gxvalid")
+
+        fileReplaceLineContaining(  path:       "#{mainWorkDirectoryPath}modules.cfg",
+                                    text:       "# AUX_MODULES += otvalid",
+                                    newLine:    "AUX_MODULES += otvalid")
+
+        fileReplaceLineContaining(  path:       "#{mainWorkDirectoryPath}include/freetype/config/ftoption.h",
+                                    text:       "/* #define FT_CONFIG_OPTION_SUBPIXEL_RENDERING */",
+                                    newLine:    "#define FT_CONFIG_OPTION_SUBPIXEL_RENDERING")
     end
     
     def configure
         super
 
-        configureSource([   "--prefix=/usr",
-                            "--enable-freetype-config",
-                            option("Harfbuzz") ? "--with-harfbuzz" : "--without-harfbuzz",
-                            "--disable-static"],
-                            buildDirectoryPath)
+        configureSource(arguments:  "--prefix=/usr                                                  \
+                                    --enable-freetype-config                                        \
+                                    #{option("Harfbuzz") ? "--with-harfbuzz" : "--without-harfbuzz} \
+                                    --disable-static",
+                        path:       buildDirectoryPath)
     end
     
     def build
@@ -27,7 +35,8 @@ class Target < ISM::Software
     def prepareInstallation
         super
 
-        makeSource(["DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}","install"],buildDirectoryPath)
+        makeSource( arguments:  "DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath} install",
+                    path:       buildDirectoryPath)
     end
 
 end

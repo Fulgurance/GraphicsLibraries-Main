@@ -3,9 +3,9 @@ class Target < ISM::Software
     def configure
         super
 
-        configureSource([   "--prefix=/usr",
-                            "--disable-static"],
-                            buildDirectoryPath)
+        configureSource(arguments:  "--prefix=/usr  \
+                                    --disable-static",
+                        path:       buildDirectoryPath)
     end
     
     def build
@@ -17,11 +17,16 @@ class Target < ISM::Software
     def prepareInstallation
         super
 
-        makeSource(["DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}","install"],buildDirectoryPath)
+        makeSource( arguments:  "DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath} install",
+                    path:       buildDirectoryPath)
 
-        makeDirectory("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/share/doc/libpng-1.6.40")
-        copyFile("#{buildDirectoryPath}README","#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/share/doc/libpng-1.6.40")
-        copyFile("#{buildDirectoryPath}libpng-manual.txt","#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/share/doc/libpng-1.6.40")
+        makeDirectory("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}/usr/share/doc/libpng-1.6.40")
+
+        copyFile(   "#{buildDirectoryPath}README",
+                    "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}/usr/share/doc/libpng-1.6.40")
+
+        copyFile(   "#{buildDirectoryPath}libpng-manual.txt",
+                    "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}/usr/share/doc/libpng-1.6.40")
     end
 
 end

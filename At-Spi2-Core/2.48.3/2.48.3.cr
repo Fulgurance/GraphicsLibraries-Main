@@ -8,13 +8,12 @@ class Target < ISM::Software
     def configure
         super
 
-        runMesonCommand([   "setup",
-                            "--reconfigure",
-                            "--prefix=/usr",
-                            "--buildtype=release",
-                            "-Dsystemd_user_dir=/tmp",
-                            ".."],
-                            buildDirectoryPath)
+        runMesonCommand(arguments:  "setup --reconfigure    \
+                                    --prefix=/usr           \
+                                    --buildtype=release     \
+                                    -Dsystemd_user_dir=/tmp \
+                                    .."],
+                        path:       buildDirectoryPath)
     end
 
     def build
@@ -26,13 +25,15 @@ class Target < ISM::Software
     def prepareInstallation
         super
 
-        runNinjaCommand(["install"],buildDirectoryPath,{"DESTDIR" => "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}"})
+        runNinjaCommand(arguments:      "install",
+                        path:           buildDirectoryPath,
+                        environment:    {"DESTDIR" => "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}"})
     end
 
     def install
         super
 
-        deleteFile("#{Ism.settings.rootPath}tmp/at-spi-dbus-bus.service")
+        deleteFile("#{Ism.settings.rootPath}/tmp/at-spi-dbus-bus.service")
     end
 
 end

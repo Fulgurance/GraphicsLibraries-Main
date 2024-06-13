@@ -3,18 +3,29 @@ class Target < ISM::Software
     def prepare
         super
 
-        fileReplaceTextAtLineNumber("#{buildDirectoryPath}util/cairo-trace/lookup-symbol.c","PTR","void *",109)
-        fileReplaceTextAtLineNumber("#{buildDirectoryPath}util/cairo-trace/lookup-symbol.c","PTR","void *",112)
-        fileReplaceTextAtLineNumber("#{buildDirectoryPath}util/cairo-script/cairo-script-interpreter.pc.in","ir@\n","ir@\nexec_prefix=@exec_prefix@\n",2)
+        fileReplaceTextAtLineNumber(path:       "#{buildDirectoryPath}util/cairo-trace/lookup-symbol.c",
+                                    text:       "PTR",
+                                    newText:    "void *",
+                                    lineNumber: 109)
+
+        fileReplaceTextAtLineNumber(path:       "#{buildDirectoryPath}util/cairo-trace/lookup-symbol.c",
+                                    text:       "PTR",
+                                    newText:    "void *",
+                                    lineNumber: 112)
+
+        fileReplaceTextAtLineNumber(path:       "#{buildDirectoryPath}util/cairo-script/cairo-script-interpreter.pc.in",
+                                    text:       "ir@\n",
+                                    newText:    "ir@\nexec_prefix=@exec_prefix@\n",
+                                    lineNumber: 2)
     end
     
     def configure
         super
 
-        configureSource([   "--prefix=/usr",
-                            "--disable-static",
-                            "--enable-tee"],
-                            buildDirectoryPath)
+        configureSource(arguments:  "--prefix=/usr      \
+                                    --disable-static    \
+                                    --enable-tee",
+                        path:       buildDirectoryPath)
     end
     
     def build
@@ -26,7 +37,8 @@ class Target < ISM::Software
     def prepareInstallation
         super
 
-        makeSource(["DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}","install"],buildDirectoryPath)
+        makeSource( arguments:  "DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath} install",
+                    path:       buildDirectoryPath)
     end
 
 end

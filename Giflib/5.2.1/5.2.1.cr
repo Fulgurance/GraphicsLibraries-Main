@@ -9,26 +9,25 @@ class Target < ISM::Software
     def prepareInstallation
         super
 
-        makeSource(["PREFIX=/usr",
-                    "DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}",
-                    "install"],
-                    path: buildDirectoryPath)
+        makeSource( arguments:  "PREFIX=/usr DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath} install",
+                    path:       buildDirectoryPath)
 
         deleteFile("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/lib/libgif.a")
         deleteFile("#{buildDirectoryPath}/doc/Makefile")
 
-        deleteAllFilesRecursivelyFinishing( path: "#{buildDirectoryPath}/doc",
+        deleteAllFilesRecursivelyFinishing( path:       "#{buildDirectoryPath}/doc",
                                             extensions: ["1","xml"])
 
         makeDirectory("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/share/doc/")
 
-        copyDirectory("#{buildDirectoryPath}/doc","#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/share/doc/giflib-5.2.1")
+        copyDirectory(  "#{buildDirectoryPath}/doc",
+                        "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/share/doc/giflib-5.2.1")
     end
 
     def install
         super
 
-        runChmodCommand(["0755","/usr/share/doc/giflib-5.2.1"])
+        runChmodCommand("0755 /usr/share/doc/giflib-5.2.1")
     end
 
 end
