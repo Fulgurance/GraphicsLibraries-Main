@@ -3,13 +3,13 @@ class Target < ISM::Software
     def configure
         super
 
-        configureSource([   "--prefix=/usr",
-                            "--sysconfdir=/etc",
-                            "--localstatedir=/var",
-                            "--disable-static",
-                            "--docdir=/usr/share/doc/libXt-1.3.0",
-                            "--with-appdefaultdir=/etc/X11/app-defaults"],
-                            buildDirectoryPath)
+        configureSource(arguments:  "--prefix=/usr                      \
+                                    --sysconfdir=/etc                   \
+                                    --localstatedir=/var                \
+                                    --disable-static                    \
+                                    --docdir=/usr/share/doc/libXt-1.3.0 \
+                                    --with-appdefaultdir=/etc/X11/app-defaults",
+                        path:       buildDirectoryPath)
     end
     
     def build
@@ -21,7 +21,8 @@ class Target < ISM::Software
     def prepareInstallation
         super
 
-        makeSource(["DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}","install"],buildDirectoryPath)
+        makeSource( arguments:  "DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath} install",
+                    path:       buildDirectoryPath)
     end
 
     def install

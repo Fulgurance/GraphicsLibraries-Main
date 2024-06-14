@@ -3,12 +3,12 @@ class Target < ISM::Software
     def configure
         super
 
-        configureSource(arguments: ["--prefix=/usr",
-                                    "--sysconfdir=/etc",
-                                    "--localstatedir=/var",
-                                    "--disable-static",
-                                    "--without-doxygen",
-                                    "--docdir=/usr/share/doc/libxcb-1.16"],
+        configureSource(arguments:  "--prefix=/usr          \
+                                    --sysconfdir=/etc       \
+                                    --localstatedir=/var    \
+                                    --disable-static        \
+                                    --without-doxygen       \
+                                    --docdir=/usr/share/doc/libxcb-1.16",
                         path: buildDirectoryPath)
     end
     
@@ -21,7 +21,8 @@ class Target < ISM::Software
     def prepareInstallation
         super
 
-        makeSource(["DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}","install"],buildDirectoryPath)
+        makeSource( arguments:  "DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath} install",
+                    path:       buildDirectoryPath)
     end
 
 end

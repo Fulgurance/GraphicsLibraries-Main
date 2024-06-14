@@ -3,12 +3,12 @@ class Target < ISM::Software
     def configure
         super
 
-        configureSource([   "--prefix=/usr",
-                            "--sysconfdir=/etc",
-                            "--localstatedir=/var",
-                            "--disable-static",
-                            "--docdir=/usr/share/doc/libXext-1.3.5"],
-                            buildDirectoryPath)
+        configureSource(arguments:  "--prefix=/usr          \
+                                    --sysconfdir=/etc       \
+                                    --localstatedir=/var    \
+                                    --disable-static        \
+                                    --docdir=/usr/share/doc/libXext-1.3.5",
+                        path:       buildDirectoryPath)
     end
     
     def build
@@ -20,7 +20,8 @@ class Target < ISM::Software
     def prepareInstallation
         super
 
-        makeSource(["DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}","install"],buildDirectoryPath)
+        makeSource( arguments:  "DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath} install",
+                    path:       buildDirectoryPath)
     end
 
     def install

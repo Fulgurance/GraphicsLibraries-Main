@@ -8,18 +8,18 @@ class Target < ISM::Software
     def configure
         super
 
-        runMesonCommand([   "setup",
-                            "--reconfigure",
-                            @buildDirectoryNames["MainBuild"],
-                            "--prefix=/usr",
-                            "--buildtype=release",
-                            "-Dplatforms=x11,wayland",
-                            "-Degl-native-platform=wayland",
-                            "-Dgallium-drivers=auto",
-                            "-Dvulkan-drivers=\"\"",
-                            "-Dvalgrind=disabled",
-                            "-Dlibunwind=disabled"],
-                            mainWorkDirectoryPath)
+        runMesonCommand(arguments:  "setup                                  \
+                                    --reconfigure                           \
+                                    #{@buildDirectoryNames["MainBuild"]}    \
+                                    --prefix=/usr                           \
+                                    --buildtype=release                     \
+                                    -Dplatforms=x11,wayland                 \
+                                    -Degl-native-platform=wayland           \
+                                    -Dgallium-drivers=auto                  \
+                                    -Dvulkan-drivers=\"\"                   \
+                                    -Dvalgrind=disabled                     \
+                                    -Dlibunwind=disabled",
+                        path:       mainWorkDirectoryPath)
     end
     
     def build
@@ -31,7 +31,9 @@ class Target < ISM::Software
     def prepareInstallation
         super
 
-        runNinjaCommand(["install"],buildDirectoryPath,{"DESTDIR" => "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}"})
+        runNinjaCommand(arguments:      "install",
+                        path:           buildDirectoryPath,
+                        environment:    {"DESTDIR" => "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}"})
     end
 
 end
