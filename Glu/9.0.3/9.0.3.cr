@@ -25,7 +25,7 @@ class Target < ISM::Software
     def prepareInstallation
         super
 
-        runNinjaCommand(arguments:      "install"],
+        runNinjaCommand(arguments:      "install",
                         path:           buildDirectoryPath,
                         environment:    {"DESTDIR" => "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}"})
 
