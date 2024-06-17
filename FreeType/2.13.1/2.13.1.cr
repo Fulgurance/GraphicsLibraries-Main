@@ -21,7 +21,7 @@ class Target < ISM::Software
 
         configureSource(arguments:  "--prefix=/usr                                                  \
                                     --enable-freetype-config                                        \
-                                    #{option("Harfbuzz") ? "--with-harfbuzz" : "--without-harfbuzz} \
+                                    #{option("Harfbuzz") ? "--with-harfbuzz" : "--without-harfbuzz"} \
                                     --disable-static",
                         path:       buildDirectoryPath)
     end
