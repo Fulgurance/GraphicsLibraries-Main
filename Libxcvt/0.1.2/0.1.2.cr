@@ -15,7 +15,7 @@ class Target < ISM::Software
                                     --sysconfdir=/etc                       \
                                     --localstatedir=/var                    \
                                     --buildtype=release",
-                                    mainWorkDirectoryPath)
+                        path:       mainWorkDirectoryPath)
     end
 
     def build
