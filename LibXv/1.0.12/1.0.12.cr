@@ -8,7 +8,7 @@ class Target < ISM::Software
                                     --localstatedir=/var    \
                                     --disable-static        \
                                     --docdir=/usr/share/doc/libXv-1.0.12",
-                            buildDirectoryPath)
+                        path:       buildDirectoryPath)
     end
     
     def build
