@@ -13,7 +13,7 @@ class Target < ISM::Software
                                     #{@buildDirectoryNames["MainBuild"]}    \
                                     --prefix=/usr                           \
                                     --buildtype=release",
-                            mainWorkDirectoryPath)
+                        path:       mainWorkDirectoryPath)
     end
     
     def build
