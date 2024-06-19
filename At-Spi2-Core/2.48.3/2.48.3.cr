@@ -12,7 +12,7 @@ class Target < ISM::Software
                                     --prefix=/usr           \
                                     --buildtype=release     \
                                     -Dsystemd_user_dir=/tmp \
-                                    .."],
+                                    ..",
                         path:       buildDirectoryPath)
     end
 
