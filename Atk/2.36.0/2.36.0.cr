@@ -8,7 +8,7 @@ class Target < ISM::Software
     def configure
         super
 
-        runMesonCommand(arguments:  "setup --reconfigure
+        runMesonCommand(arguments:  "setup --reconfigure                                                   \
                                     --prefix=/usr                                                          \
                                     --buildtype=release                                                    \
                                     -Dintrospection=#{option("Gobject-Introspection") ? "true" : "false"}  \
