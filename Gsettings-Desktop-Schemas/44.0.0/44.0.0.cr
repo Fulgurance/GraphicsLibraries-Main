@@ -3,15 +3,6 @@ class Target < ISM::Software
     def prepare
         @buildDirectory = true
         super
-
-        fileReplaceTextAtLineNumber(path:       "#{mainWorkDirectoryPath}/schemas/org.gnome.system.locale.gschema.xml.in",
-                                    text:       "/system/locale/",
-                                    newText:    "/org/gnome/system/locale/",
-                                    lineNumber: 3)
-        fileReplaceTextAtLineNumber(path:       "#{mainWorkDirectoryPath}/schemas/org.gnome.system.proxy.gschema.xml.in",
-                                    text:       "/system/proxy/",
-                                    newText:    "/org/gnome/system/proxy/",
-                                    lineNumber: 3)
     end
 
     def configure
