@@ -57,6 +57,20 @@
       "kernelDependencies": []
     },
     {
+      "name": "Libelf",
+      "description": "Enable libelf support for for gallium driver radeonsi",
+      "active": true,
+      "dependencies": [
+        {
+          "port": "BaseLibraries-Main",
+          "name": "Libelf",
+          "version": ">=0.189.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
       "name": "Llvm",
       "description": "Enable llvm support for Gallium3D, nouveau, r300 and radeon drivers",
       "active": true,
