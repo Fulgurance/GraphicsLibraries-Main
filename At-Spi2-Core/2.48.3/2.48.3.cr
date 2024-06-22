@@ -28,12 +28,8 @@ class Target < ISM::Software
         runNinjaCommand(arguments:      "install",
                         path:           buildDirectoryPath,
                         environment:    {"DESTDIR" => "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}"})
-    end
 
-    def install
-        super
-
-        deleteFile("#{Ism.settings.rootPath}/tmp/at-spi-dbus-bus.service")
+        deleteFile("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}/tmp/at-spi-dbus-bus.service")
     end
 
 end
