@@ -8,8 +8,9 @@ class Target < ISM::Software
     def configure
         super
 
-        runCmakeCommand(arguments:  "-DCMAKE_BUILD_TYPE=Release                                                 \
-                                    -DCMAKE_INSTALL_PREFIX=/usr                                                 \
+        runCmakeCommand(arguments:  "-DCMAKE_BUILD_TYPE=Release \
+                                    -DCMAKE_INSTALL_PREFIX=/usr \
+                                    -DENABLE_OPT=0              \
                                     ..",
                         path:       buildDirectoryPath)
     end
