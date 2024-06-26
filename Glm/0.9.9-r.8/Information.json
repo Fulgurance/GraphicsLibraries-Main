@@ -1,7 +1,7 @@
 {
   "port": "GraphicsLibraries-Main",
   "name": "Glm",
-  "version": "9.0.3",
+  "version": "0.9.9-r.8",
   "architectures": ["x86_64"],
   "description": "OpenGL Mathematics (GLM)",
   "website": "https://github.com/g-truc/glm",
