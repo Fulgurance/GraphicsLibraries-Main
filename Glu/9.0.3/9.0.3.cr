@@ -29,7 +29,7 @@ class Target < ISM::Software
                         path:           buildDirectoryPath,
                         environment:    {"DESTDIR" => "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}"})
 
-        deleteFile("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}/usr/lib/libGLU.a")
+        deleteFile("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}/usr/lib64/libGLU.a")
     end
 
 end
