@@ -36,6 +36,12 @@
       "name": "Cairo",
       "version": ">=1.17.6",
       "options": ["Glib"]
+    },
+    {
+      "port": "ProgrammingTools-Main",
+      "name": "Git",
+      "version": ">=2.41.0",
+      "options": []
     }
   ],
   "kernelDependencies": [],
