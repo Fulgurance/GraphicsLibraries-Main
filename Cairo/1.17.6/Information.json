@@ -18,16 +18,24 @@
       "name": "Pixman",
       "version": ">=0.42.2",
       "options": []
-    },
-    {
-      "port": "XorgBase-Main",
-      "name": "Xorg-Libraries",
-      "version": ">=21.1.8",
-      "options": []
     }
   ],
   "kernelDependencies": [],
   "options": [
+    {
+      "name": "Xorg-Libraries",
+      "description": "Enable xorg-libraries support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "XorgBase-Main",
+          "name": "Xorg-Libraries",
+          "version": ">=21.1.8",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
     {
       "name": "Fontconfig",
       "description": "Enable fontconfig support",

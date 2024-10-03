@@ -3,8 +3,9 @@ class Target < ISM::Software
     def configure
         super
 
-        configureSource(arguments:  "--prefix=/usr      \
-                                    --disable-static    \
+        configureSource(arguments:  "--prefix=/usr                                              \
+                                    --disable-static                                            \
+                                    --enable-xlib=#{option("Xorg-Libraries") ? "yes" : "no"}    \
                                     --enable-tee",
                         path:       buildDirectoryPath)
     end
