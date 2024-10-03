@@ -14,7 +14,6 @@ class Target < ISM::Software
                                     --buildtype=release                                                                 \
                                     -Dintrospection=#{option("Gobject-Introspection") ? "true" : "false"}               \
                                     -Dman=true                                                                          \
-                                    -Dpango:introspection=#{option("Gobject-Introspection") ? "enabled" : "disabled"}   \
                                     -Dbroadway_backend=true",
                         path:       mainWorkDirectoryPath)
     end
