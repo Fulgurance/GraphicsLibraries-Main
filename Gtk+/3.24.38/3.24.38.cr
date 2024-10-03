@@ -8,13 +8,13 @@ class Target < ISM::Software
     def configure
         super
 
-        runMesonCommand(arguments:  "setup --reconfigure                                                        \
-                                    #{@buildDirectoryNames["MainBuild"]}                                        \
-                                    --prefix=/usr                                                               \
-                                    --buildtype=release                                                         \
-                                    -Dintrospection=#{option("Gobject-Introspection") ? "true" : "false"}       \
-                                    -Dman=true                                                                  \
-                                    -Dpango:introspection=#{option("Gobject-Introspection") ? "true" : "false"} \
+        runMesonCommand(arguments:  "setup --reconfigure                                                                \
+                                    #{@buildDirectoryNames["MainBuild"]}                                                \
+                                    --prefix=/usr                                                                       \
+                                    --buildtype=release                                                                 \
+                                    -Dintrospection=#{option("Gobject-Introspection") ? "true" : "false"}               \
+                                    -Dman=true                                                                          \
+                                    -Dpango:introspection=#{option("Gobject-Introspection") ? "enabled" : "disabled"}   \
                                     -Dbroadway_backend=true",
                         path:       mainWorkDirectoryPath)
     end
