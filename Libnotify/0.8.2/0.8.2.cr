@@ -9,11 +9,12 @@ class Target < ISM::Software
     def configure
         super
 
-        runMesonCommand(arguments:  "setup --reconfigure    \
-                                    --prefix=/usr           \
-                                    --buildtype=release     \
-                                    -Dgtk_doc=false         \
-                                    -Dman=false             \
+        runMesonCommand(arguments:  "setup --reconfigure                                                \
+                                    --prefix=/usr                                                       \
+                                    --buildtype=release                                                 \
+                                    -Dgtk_doc=false                                                     \
+                                    -Dman=false                                                         \
+                                    -Dintrospection=#{option("Introspection") ? "enabled" : "disabled"} \
                                     ..",
                         path:   buildDirectoryPath)
     end
