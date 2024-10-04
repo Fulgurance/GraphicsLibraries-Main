@@ -49,13 +49,13 @@
       "kernelDependencies": []
     },
     {
-      "name": "Gobject-Instrospection",
-      "description": "Enable Gobject-Instrospection support required for Gnome",
+      "name": "Gobject-Introspection",
+      "description": "Enable Gobject-Introspection support required for Gnome",
       "active": false,
       "dependencies": [
         {
           "port": "BaseLibraries-Main",
-          "name": "Gobject-Instrospection",
+          "name": "Gobject-Introspection",
           "version": ">=1.76.1",
           "options": []
         }
