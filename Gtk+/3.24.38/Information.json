@@ -29,19 +29,13 @@
       "port": "GraphicsLibraries-Main",
       "name": "Pango",
       "version": ">=1.50.14",
-      "options": []
+      "options": ["Gobject-Introspection"]
     },
     {
       "port": "GraphicsLibraries-Main",
       "name": "Cairo",
       "version": ">=1.17.6",
       "options": ["Glib"]
-    },
-    {
-      "port": "BaseLibraries-Main",
-      "name": "Gobject-Introspection",
-      "version": ">=1.76.1",
-      "options": []
     }
   ],
   "kernelDependencies": [],
