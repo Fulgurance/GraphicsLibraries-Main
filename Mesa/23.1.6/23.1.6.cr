@@ -15,7 +15,7 @@ class Target < ISM::Software
                                     --buildtype=release                     \
                                     -Dplatforms=x11,wayland                 \
                                     -Degl-native-platform=wayland           \
-                                    -Dgallium-drivers=auto                  \
+                                    -Dgallium-drivers=\"iris,nouveau\"      \
                                     -Dvulkan-drivers=\"\"                   \
                                     -Dvalgrind=disabled                     \
                                     -Dlibunwind=disabled",
