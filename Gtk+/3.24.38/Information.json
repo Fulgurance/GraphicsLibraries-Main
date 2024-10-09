@@ -35,7 +35,7 @@
       "port": "GraphicsLibraries-Main",
       "name": "Cairo",
       "version": ">=1.17.6",
-      "options": ["Glib"]
+      "options": ["Glib","Xorg-Libraries"]
     }
   ],
   "kernelDependencies": [],
