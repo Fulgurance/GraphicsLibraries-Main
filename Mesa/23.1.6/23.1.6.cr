@@ -8,16 +8,16 @@ class Target < ISM::Software
     def configure
         super
 
-        runMesonCommand(arguments:  "setup                                  \
-                                    --reconfigure                           \
-                                    #{@buildDirectoryNames["MainBuild"]}    \
-                                    --prefix=/usr                           \
-                                    --buildtype=release                     \
-                                    -Dplatforms=x11,wayland                 \
-                                    -Degl-native-platform=wayland           \
-                                    -Dgallium-drivers=\"iris,nouveau\"      \
-                                    -Dvulkan-drivers=\"\"                   \
-                                    -Dvalgrind=disabled                     \
+        runMesonCommand(arguments:  "setup                                          \
+                                    --reconfigure                                   \
+                                    #{@buildDirectoryNames["MainBuild"]}            \
+                                    --prefix=/usr                                   \
+                                    --buildtype=release                             \
+                                    -Dplatforms=x11,wayland                         \
+                                    -Degl-native-platform=wayland                   \
+                                    -Dgallium-drivers=\"iris,nouveau,zink,swrast\"  \
+                                    -Dvulkan-drivers=\"\"                           \
+                                    -Dvalgrind=disabled                             \
                                     -Dlibunwind=disabled",
                         path:       mainWorkDirectoryPath)
     end
