@@ -31,9 +31,6 @@ class Target < ISM::Software
         runNinjaCommand(arguments:      "install",
                         path:           buildDirectoryPath,
                         environment:    {"DESTDIR" => "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}"})
-
-        moveFile(   "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}/usr/share/doc/libnotify",
-                    "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}/usr/share/doc/libnotify-0.8.2")
     end
 
 end
