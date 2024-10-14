@@ -36,6 +36,12 @@
       "name": "Cairo",
       "version": ">=1.17.6",
       "options": ["Glib","Xorg-Libraries"]
+    },
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "Libxkbcommon",
+      "version": ">=1.5.0",
+      "options": []
     }
   ],
   "kernelDependencies": [],
