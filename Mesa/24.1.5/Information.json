@@ -1,0 +1,176 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "Mesa",
+  "version": "24.1.5",
+  "architectures": ["x86_64"],
+  "description": "Open source implementations of OpenGL, OpenGL ES, Vulkan, OpenCL, and more",
+  "website": "https://mesa.freedesktop.org",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "XorgBase-Main",
+      "name": "Xorg-Libraries",
+      "version": ">=21.1.8",
+      "options": []
+    },
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "Libdrm",
+      "version": ">=2.4.115",
+      "options": []
+    },
+    {
+      "port": "BaseLibraries-Main",
+      "name": "Mako",
+      "version": ">=1.2.4",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [
+    {
+      "name": "Libva",
+      "description": "Enable libva support for VA-API support for gallium drivers",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "GraphicsLibraries-Main",
+          "name": "Libva",
+          "version": ">=2.19.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libvdpau",
+      "description": "Enable libvdpau support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "GraphicsLibraries-Main",
+          "name": "Libvdpau",
+          "version": ">=1.5.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libelf",
+      "description": "Enable libelf support for for gallium driver radeonsi",
+      "active": true,
+      "dependencies": [
+        {
+          "port": "BaseLibraries-Main",
+          "name": "Libelf",
+          "version": ">=0.189.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Llvm",
+      "description": "Enable llvm support for Gallium3D, nouveau, r300 and radeon drivers",
+      "active": true,
+      "dependencies": [
+        {
+          "port": "ProgrammingLanguages-Main",
+          "name": "Llvm",
+          "version": ">=16.0.5",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Wayland-Protocols",
+      "description": "Enable wayland-protocols support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "GraphicsLibraries-Main",
+          "name": "Wayland-Protocols",
+          "version": ">=1.32.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libgcrypt",
+      "description": "Enable libgcrypt support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "SecurityLibraries-Main",
+          "name": "Libgcrypt",
+          "version": ">=1.10.2",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libunwind",
+      "description": "Enable libunwind support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "BaseLibraries-Main",
+          "name": "Libunwind",
+          "version": ">=1.6.2",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Lm-Sensors",
+      "description": "Enable lm-sensors support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "Utilities-Main",
+          "name": "Lm-Sensors",
+          "version": ">=3.6.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Nettle",
+      "description": "Enable nettle support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "SecurityLibraries-Main",
+          "name": "Nettle",
+          "version": ">=3.9.1",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Valgrind",
+      "description": "Enable valgrind support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "Utilities-Main",
+          "name": "Valgrind",
+          "version": ">=3.21.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    }
+  ],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}
