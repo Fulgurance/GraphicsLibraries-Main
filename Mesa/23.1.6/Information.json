@@ -87,7 +87,7 @@
     {
       "name": "Wayland-Protocols",
       "description": "Enable wayland-protocols support",
-      "active": false,
+      "active": true,
       "dependencies": [
         {
           "port": "GraphicsLibraries-Main",

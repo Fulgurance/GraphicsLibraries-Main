@@ -29,6 +29,20 @@
   "kernelDependencies": [],
   "options": [
     {
+      "name": "Glslang",
+      "description": "Enable glslang support for Vulkan support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "GraphicsLibraries-Main",
+          "name": "Glslang",
+          "version": ">=14.3.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
       "name": "Libva",
       "description": "Enable libva support for VA-API support for gallium drivers",
       "active": false,
@@ -57,20 +71,6 @@
       "kernelDependencies": []
     },
     {
-      "name": "Libelf",
-      "description": "Enable libelf support for for gallium driver radeonsi",
-      "active": true,
-      "dependencies": [
-        {
-          "port": "BaseLibraries-Main",
-          "name": "Libelf",
-          "version": ">=0.189.0",
-          "options": []
-        }
-      ],
-      "kernelDependencies": []
-    },
-    {
       "name": "Llvm",
       "description": "Enable llvm support for Gallium3D, nouveau, r300 and radeon drivers",
       "active": true,
@@ -87,12 +87,82 @@
     {
       "name": "Wayland-Protocols",
       "description": "Enable wayland-protocols support",
-      "active": false,
+      "active": true,
       "dependencies": [
         {
           "port": "GraphicsLibraries-Main",
           "name": "Wayland-Protocols",
           "version": ">=1.32.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libclc",
+      "description": "Enable libclc support for Intel iris gallium driver",
+      "active": true,
+      "dependencies": [
+        {
+          "port": "BaseLibraries-Main",
+          "name": "Libclc",
+          "version": ">=18.1.7",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Vulkan-Loader",
+      "description": "Enable vulkan-loader support for Zink gallium driver",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "GraphicsLibraries-Main",
+          "name": "Vulkan-Loader",
+          "version": ">=1.3.294",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Ply",
+      "description": "Enable ply support for Intel vulkan driver",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "BaseLibraries-Main",
+          "name": "Ply",
+          "version": ">=3.11.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Cbindgen",
+      "description": "Enable cbindgen support for Nouveau vulkan driver",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "ProgrammingTools-Main",
+          "name": "Cbindgen",
+          "version": ">=0.24.3",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Rust-Bindgen",
+      "description": "Enable rust-bindgen support for Nouveau vulkan driver",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "ProgrammingTools-Main",
+          "name": "Rust-Bindgen",
+          "version": ">=0.70.0",
           "options": []
         }
       ],
