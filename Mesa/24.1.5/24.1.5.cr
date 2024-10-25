@@ -20,7 +20,7 @@ class Target < ISM::Software
                                     -Dvalgrind=disabled                             \
                                     -Dlibunwind=disabled",
                         path:       mainWorkDirectoryPath,
-                        environment:    {"PATH" => "PATH:/usr/lib/llvm/#{dependencyMajorVersion("@ProgrammingLanguages-Main:Llvm")}/bin"})
+                        environment:    {"PATH" => "/usr/lib/llvm/#{dependencyMajorVersion("@ProgrammingLanguages-Main:Llvm")}/bin:$PATH"})
     end
     
     def build
