@@ -19,8 +19,7 @@ class Target < ISM::Software
                                     -Dvulkan-drivers=\"\"                           \
                                     -Dvalgrind=disabled                             \
                                     -Dlibunwind=disabled",
-                        path:       mainWorkDirectoryPath,
-                        environment:    { "LLVM_DIR" => "/usr/lib/llvm/#{softwareMajorVersion("@ProgrammingLanguages-Main:Llvm")}/bin" })
+                        path:       mainWorkDirectoryPath)
     end
     
     def build
