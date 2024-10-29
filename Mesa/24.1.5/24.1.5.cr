@@ -16,7 +16,7 @@ class Target < ISM::Software
                                     -Dplatforms=x11,wayland                         \
                                     -Degl-native-platform=wayland                   \
                                     -Dgallium-drivers=\"iris,nouveau,zink,swrast\"  \
-                                    -Dvulkan-drivers=\"\"                           \
+                                    -Dvulkan-drivers=\"auto\"                       \
                                     -Dvalgrind=disabled                             \
                                     -Dlibunwind=disabled",
                         path:       mainWorkDirectoryPath,
