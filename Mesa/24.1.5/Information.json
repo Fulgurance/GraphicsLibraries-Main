@@ -29,6 +29,118 @@
   "kernelDependencies": [],
   "options": [
     {
+      "name": "Gallium-Driver-R300",
+      "description": "Enable gallium support for driver r300",
+      "active": false,
+      "dependencies": [],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Gallium-Driver-R600",
+      "description": "Enable gallium support for driver r600",
+      "active": false,
+      "dependencies": [],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Gallium-Driver-Radeonsi",
+      "description": "Enable gallium support for driver radeonsi",
+      "active": false,
+      "dependencies": [],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Gallium-Driver-Nouveau",
+      "description": "Enable gallium support for driver Nouveau",
+      "active": true,
+      "dependencies": [],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Gallium-Driver-Virgl",
+      "description": "Enable gallium support for driver virgl",
+      "active": false,
+      "dependencies": [],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Gallium-Driver-Svga",
+      "description": "Enable gallium support for driver Svga",
+      "active": false,
+      "dependencies": [],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Gallium-Driver-Swrast",
+      "description": "Enable gallium support for driver swrast",
+      "active": true,
+      "dependencies": [],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Gallium-Driver-Iris",
+      "description": "Enable gallium support for driver iris",
+      "active": true,
+      "dependencies": [],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Gallium-Driver-Crocus",
+      "description": "Enable gallium support for driver crocus",
+      "active": false,
+      "dependencies": [],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Gallium-Driver-I915",
+      "description": "Enable gallium support for driver i915",
+      "active": false,
+      "dependencies": [],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Gallium-Driver-Zink",
+      "description": "Enable gallium support for driver zink",
+      "active": true,
+      "dependencies": [],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Vulkan-Driver-Amd",
+      "description": "Enable vulkan support for driver amd",
+      "active": false,
+      "dependencies": [],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Vulkan-Driver-Intel",
+      "description": "Enable vulkan support for driver intel",
+      "active": true,
+      "dependencies": [],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Vulkan-Driver-Intel-Hasvk",
+      "description": "Enable vulkan support for driver intel hasvk",
+      "active": false,
+      "dependencies": [],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Vulkan-Driver-Nouveau",
+      "description": "Enable vulkan support for driver nouveau",
+      "active": false,
+      "dependencies": [],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Vulkan-Driver-Swrast",
+      "description": "Enable vulkan support for driver swrast",
+      "active": false,
+      "dependencies": [],
+      "kernelDependencies": []
+    },
+    {
       "name": "Glslang",
       "description": "Enable glslang support for Vulkan support",
       "active": false,
