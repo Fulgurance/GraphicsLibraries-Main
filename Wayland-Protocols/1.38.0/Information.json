@@ -1,0 +1,23 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "Wayland-Protocols",
+  "version": "1.38.0",
+  "architectures": ["x86_64"],
+  "description": "Display server protocols for Wayland",
+  "website": "https://wayland.freedesktop.org",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "Wayland",
+      "version": ">=1.22.0",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}

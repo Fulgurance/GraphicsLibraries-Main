@@ -1,0 +1,126 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "Gdk-Pixbuf",
+  "version": "2.42.12",
+  "architectures": ["x86_64"],
+  "description": "The Accessibility Toolkit",
+  "website": "https://github.com/GNOME/gdk-pixbuf",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "BaseLibraries-Main",
+      "name": "Glib",
+      "version": ">=2.76.4",
+      "options": []
+    },
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "Libjpeg-Turbo",
+      "version": ">=3.0.0",
+      "options": []
+    },
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "Libpng",
+      "version": ">=1.6.40",
+      "options": []
+    },
+    {
+      "port": "BaseLibraries-Main",
+      "name": "Shared-Mime-Info",
+      "version": ">=2.2.0",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [
+    {
+      "name": "Librsvg",
+      "description": "Enable libsrvg support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "GraphicsLibraries-Main",
+          "name": "Libsrvg",
+          "version": ">=2.56.3",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libtiff",
+      "description": "Enable libtiff support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "GraphicsLibraries-Main",
+          "name": "Libtiff",
+          "version": ">=4.5.1",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Gobject-Introspection",
+      "description": "Enable gobject-introspection support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "BaseLibraries-Main",
+          "name": "Gobject-Introspection",
+          "version": ">=1.76.1",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Gdk-Pixbuf-Xlib",
+      "description": "Enable gdk-pixbuf-xlib support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "GraphicsLibraries-Main",
+          "name": "Gdk-Pixbuf-Xlib",
+          "version": ">=2.40.2",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libavif",
+      "description": "Enable libavif support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "GraphicsLibraries-Main",
+          "name": "Libavif",
+          "version": ">=0.11.1",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Webp-Pixbuf-Loader",
+      "description": "Enable webp-pixbuf-loader support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "GraphicsLibraries-Main",
+          "name": "Webp-Pixbuf-Loader",
+          "version": ">=0.2.4",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    }
+  ],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}

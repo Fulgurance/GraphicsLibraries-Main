@@ -4,7 +4,7 @@
   "version": "2.42.10",
   "architectures": ["x86_64"],
   "description": "The Accessibility Toolkit",
-  "website": "https://gitlab.gnome.org/GNOME/atk",
+  "website": "https://github.com/GNOME/gdk-pixbuf",
   "installedFiles": [],
   "dependencies": [
     {

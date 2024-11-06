@@ -7,7 +7,7 @@ class Target < ISM::Software
                                     --sysconfdir=/etc       \
                                     --localstatedir=/var    \
                                     --disable-docs          \
-                                    --docdir=/usr/share/doc/fontconfig-2.14.2",
+                                    --docdir=/usr/share/doc/#{versionName}",
                         path:       buildDirectoryPath)
     end
     

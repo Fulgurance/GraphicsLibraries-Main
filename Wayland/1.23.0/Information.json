@@ -1,0 +1,23 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "Wayland",
+  "version": "1.23.0",
+  "architectures": ["x86_64"],
+  "description": "Replacement for the X11 window system protocol and architecture",
+  "website": "https://wayland.freedesktop.org",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "BaseLibraries-Main",
+      "name": "Libxml2",
+      "version": ">=2.10.4",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}

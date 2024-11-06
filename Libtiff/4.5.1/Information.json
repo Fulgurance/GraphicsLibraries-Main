@@ -4,7 +4,7 @@
   "version": "4.5.1",
   "architectures": ["x86_64"],
   "description": "Provides support for the Tag Image File Format (TIFF)",
-  "website": "http://www.libtiff.org/",
+  "website": "https://gitlab.com/libtiff/libtiff",
   "installedFiles": [],
   "dependencies": [
     {

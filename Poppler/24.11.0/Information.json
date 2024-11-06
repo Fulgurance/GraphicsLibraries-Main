@@ -1,0 +1,218 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "Poppler",
+  "version": "24.11.0",
+  "architectures": ["x86_64"],
+  "description": "PDF rendering library based on the xpdf-3.0 code base",
+  "website": "https://poppler.freedesktop.org/",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "ProgrammingTools-Main",
+      "name": "Cmake",
+      "version": ">=3.27.2",
+      "options": []
+    },
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "Fontconfig",
+      "version": ">=2.14.2",
+      "options": []
+    },
+    {
+      "port": "BaseLibraries-Main",
+      "name": "Gobject-Introspection",
+      "version": ">=1.76.1",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [
+    {
+      "name": "Boost",
+      "description": "Enable boost support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "BaseLibraries-Main",
+          "name": "Boost",
+          "version": ">=1.83.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Cairo",
+      "description": "Enable cairo support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "GraphicsLibraries-Main",
+          "name": "Cairo",
+          "version": ">=1.17.6",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Lcms2",
+      "description": "Enable lcms2 support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "Utilities-Main",
+          "name": "Lcms2",
+          "version": ">=2.14.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libjpeg-Turbo",
+      "description": "Enable libjpeg-turbo support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "GraphicsLibraries-Main",
+          "name": "Libjpeg-Turbo",
+          "version": ">=3.0.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libpng",
+      "description": "Enable libpng support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "GraphicsLibraries-Main",
+          "name": "Libpng",
+          "version": ">=1.6.40",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Nss",
+      "description": "Enable nss support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "SecurityLibraries-Main",
+          "name": "Nss",
+          "version": ">=3.92.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Openjpeg",
+      "description": "Enable openjpeg support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "GraphicsLibraries-Main",
+          "name": "Openjpeg",
+          "version": ">=2.5.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Curl",
+      "description": "Enable curl support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "NetworkingLibraries-Main",
+          "name": "Curl",
+          "version": ">=8.2.1",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Gdk-Pixbuf",
+      "description": "Enable gdk-pixbuf support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "GraphicsLibraries-Main",
+          "name": "Gdk-Pixbuf",
+          "version": ">=2.42.10",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Gpgme",
+      "description": "Enable gpgme support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "SecurityLibraries-Main",
+          "name": "Gpgme",
+          "version": ">=1.21.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Gtk",
+      "description": "Enable gtk+ support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "GraphicsLibraries-Main",
+          "name": "Gtk",
+          "version": ">=3.24.38",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libtiff",
+      "description": "Enable libtiff support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "GraphicsLibraries-Main",
+          "name": "Libtiff",
+          "version": ">=4.5.1",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Qt",
+      "description": "Enable qt support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "BaseLibraries-Main",
+          "name": "Qt",
+          "version": ">=5.0.0 ~ <6.0.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    }
+  ],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}

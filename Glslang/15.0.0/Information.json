@@ -1,0 +1,23 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "Glslang",
+  "version": "15.0.0",
+  "architectures": ["x86_64"],
+  "description": "Khronos-reference front end for GLSL/ESSL, partial front end for HLSL, and a SPIR-V generator",
+  "website": "https://github.com/KhronosGroup/glslang",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "SystemBase-Main",
+      "name": "SystemBase",
+      "version": ">=0.2.0",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}

@@ -4,7 +4,7 @@
   "version": "0.42.2",
   "architectures": ["x86_64"],
   "description": "The pixel-manipulation library for X and cairo",
-  "website": " https://www.cairographics.org",
+  "website": "https://www.cairographics.org",
   "installedFiles": [],
   "dependencies": [
     {

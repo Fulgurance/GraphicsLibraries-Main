@@ -4,12 +4,12 @@
   "version": "0.8.2",
   "architectures": ["x86_64"],
   "description": "Send desktop notifications",
-  "website": "https://gitlab.gnome.org/GNOME/libnotify",
+  "website": "https://github.com/GNOME/libnotify",
   "installedFiles": [],
   "dependencies": [
     {
       "port": "GraphicsLibraries-Main",
-      "name": "Gtk+",
+      "name": "Gtk",
       "version": ">=3.24.38",
       "options": []
     }

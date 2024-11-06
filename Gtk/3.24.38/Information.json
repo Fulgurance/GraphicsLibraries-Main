@@ -1,0 +1,124 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "Gtk",
+  "version": "3.24.38",
+  "architectures": ["x86_64"],
+  "description": "Complete set of UI elements",
+  "website": "https://www.gtk.org/",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "At-Spi2-Core",
+      "version": ">=2.48.3",
+      "options": []
+    },
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "Gdk-Pixbuf",
+      "version": ">=2.42.10",
+      "options": []
+    },
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "Libepoxy",
+      "version": "1.5.10",
+      "options": []
+    },
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "Pango",
+      "version": ">=1.50.14",
+      "options": ["Cairo","Gobject-Introspection"]
+    },
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "Cairo",
+      "version": ">=1.17.6",
+      "options": ["Glib","Xorg-Libraries"]
+    },
+    {
+      "port": "XorgBase-Main",
+      "name": "Libxkbcommon",
+      "version": ">=1.5.0",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [
+    {
+      "name": "Adwaita-Icon-Theme",
+      "description": "Enable adwaita-icon-theme support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "IconThemes-Main",
+          "name": "Adwaita-Icon-Theme",
+          "version": ">=44.0.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Wayland",
+      "description": "Enable wayland support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "GraphicsLibraries-Main",
+          "name": "Wayland",
+          "version": ">=1.22.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Wayland-Protocols",
+      "description": "Enable wayland-protocols support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "GraphicsLibraries-Main",
+          "name": "Wayland-Protocols",
+          "version": ">=1.32.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Colord",
+      "description": "Enable colord support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "Utilities-Main",
+          "name": "Colord",
+          "version": ">=1.4.6",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Cups",
+      "description": "Enable cups support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "Utilities-Main",
+          "name": "Cups",
+          "version": ">=2.4.6",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    }
+  ],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}

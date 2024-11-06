@@ -1,0 +1,23 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "Gsettings-Desktop-Schemas",
+  "version": "47.1.0",
+  "architectures": ["x86_64"],
+  "description": "Collection of GSettings schemas for settings shared by various components of a desktop",
+  "website": "https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "BaseLibraries-Main",
+      "name": "Gobject-Introspection",
+      "version": ">=1.76.1",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}
