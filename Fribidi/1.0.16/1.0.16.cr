@@ -11,6 +11,7 @@ class Target < ISM::Software
         runMesonCommand(arguments:  "setup --reconfigure    \
                                     --prefix=/usr           \
                                     --buildtype=release     \
+                                    -Ddocs=false            \
                                     ..",
                         path:       buildDirectoryPath)
     end
