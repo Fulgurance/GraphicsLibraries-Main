@@ -17,7 +17,7 @@ class Target < ISM::Software
                                     -Dcairo=#{option("Cairo") ? "enabled" : "disabled"}                             \
                                     -Dintrospection=#{option("Gobject-Instrospection") ? "enabled" : "disabled"}    \
                                     ..",
-                        path:       mainWorkDirectoryPath)
+                        path:       buildDirectoryPath)
     end
     
     def build
