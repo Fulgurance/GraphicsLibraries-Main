@@ -15,9 +15,8 @@ class Target < ISM::Software
                                     --buildtype=release                                                             \
                                     --wrap-mode=nofallback                                                          \
                                     -Dcairo=#{option("Cairo") ? "enabled" : "disabled"}                             \
-                                    -Dintrospection=#{option("Gobject-Instrospection") ? "enabled" : "disabled"}    \
-                                    ..",
-                        path:       buildDirectoryPath)
+                                    -Dintrospection=#{option("Gobject-Instrospection") ? "enabled" : "disabled"}",
+                        path:       mainWorkDirectoryPath)
     end
     
     def build
