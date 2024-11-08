@@ -12,6 +12,7 @@ class Target < ISM::Software
                                     --prefix=/usr           \
                                     --buildtype=release     \
                                     -Dsystemd_user_dir=/tmp \
+                                    -Dintrospection=#{option("Gobject-Introspection") ? "enabled" : "disabled"} \
                                     ..",
                         path:       buildDirectoryPath)
     end
