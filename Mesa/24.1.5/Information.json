@@ -36,7 +36,7 @@
       "name": "Ply",
       "version": ">=3.11.0",
       "options": []
-    },
+    }
   ],
   "kernelDependencies": [],
   "options": [
