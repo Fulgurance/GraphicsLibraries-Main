@@ -14,6 +14,7 @@ class Target < ISM::Software
                                     --buildtype=release                                             \
                                     -Dfreetype=enabled                                              \
                                     -Dgraphite2=#{option("Graphite2") ? "enabled" : "disabled" }    \
+                                    -Dintrospection=#{option("Gobject-Introspection") ? "enabled" : "disabled"} \
                                     -Ddocs=disabled",
                         path:       mainWorkDirectoryPath)
     end
