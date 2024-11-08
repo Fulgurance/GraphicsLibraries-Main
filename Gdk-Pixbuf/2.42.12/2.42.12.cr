@@ -13,6 +13,7 @@ class Target < ISM::Software
                                     --prefix=/usr                           \
                                     --buildtype=release                     \
                                     --wrap-mode=nofallback                  \
+                                    -Dintrospection=#{option("Gobject-Introspection") ? "enabled" : "disabled"} \
                                     -Dman=false",
                         path:       mainWorkDirectoryPath)
     end
