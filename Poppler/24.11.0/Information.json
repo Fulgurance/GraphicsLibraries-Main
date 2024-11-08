@@ -18,12 +18,6 @@
       "name": "Fontconfig",
       "version": ">=2.14.2",
       "options": []
-    },
-    {
-      "port": "BaseLibraries-Main",
-      "name": "Gobject-Introspection",
-      "version": ">=1.76.1",
-      "options": []
     }
   ],
   "kernelDependencies": [],
@@ -205,6 +199,20 @@
           "port": "BaseLibraries-Main",
           "name": "Qt",
           "version": ">=5.0.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Gobject-Introspection",
+      "description": "Enable gobject-introspection support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "BaseLibraries-Main",
+          "name": "Gobject-Introspection",
+          "version": ">=1.76.1",
           "options": []
         }
       ],
