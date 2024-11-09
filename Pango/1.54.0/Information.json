@@ -1,7 +1,7 @@
 {
   "port": "GraphicsLibraries-Main",
   "name": "Pango",
-  "version": "1.90.0",
+  "version": "1.54.0",
   "architectures": ["x86_64"],
   "description": "Library for laying out and rendering of text with an emphasis on internationalization",
   "website": "https://pango.gnome.org/",
