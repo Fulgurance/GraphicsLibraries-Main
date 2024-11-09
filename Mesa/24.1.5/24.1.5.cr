@@ -80,9 +80,10 @@ class Target < ISM::Software
                                     --buildtype=release                             \
                                     -Dplatforms=x11,wayland                         \
                                     -Degl-native-platform=wayland                   \
-                                    -Dgallium-drivers=\"#{galliumDrivers}\"  \
-                                    -Dvulkan-drivers=\"#{vulkanDrivers}\"                       \
+                                    -Dgallium-drivers=\"#{galliumDrivers}\"         \
+                                    -Dvulkan-drivers=\"#{vulkanDrivers}\"           \
                                     -Dvalgrind=disabled                             \
+                                    -Dintel-clc=system                              \
                                     -Dlibunwind=disabled",
                         path:       mainWorkDirectoryPath,
                         environment:    {"PATH" => "/usr/lib/llvm/#{softwareMajorVersion("@ProgrammingLanguages-Main:Llvm")}/bin:$PATH"})
