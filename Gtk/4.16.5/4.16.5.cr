@@ -12,10 +12,8 @@ class Target < ISM::Software
                                     #{@buildDirectoryNames["MainBuild"]}                                                \
                                     --prefix=/usr                                                                       \
                                     --buildtype=release                                                                 \
-                                    -Dintrospection=#{option("Gobject-Introspection") ? "true" : "false"}               \
-                                    -Dman=true                                                                          \
-                                    -Dvulkan=disabled                                                                   \
-                                    -Dbroadway_backend=true",
+                                    -Dintrospection=#{option("Gobject-Introspection") ? "enabled" : "disabled"}         \
+                                    -Dvulkan=disabled",
                         path:       mainWorkDirectoryPath)
     end
 
