@@ -73,10 +73,6 @@ class Target < ISM::Software
         galliumDrivers = getSelectedGalliumDrivers
         vulkanDrivers = getSelectedVulkanDrivers
 
-        # makeLink(   target: "/usr/lib/llvm/#{softwareMajorVersion("@ProgrammingLanguages-Main:Llvm")}/lib/libclang-cpp.so.18.1",
-        #             path:   "#{mainWorkDirectoryPath}/libclang-cpp.so.18.1",
-        #             type: :symbolicLinkByOverwrite)
-
         runMesonCommand(arguments:  "setup                                          \
                                     --reconfigure                                   \
                                     #{@buildDirectoryNames["MainBuild"]}            \
@@ -90,8 +86,7 @@ class Target < ISM::Software
                                     -Dintel-clc=system                              \
                                     -Dlibunwind=disabled",
                         path:       mainWorkDirectoryPath,
-                        environment:    {   "PATH" => "/usr/lib/llvm/#{softwareMajorVersion("@ProgrammingLanguages-Main:Llvm")}/bin:$PATH",
-                                            "LD_LIBRARY_PATH" => "/usr/lib/llvm/#{softwareMajorVersion("@ProgrammingLanguages-Main:Llvm")}/lib:$LD_LIBRARY_PATH"})
+                        environment:    {   "PATH" => "/usr/lib/llvm/#{softwareMajorVersion("@ProgrammingLanguages-Main:Llvm")}/bin:$PATH"})
     end
     
     def build
