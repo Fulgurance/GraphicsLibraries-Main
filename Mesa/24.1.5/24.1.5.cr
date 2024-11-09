@@ -83,7 +83,7 @@ class Target < ISM::Software
                                     -Dgallium-drivers=\"#{galliumDrivers}\"         \
                                     -Dvulkan-drivers=\"#{vulkanDrivers}\"           \
                                     -Dvalgrind=disabled                             \
-                                    -Dintel-clc=enabled                             \
+                                    -Dintel-clc=system                              \
                                     -Dlibunwind=disabled",
                         path:       mainWorkDirectoryPath,
                         environment:    {"PATH" => "/usr/lib/llvm/#{softwareMajorVersion("@ProgrammingLanguages-Main:Llvm")}/bin:$PATH"})
