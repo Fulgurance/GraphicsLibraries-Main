@@ -86,7 +86,8 @@ class Target < ISM::Software
                                     -Dintel-clc=system                              \
                                     -Dlibunwind=disabled",
                         path:       mainWorkDirectoryPath,
-                        environment:    {"PATH" => "/usr/lib/llvm/#{softwareMajorVersion("@ProgrammingLanguages-Main:Llvm")}/bin:$PATH"})
+                        environment:    {   "PATH" => "/usr/lib/llvm/#{softwareMajorVersion("@ProgrammingLanguages-Main:Llvm")}/bin:$PATH",
+                                            "LLVM_DIR" => "/usr/lib/llvm/#{softwareMajorVersion("@ProgrammingLanguages-Main:Llvm")}/"})
     end
     
     def build
