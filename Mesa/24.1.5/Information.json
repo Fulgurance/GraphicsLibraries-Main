@@ -127,7 +127,7 @@
     {
       "name": "Vulkan-Driver-Intel",
       "description": "Enable vulkan support for driver intel",
-      "active": true,
+      "active": false,
       "dependencies": [],
       "kernelDependencies": []
     },
@@ -211,7 +211,7 @@
     {
       "name": "Libclc",
       "description": "Enable libclc support for Intel iris gallium driver",
-      "active": true,
+      "active": false,
       "dependencies": [
         {
           "port": "BaseLibraries-Main",
@@ -225,7 +225,7 @@
     {
       "name": "Intel-Clc",
       "description": "Enable intel-clc support",
-      "active": true,
+      "active": false,
       "dependencies": [],
       "kernelDependencies": []
     },
