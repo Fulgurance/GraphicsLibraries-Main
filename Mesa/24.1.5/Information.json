@@ -226,14 +226,7 @@
       "name": "Intel-Clc",
       "description": "Enable intel-clc support",
       "active": true,
-      "dependencies": [
-        {
-          "port": "GraphicsLibraries-Main",
-          "name": "Intel-Clc",
-          "version": ">=24.1.5",
-          "options": []
-        }
-      ],
+      "dependencies": [],
       "kernelDependencies": []
     },
     {

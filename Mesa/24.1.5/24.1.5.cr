@@ -84,6 +84,7 @@ class Target < ISM::Software
                                     -Dvulkan-drivers=\"#{vulkanDrivers}\"           \
                                     -Dvalgrind=disabled                             \
                                     -Dintel-clc=system                              \
+                                    -Dinstall-intel-clc=#{option("Intel-Clc") ? "true" : "false"}\
                                     -Dlibunwind=disabled",
                         path:       mainWorkDirectoryPath,
                         environment:    {   "PATH" => "/usr/lib/llvm/#{softwareMajorVersion("@ProgrammingLanguages-Main:Llvm")}/bin:$PATH"})
