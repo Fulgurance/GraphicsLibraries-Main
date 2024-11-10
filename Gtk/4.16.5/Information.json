@@ -48,6 +48,12 @@
       "name": "Libxkbcommon",
       "version": ">=1.5.0",
       "options": []
+    },
+    {
+      "port": "MultimediaLibraries-Main",
+      "name": "Phonon-Backend-Gstreamer",
+      "version": ">=4.10.0",
+      "options": []
     }
   ],
   "kernelDependencies": [],
