@@ -33,6 +33,12 @@
     },
     {
       "port": "GraphicsLibraries-Main",
+      "name": "Graphene",
+      "version": ">=1.10.8",
+      "options": []
+    },
+    {
+      "port": "GraphicsLibraries-Main",
       "name": "Cairo",
       "version": ">=1.17.6",
       "options": ["Glib","Xorg-Libraries"]
