@@ -12,7 +12,8 @@ class Target < ISM::Software
                                     --reconfigure                                                                   \
                                     #{@buildDirectoryNames["MainBuild"]}                                            \
                                     --prefix=/usr                                                                   \
-                                    --buildtype=release",
+                                    --buildtype=release                                                             \
+                                    -Dintrospection=#{option("Gobject-Instrospection") ? "enabled" : "disabled"}",
                         path:       mainWorkDirectoryPath)
     end
     
