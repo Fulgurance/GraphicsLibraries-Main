@@ -1,0 +1,23 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "Graphene",
+  "version": "1.10.8",
+  "architectures": ["x86_64"],
+  "description": "A thin layer of graphic data types",
+  "website": "https://github.com/ebassi/graphene",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "BaseLibraries-Main",
+      "name": "Glib",
+      "version": ">=2.76.4",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}
