@@ -1,0 +1,23 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "Libdisplay-Info",
+  "version": "0.2.0",
+  "architectures": ["x86_64"],
+  "description": "EDID and DisplayID library",
+  "website": "https://gitlab.freedesktop.org/emersion/libdisplay-info",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "BaseLibraries-Main",
+      "name": "Hwdata",
+      "version": ">=0.389.0",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}
