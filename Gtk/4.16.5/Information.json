@@ -79,6 +79,12 @@
       "kernelDependencies": []
     },
     {
+      "port": "MultimediaLibraries-Main",
+      "name": "Gstreamer",
+      "version": ">=1.24.9",
+      "options": []
+    },
+    {
       "name": "Wayland",
       "description": "Enable wayland support",
       "active": false,

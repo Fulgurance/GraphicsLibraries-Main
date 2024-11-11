@@ -13,6 +13,7 @@ class Target < ISM::Software
                                     --prefix=/usr                                                                       \
                                     --buildtype=release                                                                 \
                                     -Dintrospection=#{option("Gobject-Introspection") ? "enabled" : "disabled"}         \
+                                    -Dmedia-gstreamer=#{option("Gstreamer") ? "enabled" : "disabled"}                   \
                                     -Dvulkan=disabled",
                         path:       mainWorkDirectoryPath)
     end
