@@ -14,6 +14,7 @@ class Target < ISM::Software
                                     --buildtype=release                                                                 \
                                     -Dintrospection=#{option("Gobject-Introspection") ? "true" : "false"}               \
                                     -Dman=true                                                                          \
+                                    -Dtests=false                                                                       \
                                     -Dbroadway_backend=true",
                         path:       mainWorkDirectoryPath)
     end
