@@ -54,6 +54,12 @@
       "name": "Gst-Plugins-Bad",
       "version": ">=1.24.9",
       "options": []
+    },
+    {
+      "port": "MultimediaLibraries-Main",
+      "name": "Gst-Plugins-Good",
+      "version": ">=1.24.9",
+      "options": []
     }
   ],
   "kernelDependencies": [],
