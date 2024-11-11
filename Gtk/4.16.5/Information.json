@@ -51,8 +51,8 @@
     },
     {
       "port": "MultimediaLibraries-Main",
-      "name": "Phonon-Backend-Gstreamer",
-      "version": ">=4.10.0",
+      "name": "Gst-Plugins-Bad",
+      "version": ">=1.24.9",
       "options": []
     }
   ],
