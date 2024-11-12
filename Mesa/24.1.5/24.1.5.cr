@@ -83,7 +83,7 @@ class Target < ISM::Software
                                     -Dgallium-drivers=\"#{galliumDrivers}\"         \
                                     -Dvulkan-drivers=\"#{vulkanDrivers}\"           \
                                     -Dvalgrind=disabled                             \
-                                    -Dintel-clc=system                              \
+                                    -Dintel-clc=auto                                \
                                     -Dinstall-intel-clc=#{option("Intel-Clc") ? "true" : "false"} \
                                     -Dlibunwind=disabled",
                         path:       mainWorkDirectoryPath,
