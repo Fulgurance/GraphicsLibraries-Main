@@ -86,7 +86,7 @@ class Target < ISM::Software
                                     -Dgallium-rusticl=true                                          \
                                     -Dllvm=enabled                                                  \
                                     -Drust_std=2021                                                 \
-                                    -Dintel-clc=system                                              \
+                                    -Dintel-clc=enabled                                             \
                                     -Dinstall-intel-clc=#{option("Intel-Clc") ? "true" : "false"}   \
                                     -Dlibunwind=disabled",
                         path:       mainWorkDirectoryPath,
