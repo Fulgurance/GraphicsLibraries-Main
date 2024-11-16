@@ -14,6 +14,10 @@ class Target < ISM::Software
                                     --buildtype=release                                                                 \
                                     -Dintrospection=#{option("Gobject-Introspection") ? "enabled" : "disabled"}         \
                                     -Dmedia-gstreamer=#{option("Gstreamer") ? "enabled" : "disabled"}                   \
+                                    -Dbuild-demos=false                                                                 \
+                                    -Dbuild-testsuite=false                                                             \
+                                    -Dbuild-examples=false                                                              \
+                                    -Dbuild-tests=false                                                                 \
                                     -Dvulkan=disabled",
                         path:       mainWorkDirectoryPath)
     end
