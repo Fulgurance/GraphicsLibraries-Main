@@ -211,7 +211,7 @@
     {
       "name": "Libclc",
       "description": "Enable libclc support for Intel iris gallium driver",
-      "active": false,
+      "active": true,
       "dependencies": [
         {
           "port": "BaseLibraries-Main",
