@@ -8,7 +8,10 @@ class Target < ISM::Software
     def configure
         super
 
-        runCmakeCommand(arguments:      "-B #{buildDirectoryPath}   \
+        runCmakeCommand(arguments:      "-DCMAKE_INSTALL_PREFIX=/usr    \
+                                        -DCMAKE_BUILD_TYPE=Release      \
+                                        -DBUILD_TESTING=OFF             \
+                                        -B #{buildDirectoryPath}        \
                                         -G Ninja",
                         path:           mainWorkDirectoryPath)
     end
