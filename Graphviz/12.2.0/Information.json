@@ -1,0 +1,23 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "Graphviz",
+  "version": "12.2.0",
+  "architectures": ["x86_64"],
+  "description": "Graph Visualization Tools",
+  "website": "https://gitlab.com/graphviz/graphviz",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "SystemBase-Main",
+      "name": "SystemBase",
+      "version": ">=0.2.0",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}
