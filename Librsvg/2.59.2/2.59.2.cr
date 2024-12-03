@@ -12,7 +12,7 @@ class Target < ISM::Software
                                     --prefix=/usr           \
                                     --buildtype=release",
                         path:       buildDirectoryPath,
-                        environment:    {"PATH" => "/usr/lib/llvm/#{softwareMajorVersion("@ProgrammingLanguages-Main:Llvm")}/bin:$PATH"})
+                        environment:    {"PATH" => "/usr/bin/python3.12:/usr/lib/llvm/#{softwareMajorVersion("@ProgrammingLanguages-Main:Llvm")}/bin:$PATH"})
     end
     
     def build
