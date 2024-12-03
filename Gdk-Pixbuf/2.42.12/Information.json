@@ -41,7 +41,7 @@
       "dependencies": [
         {
           "port": "GraphicsLibraries-Main",
-          "name": "Libsrvg",
+          "name": "Librsvg",
           "version": ">=2.56.3",
           "options": []
         }
