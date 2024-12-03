@@ -122,5 +122,5 @@
   "uniqueDependencies": [],
   "uniqueOptions": [],
   "selectedDependencies": [],
-  "allowCodependencies": []
+  "allowCodependencies": ["@GraphicsLibraries-Main:Librsvg"]
 }
