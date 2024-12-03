@@ -1,0 +1,47 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "Librsvg",
+  "version": "2.59.2",
+  "architectures": ["x86_64"],
+  "description": "Library to render SVG files using cairo as a rendering engine",
+  "website": "https://wiki.gnome.org/Projects/LibRsvg",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "Cairo",
+      "version": ">=1.17.6",
+      "options": []
+    },
+    {
+      "port": "ProgrammingTools-Main",
+      "name": "Cargo-C",
+      "version": ">=0.10.7",
+      "options": []
+    },
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "Gdk-Pixbuf",
+      "version": ">=2.42.12",
+      "options": []
+    },
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "Pango",
+      "version": ">=1.50.14",
+      "options": []
+    },
+    {
+      "port": "ProgrammingLanguages-Main",
+      "name": "Rust",
+      "version": ">=1.71.1",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}
