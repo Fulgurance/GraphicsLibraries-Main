@@ -37,7 +37,7 @@
     {
       "name": "Librsvg",
       "description": "Enable libsrvg support",
-      "active": false,
+      "active": true,
       "dependencies": [
         {
           "port": "GraphicsLibraries-Main",

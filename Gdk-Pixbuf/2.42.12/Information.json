@@ -30,14 +30,15 @@
       "name": "Shared-Mime-Info",
       "version": ">=2.2.0",
       "options": []
-    }
+    },
+
   ],
   "kernelDependencies": [],
   "options": [
     {
       "name": "Librsvg",
       "description": "Enable libsrvg support",
-      "active": false,
+      "active": true,
       "dependencies": [
         {
           "port": "GraphicsLibraries-Main",
