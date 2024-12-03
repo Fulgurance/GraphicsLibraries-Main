@@ -13,7 +13,7 @@ class Target < ISM::Software
                                     --buildtype=release     \
                                     -Dman=false",
                         path:       buildDirectoryPath,
-                        environment:    {"PATH" => "/usr/lib/llvm/#{softwareMajorVersion("@ProgrammingLanguages-Main:Llvm")}/bin:$PATH"}
+                        environment:    {"PATH" => "/usr/lib/llvm/#{softwareMajorVersion("@ProgrammingLanguages-Main:Llvm")}/bin:$PATH"})
     end
     
     def build
