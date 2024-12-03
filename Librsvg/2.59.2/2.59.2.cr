@@ -10,8 +10,7 @@ class Target < ISM::Software
 
         runMesonCommand(arguments:  "setup --reconfigure    \
                                     --prefix=/usr           \
-                                    --buildtype=release     \
-                                    -Dman=false",
+                                    --buildtype=release",
                         path:       buildDirectoryPath,
                         environment:    {"PATH" => "/usr/lib/llvm/#{softwareMajorVersion("@ProgrammingLanguages-Main:Llvm")}/bin:$PATH"})
     end
