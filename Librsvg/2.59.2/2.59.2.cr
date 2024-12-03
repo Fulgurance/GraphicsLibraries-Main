@@ -10,9 +10,9 @@ class Target < ISM::Software
 
         runMesonCommand(arguments:  "setup --reconfigure    \
                                     --prefix=/usr           \
-                                    --buildtype=release",
-                        path:       buildDirectoryPath,
-                        environment:    {"PATH" => "/usr/bin/python3.12:/usr/lib/llvm/#{softwareMajorVersion("@ProgrammingLanguages-Main:Llvm")}/bin:$PATH"})
+                                    --buildtype=release     \
+                                    -Dintrospection=#{option("Gobject-Introspection") ? "enabled" : "disabled"} ",
+                        path:       buildDirectoryPath)
     end
     
     def build
