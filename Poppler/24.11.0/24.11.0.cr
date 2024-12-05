@@ -8,12 +8,12 @@ class Target < ISM::Software
     def configure
         super
 
-        runCmakeCommand(arguments:  "-DCMAKE_BUILD_TYPE=Release                                                     \
-                                    -DCMAKE_INSTALL_PREFIX=/usr                                                     \
-                                    -DTESTDATADIR=$PWD/testfiles                                                    \
-                                    -DENABLE_LIBOPENJPEG:STRING=#{option("Openjpeg") ? "openjpeg2" : "none"}        \
-                                    -DENABLE_UNSTABLE_API_ABI_HEADERS=ON                                            \
-                                    -DENABLE_GOBJECT_INTROSPECTION=#{option("Gobject-Introspection") ? "ON" : "OFF"}\
+        runCmakeCommand(arguments:  "-DCMAKE_BUILD_TYPE=Release                                                         \
+                                    -DCMAKE_INSTALL_PREFIX=/usr                                                         \
+                                    -DTESTDATADIR=$PWD/testfiles                                                        \
+                                    -DENABLE_LIBOPENJPEG:STRING=#{option("Openjpeg") ? "openjpeg2" : "none"}            \
+                                    -DENABLE_UNSTABLE_API_ABI_HEADERS=ON                                                \
+                                    -DENABLE_GOBJECT_INTROSPECTION=#{option("Gobject-Introspection") ? "ON" : "OFF"}    \
                                     ..",
                         path:       buildDirectoryPath)
     end
