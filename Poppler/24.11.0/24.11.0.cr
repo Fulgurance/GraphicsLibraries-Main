@@ -14,6 +14,7 @@ class Target < ISM::Software
                                     -DENABLE_LIBOPENJPEG:STRING=#{option("Openjpeg") ? "openjpeg2" : "none"}            \
                                     -DENABLE_UNSTABLE_API_ABI_HEADERS=ON                                                \
                                     -DENABLE_GOBJECT_INTROSPECTION=#{option("Gobject-Introspection") ? "ON" : "OFF"}    \
+                                    -DENABLE_QT6=ON                                                                     \
                                     ..",
                         path:       buildDirectoryPath)
     end
