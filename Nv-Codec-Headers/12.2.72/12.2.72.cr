@@ -3,14 +3,14 @@ class Target < ISM::Software
     def build
         super
 
-        makeSource( arguments:  "PREFIX=/usr -C nv-codec-headers",
+        makeSource( arguments:  "PREFIX=/usr",
                     path:       buildDirectoryPath)
     end
     
     def prepareInstallation
         super
 
-        makeSource( arguments:  "DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath} -C nv-codec-headers install",
+        makeSource( arguments:  "DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath} install",
                     path:       buildDirectoryPath)
     end
 
