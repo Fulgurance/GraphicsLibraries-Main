@@ -73,10 +73,6 @@ class Target < ISM::Software
         galliumDrivers = getSelectedGalliumDrivers
         vulkanDrivers = getSelectedVulkanDrivers
 
-        # -Dgallium-rusticl=true                                          \
-        # -Dllvm=enabled                                                  \
-        # -Drust_std=2021                                                 \
-
         runMesonCommand(arguments:  "setup                                          \
                                     --reconfigure                                   \
                                     #{@buildDirectoryNames["MainBuild"]}            \
@@ -89,6 +85,9 @@ class Target < ISM::Software
                                     -Dvalgrind=disabled                             \
                                     -Dintel-clc=enabled                                             \
                                     -Dinstall-intel-clc=#{option("Intel-Clc") ? "true" : "false"}   \
+                                    -Dgallium-rusticl=true                                          \
+                                    -Dllvm=enabled                                                  \
+                                    -Drust_std=2021                                                 \
                                     -Dlibunwind=disabled",
                         path:       mainWorkDirectoryPath,
                         environment:    {   "PATH" => "/usr/lib/llvm/#{softwareMajorVersion("@ProgrammingLanguages-Main:Llvm")}/bin:$PATH"})
