@@ -145,8 +145,8 @@
       "dependencies": [
         {
           "port": "ProgrammingTools-Main",
-          "name": "Cbindgen",
-          "version": ">=0.24.3",
+          "name": "Rust-Bindgen",
+          "version": ">=0.71.1",
           "options": []
         }
       ],
