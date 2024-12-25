@@ -1,0 +1,23 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "Nv-Codec-Headers",
+  "version": "12.2.72",
+  "architectures": ["x86_64"],
+  "description": "FFmpeg nvidia headers",
+  "website": "https://git.videolan.org/?p=ffmpeg/nv-codec-headers.git",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "SystemBase-Main",
+      "name": "SystemBase",
+      "version": ">=0.2.0",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}
