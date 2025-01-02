@@ -1,0 +1,23 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "Zxing-Cpp",
+  "version": "2.3.0",
+  "architectures": ["x86_64"],
+  "description": "C++ port of ZXing",
+  "website": "https://github.com/zxing-cpp/zxing-cpp",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "ProgrammingTools-Main",
+      "name": "Cmake",
+      "version": ">=3.27.2",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}
