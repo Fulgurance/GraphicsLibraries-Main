@@ -85,7 +85,7 @@ class Target < ISM::Software
                                     -Dvalgrind=disabled                             \
                                     -Dintel-clc=enabled                                             \
                                     -Dinstall-intel-clc=#{option("Intel-Clc") ? "true" : "false"}   \
-                                    -Dgallium-rusticl=true                                          \
+                                    -Dgallium-rusticl=false                                          \
                                     -Dllvm=enabled                                                  \
                                     -Drust_std=2021                                                 \
                                     -Dlibunwind=disabled",
