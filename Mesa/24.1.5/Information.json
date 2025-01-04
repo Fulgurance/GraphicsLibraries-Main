@@ -36,6 +36,12 @@
       "name": "Ply",
       "version": ">=3.11.0",
       "options": []
+    },
+    {
+      "port": "BaseLibraries-Main",
+      "name": "Opencl-Icd-Loader",
+      "version": ">=0.0.0-20241024",
+      "options": []
     }
   ],
   "kernelDependencies": [],
