@@ -12,6 +12,12 @@
       "name": "FreeType",
       "version": ">=2.13.1",
       "options": []
+    },
+    {
+      "port": "Utilities-Main",
+      "name": "Gperf",
+      "version": ">=3.1.0",
+      "options": []
     }
   ],
   "kernelDependencies": [],
