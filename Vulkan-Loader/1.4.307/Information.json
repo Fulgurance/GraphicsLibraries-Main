@@ -1,0 +1,35 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "Vulkan-Loader",
+  "version": "1.4.307",
+  "architectures": ["x86_64"],
+  "description": "Vulkan Loader",
+  "website": "https://github.com/KhronosGroup/Vulkan-Loader",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "Vulkan-Headers",
+      "version": ">=1.4.307",
+      "options": []
+    },
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "Wayland",
+      "version": ">=1.22.0",
+      "options": []
+    },
+    {
+      "port": "XorgBase-Main",
+      "name": "Xorg-Libraries",
+      "version": ">=21.1.8",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}
