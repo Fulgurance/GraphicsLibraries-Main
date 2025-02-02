@@ -127,28 +127,56 @@
       "name": "Gallium-Driver-Zink",
       "description": "Enable gallium support for driver zink",
       "active": true,
-      "dependencies": [],
+      "dependencies": [
+        {
+          "port": "GraphicsLibraries-Main",
+          "name": "Vulkan-Loader",
+          "version": ">=1.4.307",
+          "options": []
+        }
+      ],
       "kernelDependencies": []
     },
     {
       "name": "Vulkan-Driver-Amd",
       "description": "Enable vulkan support for driver amd",
       "active": false,
-      "dependencies": [],
+      "dependencies": [
+        {
+          "port": "GraphicsLibraries-Main",
+          "name": "Vulkan-Loader",
+          "version": ">=1.4.307",
+          "options": []
+        }
+      ],
       "kernelDependencies": []
     },
     {
       "name": "Vulkan-Driver-Intel",
       "description": "Enable vulkan support for driver intel",
       "active": false,
-      "dependencies": [],
+      "dependencies": [
+        {
+          "port": "GraphicsLibraries-Main",
+          "name": "Vulkan-Loader",
+          "version": ">=1.4.307",
+          "options": []
+        }
+      ],
       "kernelDependencies": []
     },
     {
       "name": "Vulkan-Driver-Intel-Hasvk",
       "description": "Enable vulkan support for driver intel hasvk",
       "active": false,
-      "dependencies": [],
+      "dependencies": [
+        {
+          "port": "GraphicsLibraries-Main",
+          "name": "Vulkan-Loader",
+          "version": ">=1.4.307",
+          "options": []
+        }
+      ],
       "kernelDependencies": []
     },
     {
@@ -169,7 +197,14 @@
       "name": "Vulkan-Driver-Swrast",
       "description": "Enable vulkan support for driver swrast",
       "active": false,
-      "dependencies": [],
+      "dependencies": [
+        {
+          "port": "GraphicsLibraries-Main",
+          "name": "Vulkan-Loader",
+          "version": ">=1.4.307",
+          "options": []
+        }
+      ],
       "kernelDependencies": []
     },
     {
