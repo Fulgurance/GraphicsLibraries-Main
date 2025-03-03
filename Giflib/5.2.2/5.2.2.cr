@@ -17,17 +17,6 @@ class Target < ISM::Software
 
         deleteAllFilesRecursivelyFinishing( path:       "#{buildDirectoryPath}/doc",
                                             extensions: ["1","xml"])
-
-        makeDirectory("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/share/doc/")
-
-        copyDirectory(  "#{buildDirectoryPath}/doc",
-                        "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/share/doc/#{versionName}")
-    end
-
-    def install
-        super
-
-        runChmodCommand("0755 /usr/share/doc/#{versionName}")
     end
 
 end
