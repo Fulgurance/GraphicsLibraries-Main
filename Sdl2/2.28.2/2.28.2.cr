@@ -22,10 +22,4 @@ class Target < ISM::Software
         deleteFile("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}/usr/lib/libSDL2*.a")
     end
 
-    def install
-        super
-
-        runLdconfigCommand
-    end
-
 end
