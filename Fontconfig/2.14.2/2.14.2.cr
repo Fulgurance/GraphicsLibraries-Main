@@ -7,7 +7,7 @@ class Target < ISM::Software
                                     --sysconfdir=/etc       \
                                     --localstatedir=/var    \
                                     --disable-docs          \
-                                    --docdir=/usr/share/doc/#{versionName}",
+                                    --disable-doc",
                         path:       buildDirectoryPath)
     end
     

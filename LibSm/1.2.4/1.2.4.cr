@@ -7,7 +7,7 @@ class Target < ISM::Software
                                     --sysconfdir=/etc       \
                                     --localstatedir=/var    \
                                     --disable-static        \
-                                    --docdir=/usr/share/doc/libSM-1.2.4",
+                                    --disable-doc",
                         path:       buildDirectoryPath)
     end
     
