@@ -36,7 +36,7 @@ class Target < ISM::Software
                     path:       buildDirectoryPath)
     end
 
-    def install
+    def deploy
         super
 
         runGtkQueryImmodules2Command("--update-cache")

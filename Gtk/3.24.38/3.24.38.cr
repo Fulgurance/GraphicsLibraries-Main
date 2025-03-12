@@ -33,7 +33,7 @@ class Target < ISM::Software
                         environment:    {"DESTDIR" => "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}"})
     end
 
-    def install
+    def deploy
         super
 
         runGtkQueryImmodules3Command("--update-cache")
