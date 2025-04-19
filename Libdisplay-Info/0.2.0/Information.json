@@ -8,6 +8,12 @@
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "ProgrammingTools-Main",
+      "name": "Meson",
+      "version": ">=1.6.0",
+      "options": []
+    },
+    {
       "port": "BaseLibraries-Main",
       "name": "Hwdata",
       "version": ">=0.389.0",
