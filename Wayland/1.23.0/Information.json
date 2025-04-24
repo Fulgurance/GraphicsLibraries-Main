@@ -12,6 +12,12 @@
       "name": "Libxml2",
       "version": ">=2.10.4",
       "options": []
+    },
+    {
+      "port": "ProgrammingTools-Main",
+      "name": "Ninja",
+      "version": ">=1.12.0",
+      "options": []
     }
   ],
   "kernelDependencies": [],
