@@ -57,15 +57,9 @@
     },
     {
       "port": "MultimediaLibraries-Main",
-      "name": "Gst-Plugins-Bad",
-      "version": ">=1.24.9",
-      "options": []
-    },
-    {
-      "port": "MultimediaLibraries-Main",
-      "name": "Gst-Plugins-Good",
-      "version": ">=1.24.9",
-      "options": []
+      "name": "Gstreamer",
+      "version": ">=1.26.1",
+      "options": ["Base","Good","Bad","Ugly"]
     }
   ],
   "kernelDependencies": [],
@@ -79,20 +73,6 @@
           "port": "IconThemes-Main",
           "name": "Adwaita-Icon-Theme",
           "version": ">=44.0.0",
-          "options": []
-        }
-      ],
-      "kernelDependencies": []
-    },
-    {
-      "name": "Gstreamer",
-      "description": "Enable gstreamer support",
-      "active": false,
-      "dependencies": [
-        {
-          "port": "MultimediaLibraries-Main",
-          "name": "Gstreamer",
-          "version": ">=1.24.9",
           "options": []
         }
       ],
