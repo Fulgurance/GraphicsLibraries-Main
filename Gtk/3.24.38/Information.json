@@ -29,7 +29,7 @@
       "port": "GraphicsLibraries-Main",
       "name": "Pango",
       "version": ">=1.50.14",
-      "options": ["Cairo","Gobject-Introspection"]
+      "options": ["Gobject-Introspection"]
     },
     {
       "port": "GraphicsLibraries-Main",
