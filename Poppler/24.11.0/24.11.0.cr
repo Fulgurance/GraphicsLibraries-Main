@@ -15,6 +15,7 @@ class Target < ISM::Software
                                     -DENABLE_UNSTABLE_API_ABI_HEADERS=ON                                                \
                                     -DENABLE_GOBJECT_INTROSPECTION=#{option("Gobject-Introspection") ? "ON" : "OFF"}    \
                                     -DENABLE_QT6=ON                                                                     \
+                                    -DENABLE_GPGME:BOOL=#{option("Gpgme") ? "ON" : "OFF"}                               \
                                     ..",
                         path:       buildDirectoryPath)
     end
