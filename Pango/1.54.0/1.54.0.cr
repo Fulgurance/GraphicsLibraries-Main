@@ -16,6 +16,7 @@ class Target < ISM::Software
                                     --wrap-mode=nofallback                                                          \
                                     -Dbuild-examples=false                                                          \
                                     -Dcairo=#{option("Cairo") ? "enabled" : "disabled"}                             \
+                                    -Dlibthai=#{option("Libthai") ? "enabled" : "disabled"}                             \
                                     -Dintrospection=#{option("Gobject-Instrospection") ? "enabled" : "disabled"}",
                         path:       mainWorkDirectoryPath)
     end
