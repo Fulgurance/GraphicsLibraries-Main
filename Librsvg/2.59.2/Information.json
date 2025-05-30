@@ -8,12 +8,6 @@
   "installedFiles": [],
   "dependencies": [
     {
-      "port": "GraphicsLibraries-Main",
-      "name": "Cairo",
-      "version": ">=1.17.6",
-      "options": []
-    },
-    {
       "port": "ProgrammingTools-Main",
       "name": "Cargo-C",
       "version": ">=0.10.7",
@@ -29,7 +23,7 @@
       "port": "GraphicsLibraries-Main",
       "name": "Pango",
       "version": ">=1.50.14",
-      "options": []
+      "options": ["Cairo"]
     },
     {
       "port": "ProgrammingLanguages-Main",
