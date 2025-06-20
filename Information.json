@@ -1,6 +1,6 @@
 {
-  "name": "GraphicLibraries-Main",
-  "url": "https://github.com/Fulgurance/GraphicLibraries-Main",
+  "name": "GraphicsLibraries-Main",
+  "url": "https://github.com/Fulgurance/GraphicsLibraries-Main",
   "publicKeyUrl": "http://www.slashlinux.io/keyring/Fulgurance.key",
   "type": "Git",
   "description": "Port that contain all libraries used to display graphics"
