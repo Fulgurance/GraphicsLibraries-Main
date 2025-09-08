@@ -18,7 +18,10 @@ class Target < ISM::Software
     def build
         super
 
-        runNinjaCommand(path: buildDirectoryPath)
+        usingGlibc = component("C-Library").uniqueDependencyIsEnabled("Glibc")
+
+        runNinjaCommand(path: buildDirectoryPath,
+                        environment:    {"RUSTFLAGS" => (usingGlibc ? "" : "-C target-feature=-crt-static")})
     end
     
     def prepareInstallation
