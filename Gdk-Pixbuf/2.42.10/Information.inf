@@ -1,0 +1,65 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    Gdk-Pixbuf
+VERSION
+    2.42.10
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    The Accessibility Toolkit
+WEBSITE
+    https://github.com/GNOME/gdk-pixbuf
+DEPENDENCIES
+        @BaseLibraries-Main:Glib>=2.76.4
+        @GraphicsLibraries-Main:Libjpeg-Turbo>=3.0.0
+        @GraphicsLibraries-Main:Libpng>=1.6.40
+        @BaseLibraries-Main:Shared-Mime-Info>=2.2.0
+KERNELDEPENDENCIES
+OPTIONS
+    name: Librsvg
+    description: Enable libsrvg support
+    active: true
+    dependencies:
+        @GraphicsLibraries-Main:Librsvg>=2.56.3
+    kernelDependencies:
+
+    name: Libtiff
+    description: Enable libtiff support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Libtiff>=4.5.1
+    kernelDependencies:
+
+    name: Gobject-Introspection
+    description: Enable gobject-introspection support
+    active: false
+    dependencies:
+        @BaseLibraries-Main:Gobject-Introspection>=1.76.1
+    kernelDependencies:
+
+    name: Gdk-Pixbuf-Xlib
+    description: Enable gdk-pixbuf-xlib support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Gdk-Pixbuf-Xlib>=2.40.2
+    kernelDependencies:
+
+    name: Libavif
+    description: Enable libavif support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Libavif>=0.11.1
+    kernelDependencies:
+
+    name: Webp-Pixbuf-Loader
+    description: Enable webp-pixbuf-loader support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Webp-Pixbuf-Loader>=0.2.4
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES
+    @GraphicsLibraries-Main:Librsvg

@@ -1,0 +1,19 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    Libdrm
+VERSION
+    2.4.115
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Direct Rendering Manager headers and kernel modules
+WEBSITE
+    https://dri.freedesktop.org/libdrm
+DEPENDENCIES
+        @XorgBase-Main:Xorg-Libraries>=21.1.8
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

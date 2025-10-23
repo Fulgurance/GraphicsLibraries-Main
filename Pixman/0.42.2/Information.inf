@@ -1,0 +1,19 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    Pixman
+VERSION
+    0.42.2
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    The pixel-manipulation library for X and cairo
+WEBSITE
+    https://www.cairographics.org
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

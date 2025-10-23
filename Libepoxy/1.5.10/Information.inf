@@ -1,0 +1,19 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    Libepoxy
+VERSION
+    1.5.10
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Library for handling OpenGL function pointer management for you
+WEBSITE
+    https://github.com/anholt/libepoxy
+DEPENDENCIES
+        @GraphicsLibraries-Main:Mesa>=23.1.6
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

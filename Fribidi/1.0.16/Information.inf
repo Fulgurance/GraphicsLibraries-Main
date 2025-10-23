@@ -1,0 +1,19 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    Fribidi
+VERSION
+    1.0.16
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Free Implementation of the Unicode Bidirectional Algorithm
+WEBSITE
+    https://github.com/fribidi/fribidi
+DEPENDENCIES
+        @ProgrammingTools-Main:Meson>=1.6.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

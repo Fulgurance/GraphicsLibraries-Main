@@ -1,0 +1,28 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    At-Spi2-Core
+VERSION
+    2.48.3
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Base DBus XML interfaces for accessibility, the accessibility registry daemon, and atspi library
+WEBSITE
+    https://gitlab.gnome.org/GNOME/at-spi2-core
+DEPENDENCIES
+        @Utilities-Main:Dbus>=1.14.8
+        @BaseLibraries-Main:Glib>=2.76.4
+        @XorgBase-Main:Xorg-Libraries>=21.1.8
+KERNELDEPENDENCIES
+OPTIONS
+    name: Gobject-Introspection
+    description: Enable gobject-introspection support
+    active: false
+    dependencies:
+        @BaseLibraries-Main:Gobject-Introspection>=1.76.1
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

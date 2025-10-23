@@ -1,0 +1,19 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    Glslang
+VERSION
+    14.2.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Khronos-reference front end for GLSL/ESSL, partial front end for HLSL, and a SPIR-V generator
+WEBSITE
+    https://github.com/KhronosGroup/glslang
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

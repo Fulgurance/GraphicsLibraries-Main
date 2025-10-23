@@ -1,0 +1,118 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    Poppler
+VERSION
+    24.11.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    PDF rendering library based on the xpdf-3.0 code base
+WEBSITE
+    https://poppler.freedesktop.org/
+DEPENDENCIES
+        @ProgrammingTools-Main:Cmake>=3.27.2
+        @GraphicsLibraries-Main:Fontconfig>=2.14.2
+KERNELDEPENDENCIES
+OPTIONS
+    name: Boost
+    description: Enable boost support
+    active: false
+    dependencies:
+        @BaseLibraries-Main:Boost>=1.83.0
+    kernelDependencies:
+
+    name: Cairo
+    description: Enable cairo support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Cairo>=1.17.6
+    kernelDependencies:
+
+    name: Lcms2
+    description: Enable lcms2 support
+    active: false
+    dependencies:
+        @Utilities-Main:Lcms2>=2.14.0
+    kernelDependencies:
+
+    name: Libjpeg-Turbo
+    description: Enable libjpeg-turbo support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Libjpeg-Turbo>=3.0.0
+    kernelDependencies:
+
+    name: Libpng
+    description: Enable libpng support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Libpng>=1.6.40
+    kernelDependencies:
+
+    name: Nss
+    description: Enable nss support
+    active: false
+    dependencies:
+        @SecurityLibraries-Main:Nss>=3.92.0
+    kernelDependencies:
+
+    name: Openjpeg
+    description: Enable openjpeg support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Openjpeg>=2.5.0
+    kernelDependencies:
+
+    name: Curl
+    description: Enable curl support
+    active: false
+    dependencies:
+        @NetworkingLibraries-Main:Curl>=8.2.1
+    kernelDependencies:
+
+    name: Gdk-Pixbuf
+    description: Enable gdk-pixbuf support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Gdk-Pixbuf>=2.42.10
+    kernelDependencies:
+
+    name: Gpgme
+    description: Enable gpgme support
+    active: false
+    dependencies:
+        @SecurityLibraries-Main:Gpgme>=1.21.0
+    kernelDependencies:
+
+    name: Gtk
+    description: Enable gtk+ support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Gtk>=3.24.38
+    kernelDependencies:
+
+    name: Libtiff
+    description: Enable libtiff support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Libtiff>=4.5.1
+    kernelDependencies:
+
+    name: Qtbase
+    description: Enable qtbase support
+    active: false
+    dependencies:
+        @QtLibraries-Main:Qtbase>=5.0.0
+    kernelDependencies:
+
+    name: Gobject-Introspection
+    description: Enable gobject-introspection support
+    active: false
+    dependencies:
+        @BaseLibraries-Main:Gobject-Introspection>=1.76.1
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

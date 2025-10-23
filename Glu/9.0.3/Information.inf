@@ -1,0 +1,19 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    Glu
+VERSION
+    9.0.3
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Mesa OpenGL utility library
+WEBSITE
+    https://gitlab.freedesktop.org/mesa/glu
+DEPENDENCIES
+        @GraphicsLibraries-Main:Mesa>=23.1.6
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

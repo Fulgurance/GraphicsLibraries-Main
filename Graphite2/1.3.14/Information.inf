@@ -1,0 +1,19 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    Graphite2
+VERSION
+    1.3.14
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Smart font system developed specifically to handle the complexities of languages
+WEBSITE
+    https://github.com/silnrsi/graphite
+DEPENDENCIES
+        @ProgrammingTools-Main:Cmake>=3.21.2
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

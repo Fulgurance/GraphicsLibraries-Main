@@ -1,0 +1,19 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    Gsettings-Desktop-Schemas
+VERSION
+    44.0.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Collection of GSettings schemas for settings shared by various components of a desktop
+WEBSITE
+    https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas
+DEPENDENCIES
+        @BaseLibraries-Main:Gobject-Introspection>=1.76.1
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

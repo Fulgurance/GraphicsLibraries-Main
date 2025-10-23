@@ -1,0 +1,19 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    Vulkan-Headers
+VERSION
+    1.4.307
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Vulkan header files and API registry
+WEBSITE
+    https://github.com/KhronosGroup/Vulkan-Headers
+DEPENDENCIES
+        @ProgrammingTools-Main:Cmake>=3.27.2
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

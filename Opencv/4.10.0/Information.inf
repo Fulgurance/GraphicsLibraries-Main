@@ -1,0 +1,19 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    Opencv
+VERSION
+    4.10.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Open Source Computer Vision Library
+WEBSITE
+    https://github.com/opencv/opencv
+DEPENDENCIES
+        @ProgrammingTools-Main:Cmake>=3.27.2
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

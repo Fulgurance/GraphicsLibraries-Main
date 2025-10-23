@@ -1,0 +1,20 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    At-Spi2-Atk
+VERSION
+    2.38.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Assistive Technology Service Provider Interface
+WEBSITE
+    https://gitlab.gnome.org/GNOME/at-spi2-atk
+DEPENDENCIES
+        @GraphicsLibraries-Main:At-Spi2-Core>=2.40.3
+        @GraphicsLibraries-Main:Atk>=2.36.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

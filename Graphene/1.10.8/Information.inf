@@ -1,0 +1,26 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    Graphene
+VERSION
+    1.10.8
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    A thin layer of graphic data types
+WEBSITE
+    https://github.com/ebassi/graphene
+DEPENDENCIES
+        @BaseLibraries-Main:Glib>=2.76.4
+KERNELDEPENDENCIES
+OPTIONS
+    name: Gobject-Introspection
+    description: Enable Gobject-Introspection support required for Gnome
+    active: false
+    dependencies:
+        @BaseLibraries-Main:Gobject-Introspection>=1.76.1
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

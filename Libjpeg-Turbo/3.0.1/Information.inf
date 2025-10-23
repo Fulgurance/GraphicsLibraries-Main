@@ -1,0 +1,19 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    Libjpeg-Turbo
+VERSION
+    3.0.1
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+     JPEG image codec that uses SIMD instructions to accelerate baseline JPEG compression and decompression
+WEBSITE
+    https://sourceforge.net/projects/libjpeg-turbo/
+DEPENDENCIES
+        @ProgrammingTools-Main:Cmake>=3.27.2
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

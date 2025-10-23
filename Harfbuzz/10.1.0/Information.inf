@@ -1,0 +1,49 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    Harfbuzz
+VERSION
+    10.1.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    HarfBuzz text shaping engine
+WEBSITE
+    https://github.com/harfbuzz/harfbuzz
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+        @GraphicsLibraries-Main:FreeType>=2.13.1
+KERNELDEPENDENCIES
+OPTIONS
+    name: Gobject-Introspection
+    description: Enable gobject-introspection support
+    active: false
+    dependencies:
+        @BaseLibraries-Main:Gobject-Introspection>=1.76.1
+    kernelDependencies:
+
+    name: Glib
+    description: Enable glib support
+    active: false
+    dependencies:
+        @BaseLibraries-Main:Glib>=2.76.4
+    kernelDependencies:
+
+    name: Graphite2
+    description: Enable graphite2 support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Graphite2>=1.3.14
+    kernelDependencies:
+
+    name: Icu
+    description: Enable Icu support
+    active: false
+    dependencies:
+        @BaseLibraries-Main:Icu>=73.2.0
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES
+    @GraphicsLibraries-Main:FreeType

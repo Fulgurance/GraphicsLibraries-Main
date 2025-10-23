@@ -1,0 +1,55 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    FreeType
+VERSION
+    2.13.3
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Freely available software library to render fonts written in C
+WEBSITE
+    https://freetype.org/
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+KERNELDEPENDENCIES
+OPTIONS
+    name: Harfbuzz
+    description: Enable harfbuzz support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Harfbuzz>=8.1.1
+    kernelDependencies:
+
+    name: Libpng
+    description: Enable libpng support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Libpng>=1.6.40
+    kernelDependencies:
+
+    name: Which
+    description: Enable which support
+    active: false
+    dependencies:
+        @Utilities-Main:Which>=2.21.0
+    kernelDependencies:
+
+    name: Brotli
+    description: Enable brotli support
+    active: false
+    dependencies:
+        @BaseLibraries-Main:Brotli>=1.0.9
+    kernelDependencies:
+
+    name: Librsvg
+    description: Enable libsrvg support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Librsvg>=2.56.3
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES
+    @GraphicsLibraries-Main:Harfbuzz

@@ -1,0 +1,19 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    Libglvnd
+VERSION
+    1.7.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    The GL Vendor-Neutral Dispatch library
+WEBSITE
+    https://gitlab.freedesktop.org/glvnd/libglvnd/
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

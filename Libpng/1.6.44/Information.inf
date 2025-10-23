@@ -1,0 +1,19 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    Libpng
+VERSION
+    1.6.44
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Reference library for supporting the Portable Network Graphics format
+WEBSITE
+    https://downloads.sourceforge.net/libpng
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

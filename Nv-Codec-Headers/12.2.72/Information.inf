@@ -1,0 +1,19 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    Nv-Codec-Headers
+VERSION
+    12.2.72
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    FFmpeg nvidia headers
+WEBSITE
+    https://git.videolan.org/?p=ffmpeg/nv-codec-headers.git
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

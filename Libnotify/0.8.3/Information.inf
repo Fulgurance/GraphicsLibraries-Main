@@ -1,0 +1,26 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    Libnotify
+VERSION
+    0.8.3
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Send desktop notifications
+WEBSITE
+    https://github.com/GNOME/libnotify
+DEPENDENCIES
+        @GraphicsLibraries-Main:Gtk>=3.24.38
+KERNELDEPENDENCIES
+OPTIONS
+    name: Gobject-Introspection
+    description: Enable gobject-introspection support
+    active: false
+    dependencies:
+        @BaseLibraries-Main:Gobject-Introspection>=1.76.1
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

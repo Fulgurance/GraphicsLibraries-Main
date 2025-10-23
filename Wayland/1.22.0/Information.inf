@@ -1,0 +1,19 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    Wayland
+VERSION
+    1.22.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Replacement for the X11 window system protocol and architecture
+WEBSITE
+    https://wayland.freedesktop.org
+DEPENDENCIES
+        @BaseLibraries-Main:Libxml2>=2.10.4
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

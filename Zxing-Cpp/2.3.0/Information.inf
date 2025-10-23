@@ -1,0 +1,19 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    Zxing-Cpp
+VERSION
+    2.3.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    C++ port of ZXing
+WEBSITE
+    https://github.com/zxing-cpp/zxing-cpp
+DEPENDENCIES
+        @ProgrammingTools-Main:Cmake>=3.27.2
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

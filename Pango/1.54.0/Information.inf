@@ -1,0 +1,44 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    Pango
+VERSION
+    1.54.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Library for laying out and rendering of text with an emphasis on internationalization
+WEBSITE
+    https://gitlab.gnome.org/GNOME/pango/
+DEPENDENCIES
+        @GraphicsLibraries-Main:Fontconfig>=2.14.2
+        @GraphicsLibraries-Main:FreeType>=2.13.1(Harfbuzz)
+        @GraphicsLibraries-Main:Harfbuzz>=8.1.1(Glib)
+        @GraphicsLibraries-Main:Fribidi>=1.0.13
+        @BaseLibraries-Main:Glib>=2.76.4
+KERNELDEPENDENCIES
+OPTIONS
+    name: Cairo
+    description: Enable cairo support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Cairo>=1.17.6
+    kernelDependencies:
+
+    name: Gobject-Introspection
+    description: Enable Gobject-Introspection support required for Gnome
+    active: false
+    dependencies:
+        @BaseLibraries-Main:Gobject-Introspection>=1.76.1
+    kernelDependencies:
+
+    name: Xorg-Libraries
+    description: Enable xorg libraries support
+    active: false
+    dependencies:
+        @XorgBase-Main:Xorg-Libraries>=21.1.8
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

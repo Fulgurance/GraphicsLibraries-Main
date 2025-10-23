@@ -1,0 +1,19 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    WxWidgets
+VERSION
+    3.2.6
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Cross-Platform C++ GUI Library
+WEBSITE
+    https://github.com/wxWidgets/wxWidgets
+DEPENDENCIES
+        @ProgrammingTools-Main:Cmake>=3.27.2
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

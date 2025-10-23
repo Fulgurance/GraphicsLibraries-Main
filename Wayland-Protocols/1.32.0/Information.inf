@@ -1,0 +1,19 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    Wayland-Protocols
+VERSION
+    1.32.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Display server protocols for Wayland
+WEBSITE
+    https://wayland.freedesktop.org
+DEPENDENCIES
+        @GraphicsLibraries-Main:Wayland>=1.22.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

@@ -1,0 +1,91 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    Mesa
+VERSION
+    23.1.6
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Open source implementations of OpenGL, OpenGL ES, Vulkan, OpenCL, and more
+WEBSITE
+    https://mesa.freedesktop.org
+DEPENDENCIES
+        @XorgBase-Main:Xorg-Libraries>=21.1.8
+        @GraphicsLibraries-Main:Libdrm>=2.4.115
+        @BaseLibraries-Main:Mako>=1.2.4
+KERNELDEPENDENCIES
+OPTIONS
+    name: Libva
+    description: Enable libva support for VA-API support for gallium drivers
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Libva>=2.19.0
+    kernelDependencies:
+
+    name: Libvdpau
+    description: Enable libvdpau support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Libvdpau>=1.5.0
+    kernelDependencies:
+
+    name: Libelf
+    description: Enable libelf support for for gallium driver radeonsi
+    active: true
+    dependencies:
+        @BaseLibraries-Main:Libelf>=0.189.0
+    kernelDependencies:
+
+    name: Llvm
+    description: Enable llvm support for Gallium3D, nouveau, r300 and radeon drivers
+    active: true
+    dependencies:
+        @ProgrammingLanguages-Main:Llvm>=16.0.5
+    kernelDependencies:
+
+    name: Wayland-Protocols
+    description: Enable wayland-protocols support
+    active: true
+    dependencies:
+        @GraphicsLibraries-Main:Wayland-Protocols>=1.32.0
+    kernelDependencies:
+
+    name: Libgcrypt
+    description: Enable libgcrypt support
+    active: false
+    dependencies:
+        @SecurityLibraries-Main:Libgcrypt>=1.10.2
+    kernelDependencies:
+
+    name: Libunwind
+    description: Enable libunwind support
+    active: false
+    dependencies:
+        @BaseLibraries-Main:Libunwind>=1.6.2
+    kernelDependencies:
+
+    name: Lm-Sensors
+    description: Enable lm-sensors support
+    active: false
+    dependencies:
+        @Utilities-Main:Lm-Sensors>=3.6.0
+    kernelDependencies:
+
+    name: Nettle
+    description: Enable nettle support
+    active: false
+    dependencies:
+        @SecurityLibraries-Main:Nettle>=3.9.1
+    kernelDependencies:
+
+    name: Valgrind
+    description: Enable valgrind support
+    active: false
+    dependencies:
+        @Utilities-Main:Valgrind>=3.21.0
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

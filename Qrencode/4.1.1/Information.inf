@@ -1,0 +1,19 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    Qrencode
+VERSION
+    4.1.1
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Fast and compact library for encoding data in a QR Code symbol
+WEBSITE
+    https://fukuchi.org/works/qrencode/
+DEPENDENCIES
+        @GraphicsLibraries-Main:Libpng>=1.6.37
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

@@ -1,0 +1,19 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    Giflib
+VERSION
+    5.2.1
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Library for reading and writing gif images
+WEBSITE
+    https://sourceforge.net/projects/giflib/
+DEPENDENCIES
+        @Xml-Main:Xmlto>=0.0.28
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES
