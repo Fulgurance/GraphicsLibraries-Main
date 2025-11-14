@@ -1,17 +1,17 @@
 PORT
     GraphicsLibraries-Main
 NAME
-    Qrencode
+    Vulkan-Headers
 VERSION
-    4.1.1
+    1.4.333
 ARCHITECTURES
     x86_64
 DESCRIPTION
-    Fast and compact library for encoding data in a QR Code symbol
+    Vulkan header files and API registry
 WEBSITE
-    https://github.com/fukuchi/libqrencode
+    https://github.com/KhronosGroup/Vulkan-Headers
 DEPENDENCIES
-        @GraphicsLibraries-Main:Libpng>=1.6.37
+        @ProgrammingTools-Main:Cmake>=3.27.2
 KERNELDEPENDENCIES
 OPTIONS
 UNIQUEDEPENDENCIES

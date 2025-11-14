@@ -1,17 +1,17 @@
 PORT
     GraphicsLibraries-Main
 NAME
-    Qrencode
+    Graphviz
 VERSION
-    4.1.1
+    14.0.2
 ARCHITECTURES
     x86_64
 DESCRIPTION
-    Fast and compact library for encoding data in a QR Code symbol
+    Graph Visualization Tools
 WEBSITE
-    https://github.com/fukuchi/libqrencode
+    https://gitlab.com/graphviz/graphviz
 DEPENDENCIES
-        @GraphicsLibraries-Main:Libpng>=1.6.37
+        @ProgrammingTools-Main:Cmake>=3.27.2
 KERNELDEPENDENCIES
 OPTIONS
 UNIQUEDEPENDENCIES

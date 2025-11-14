@@ -1,0 +1,41 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    Cairo
+VERSION
+    1.18.4
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Cairo is a 2D graphics library with support for multiple output devices
+WEBSITE
+    https://www.cairographics.org/
+DEPENDENCIES
+        @GraphicsLibraries-Main:Libpng>=1.6.40
+        @GraphicsLibraries-Main:Pixman>=0.42.2
+KERNELDEPENDENCIES
+OPTIONS
+    name: Xorg-Libraries
+    description: Enable xorg-libraries support
+    active: false
+    dependencies:
+        @XorgBase-Main:Xorg-Libraries>=21.1.8
+    kernelDependencies:
+
+    name: Fontconfig
+    description: Enable fontconfig support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Fontconfig>=2.14.2
+    kernelDependencies:
+
+    name: Glib
+    description: Enable glib support
+    active: false
+    dependencies:
+        @BaseLibraries-Main:Glib>=2.76.4
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

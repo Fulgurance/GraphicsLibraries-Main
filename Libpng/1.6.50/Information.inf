@@ -1,15 +1,15 @@
 PORT
     GraphicsLibraries-Main
 NAME
-    Nv-Codec-Headers
+    Libpng
 VERSION
-    12.2.72
+    1.6.50
 ARCHITECTURES
     x86_64
 DESCRIPTION
-    FFmpeg nvidia headers
+    Reference library for supporting the Portable Network Graphics format
 WEBSITE
-    https://github.com/FFmpeg/nv-codec-headers
+    https://downloads.sourceforge.net/libpng
 DEPENDENCIES
         @SystemBase-Main:SystemBase>=0.2.0
 KERNELDEPENDENCIES

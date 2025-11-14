@@ -1,17 +1,17 @@
 PORT
     GraphicsLibraries-Main
 NAME
-    Qrencode
+    Glm
 VERSION
-    4.1.1
+    1.0.2
 ARCHITECTURES
     x86_64
 DESCRIPTION
-    Fast and compact library for encoding data in a QR Code symbol
+    OpenGL Mathematics (GLM)
 WEBSITE
-    https://github.com/fukuchi/libqrencode
+    https://github.com/g-truc/glm
 DEPENDENCIES
-        @GraphicsLibraries-Main:Libpng>=1.6.37
+        @SystemBase-Main:SystemBase>=0.2.0
 KERNELDEPENDENCIES
 OPTIONS
 UNIQUEDEPENDENCIES

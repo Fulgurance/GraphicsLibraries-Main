@@ -1,17 +1,17 @@
 PORT
     GraphicsLibraries-Main
 NAME
-    Qrencode
+    WxWidgets
 VERSION
-    4.1.1
+    3.3.1
 ARCHITECTURES
     x86_64
 DESCRIPTION
-    Fast and compact library for encoding data in a QR Code symbol
+    Cross-Platform C++ GUI Library
 WEBSITE
-    https://github.com/fukuchi/libqrencode
+    https://github.com/wxWidgets/wxWidgets
 DEPENDENCIES
-        @GraphicsLibraries-Main:Libpng>=1.6.37
+        @ProgrammingTools-Main:Cmake>=3.27.2
 KERNELDEPENDENCIES
 OPTIONS
 UNIQUEDEPENDENCIES

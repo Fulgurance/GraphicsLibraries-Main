@@ -1,17 +1,17 @@
 PORT
     GraphicsLibraries-Main
 NAME
-    Qrencode
+    Libdrm
 VERSION
-    4.1.1
+    2.4.128
 ARCHITECTURES
     x86_64
 DESCRIPTION
-    Fast and compact library for encoding data in a QR Code symbol
+    Direct Rendering Manager headers and kernel modules
 WEBSITE
-    https://github.com/fukuchi/libqrencode
+    https://dri.freedesktop.org/libdrm
 DEPENDENCIES
-        @GraphicsLibraries-Main:Libpng>=1.6.37
+        @XorgBase-Main:Xorg-Libraries>=21.1.8
 KERNELDEPENDENCIES
 OPTIONS
 UNIQUEDEPENDENCIES

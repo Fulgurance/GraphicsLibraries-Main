@@ -1,17 +1,17 @@
 PORT
     GraphicsLibraries-Main
 NAME
-    Qrencode
+    Pixman
 VERSION
-    4.1.1
+    0.46.4
 ARCHITECTURES
     x86_64
 DESCRIPTION
-    Fast and compact library for encoding data in a QR Code symbol
+    The pixel-manipulation library for X and cairo
 WEBSITE
-    https://github.com/fukuchi/libqrencode
+    https://www.cairographics.org
 DEPENDENCIES
-        @GraphicsLibraries-Main:Libpng>=1.6.37
+        @ProgrammingTools-Main:Ninja>=1.12.1
 KERNELDEPENDENCIES
 OPTIONS
 UNIQUEDEPENDENCIES

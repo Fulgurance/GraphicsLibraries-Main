@@ -1,0 +1,20 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    Libdisplay-Info
+VERSION
+    0.3.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    EDID and DisplayID library
+WEBSITE
+    https://gitlab.freedesktop.org/emersion/libdisplay-info
+DEPENDENCIES
+        @BaseLibraries-Main:Hwdata>=0.389.0
+        @ProgrammingTools-Main:Ninja>=1.12.1
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

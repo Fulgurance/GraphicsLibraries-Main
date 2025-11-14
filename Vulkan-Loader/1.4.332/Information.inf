@@ -1,0 +1,21 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    Vulkan-Loader
+VERSION
+    1.4.332
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Vulkan Loader
+WEBSITE
+    https://github.com/KhronosGroup/Vulkan-Loader
+DEPENDENCIES
+        @GraphicsLibraries-Main:Vulkan-Headers>=1.4.307
+        @GraphicsLibraries-Main:Wayland>=1.22.0
+        @XorgBase-Main:Xorg-Libraries>=21.1.8
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

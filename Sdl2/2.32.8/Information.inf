@@ -1,0 +1,19 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    Sdl2
+VERSION
+    2.32.8
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Simple DirectMedia Layer cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D
+WEBSITE
+    https://www.libsdl.org/
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

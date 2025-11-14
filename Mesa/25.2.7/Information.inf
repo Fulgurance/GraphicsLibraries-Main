@@ -1,0 +1,217 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    Mesa
+VERSION
+    25.2.7
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Open source implementations of OpenGL, OpenGL ES, Vulkan, OpenCL, and more
+WEBSITE
+    https://mesa.freedesktop.org
+DEPENDENCIES
+        @XorgBase-Main:Xorg-Libraries>=21.1.8
+        @GraphicsLibraries-Main:Libdrm>=2.4.115
+        @BaseLibraries-Main:Mako>=1.2.4
+        @GraphicsLibraries-Main:Glslang>=14.3.0
+        @BaseLibraries-Main:Ply>=3.11.0
+        @BaseLibraries-Main:Opencl-Icd-Loader>=0.0.0-20241024
+KERNELDEPENDENCIES
+OPTIONS
+    name: Gallium-Driver-R300
+    description: Enable gallium support for driver r300
+    active: false
+    dependencies:
+    kernelDependencies:
+
+    name: Gallium-Driver-R600
+    description: Enable gallium support for driver r600
+    active: false
+    dependencies:
+    kernelDependencies:
+
+    name: Gallium-Driver-Radeonsi
+    description: Enable gallium support for driver radeonsi
+    active: false
+    dependencies:
+    kernelDependencies:
+
+    name: Gallium-Driver-Nouveau
+    description: Enable gallium support for driver Nouveau
+    active: true
+    dependencies:
+        @ProgrammingTools-Main:Rust-Bindgen>=0.71.1
+    kernelDependencies:
+
+    name: Gallium-Driver-Virgl
+    description: Enable gallium support for driver virgl
+    active: false
+    dependencies:
+    kernelDependencies:
+
+    name: Gallium-Driver-Svga
+    description: Enable gallium support for driver Svga
+    active: false
+    dependencies:
+    kernelDependencies:
+
+    name: Gallium-Driver-Swrast
+    description: Enable gallium support for driver swrast
+    active: true
+    dependencies:
+    kernelDependencies:
+
+    name: Gallium-Driver-Iris
+    description: Enable gallium support for driver iris
+    active: true
+    dependencies:
+    kernelDependencies:
+
+    name: Gallium-Driver-Crocus
+    description: Enable gallium support for driver crocus
+    active: false
+    dependencies:
+    kernelDependencies:
+
+    name: Gallium-Driver-I915
+    description: Enable gallium support for driver i915
+    active: false
+    dependencies:
+    kernelDependencies:
+
+    name: Gallium-Driver-Zink
+    description: Enable gallium support for driver zink
+    active: true
+    dependencies:
+        @GraphicsLibraries-Main:Vulkan-Loader>=1.4.307
+    kernelDependencies:
+
+    name: Vulkan-Driver-Amd
+    description: Enable vulkan support for driver amd
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Vulkan-Loader>=1.4.307
+    kernelDependencies:
+
+    name: Vulkan-Driver-Intel
+    description: Enable vulkan support for driver intel
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Vulkan-Loader>=1.4.307
+    kernelDependencies:
+
+    name: Vulkan-Driver-Intel-Hasvk
+    description: Enable vulkan support for driver intel hasvk
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Vulkan-Loader>=1.4.307
+    kernelDependencies:
+
+    name: Vulkan-Driver-Nouveau
+    description: Enable vulkan support for driver nouveau
+    active: false
+    dependencies:
+        @ProgrammingTools-Main:Rust-Bindgen>=0.71.1
+    kernelDependencies:
+
+    name: Vulkan-Driver-Swrast
+    description: Enable vulkan support for driver swrast
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Vulkan-Loader>=1.4.307
+    kernelDependencies:
+
+    name: Libva
+    description: Enable libva support for VA-API support for gallium drivers
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Libva>=2.19.0
+    kernelDependencies:
+
+    name: Libvdpau
+    description: Enable libvdpau support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Libvdpau>=1.5.0
+    kernelDependencies:
+
+    name: Llvm
+    description: Enable llvm support for Gallium3D, nouveau, r300 and radeon drivers
+    active: true
+    dependencies:
+        @ProgrammingLanguages-Main:Llvm>=16.0.5
+    kernelDependencies:
+
+    name: Wayland-Protocols
+    description: Enable wayland-protocols support
+    active: true
+    dependencies:
+        @GraphicsLibraries-Main:Wayland-Protocols>=1.32.0
+    kernelDependencies:
+
+    name: Libclc
+    description: Enable libclc support for Intel iris gallium driver
+    active: true
+    dependencies:
+        @BaseLibraries-Main:Libclc>=18.1.7
+    kernelDependencies:
+
+    name: Intel-Clc
+    description: Enable intel-clc support
+    active: false
+    dependencies:
+    kernelDependencies:
+
+    name: Vulkan-Loader
+    description: Enable vulkan-loader support for Zink gallium driver
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Vulkan-Loader>=1.3.294
+    kernelDependencies:
+
+    name: Ply
+    description: Enable ply support for Intel vulkan driver
+    active: false
+    dependencies:
+        @BaseLibraries-Main:Ply>=3.11.0
+    kernelDependencies:
+
+    name: Libgcrypt
+    description: Enable libgcrypt support
+    active: false
+    dependencies:
+        @SecurityLibraries-Main:Libgcrypt>=1.10.2
+    kernelDependencies:
+
+    name: Libunwind
+    description: Enable libunwind support
+    active: false
+    dependencies:
+        @BaseLibraries-Main:Libunwind>=1.6.2
+    kernelDependencies:
+
+    name: Lm-Sensors
+    description: Enable lm-sensors support
+    active: false
+    dependencies:
+        @Utilities-Main:Lm-Sensors>=3.6.0
+    kernelDependencies:
+
+    name: Nettle
+    description: Enable nettle support
+    active: false
+    dependencies:
+        @SecurityLibraries-Main:Nettle>=3.9.1
+    kernelDependencies:
+
+    name: Valgrind
+    description: Enable valgrind support
+    active: false
+    dependencies:
+        @Utilities-Main:Valgrind>=3.21.0
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES
