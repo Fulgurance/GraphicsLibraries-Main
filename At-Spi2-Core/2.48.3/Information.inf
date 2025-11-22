@@ -13,7 +13,7 @@ WEBSITE
 DEPENDENCIES
         @Utilities-Main:Dbus>=1.14.8
         @BaseLibraries-Main:Glib>=2.76.4
-        @XorgBase-Main:Xorg-Libraries>=21.1.8
+        @XorgBase-Main:Xorg-Libraries>=0.0.0
 KERNELDEPENDENCIES
 OPTIONS
     name: Gobject-Introspection

@@ -13,7 +13,7 @@ WEBSITE
 DEPENDENCIES
         @GraphicsLibraries-Main:Vulkan-Headers>=1.4.307
         @GraphicsLibraries-Main:Wayland>=1.22.0
-        @XorgBase-Main:Xorg-Libraries>=21.1.8
+        @XorgBase-Main:Xorg-Libraries>=0.0.0
 KERNELDEPENDENCIES
 OPTIONS
 UNIQUEDEPENDENCIES

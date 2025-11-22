@@ -11,7 +11,7 @@ DESCRIPTION
 WEBSITE
     https://mesa.freedesktop.org
 DEPENDENCIES
-        @XorgBase-Main:Xorg-Libraries>=21.1.8
+        @XorgBase-Main:Xorg-Libraries>=0.0.0
         @GraphicsLibraries-Main:Libdrm>=2.4.115
         @BaseLibraries-Main:Mako>=1.2.4
 KERNELDEPENDENCIES
