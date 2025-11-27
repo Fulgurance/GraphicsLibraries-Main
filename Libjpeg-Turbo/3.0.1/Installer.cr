@@ -13,6 +13,8 @@ class Target < ISM::Software
                                     -DENABLE_STATIC=FALSE                                       \
                                     -DCMAKE_INSTALL_DOCDIR=/usr/share/doc/#{versionName}        \
                                     -DCMAKE_INSTALL_DEFAULT_LIBDIR=lib                          \
+                                    -DCMAKE_POLICY_VERSION_MINIMUM=3.5                          \
+                                    -D CMAKE_SKIP_INSTALL_RPATH=ON                              \
                                     ..",
                         path:       buildDirectoryPath)
     end
