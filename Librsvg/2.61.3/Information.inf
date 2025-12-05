@@ -14,7 +14,7 @@ DEPENDENCIES
         @ProgrammingTools-Main:Cargo-C>=0.10.7
         @GraphicsLibraries-Main:Gdk-Pixbuf>=2.42.12
         @GraphicsLibraries-Main:Pango>=1.50.14(Cairo)
-        @ProgrammingLanguages-Main:Rust>=1.71.1
+        @ProgrammingLanguages-Main:Rust>=1.85.1
 KERNELDEPENDENCIES
 OPTIONS
     name: Gobject-Introspection
