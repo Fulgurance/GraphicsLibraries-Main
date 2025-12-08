@@ -1,0 +1,19 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    Graphviz
+VERSION
+    14.1.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Graph Visualization Tools
+WEBSITE
+    https://gitlab.com/graphviz/graphviz
+DEPENDENCIES
+        @ProgrammingTools-Main:Cmake>=3.27.2
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES
