@@ -1,0 +1,78 @@
+diff -ur Graphviz-14.1.0/CMakeLists.txt Graphviz-14.1.0-new/CMakeLists.txt
+--- Graphviz-14.1.0/CMakeLists.txt	2025-12-06 18:07:34.000000000 +0000
++++ Graphviz-14.1.0-new/CMakeLists.txt	2025-12-09 08:09:52.190235847 +0000
+@@ -238,6 +238,7 @@
+ endif()
+ 
+ find_package(GTS)
++find_package(PANGOCAIRO)
+ 
+ if(NOT WITH_SMYRNA STREQUAL "OFF")
+   find_package(Freetype)
+@@ -264,8 +265,8 @@
+       set(XRENDER_FOUND 0)
+     endif()
+   endif()
+-  if(Freetype_FOUND AND GLUT_FOUND AND GTK2_FOUND AND Fontconfig_FOUND AND
+-     GTKGLEXT_FOUND AND GTS_FOUND AND XRENDER_FOUND)
++  if(PANGOCAIRO_FOUND AND Freetype_FOUND AND GLUT_FOUND AND GTK2_FOUND AND
++     Fontconfig_FOUND AND GTKGLEXT_FOUND AND GTS_FOUND AND XRENDER_FOUND)
+     if(WITH_SMYRNA STREQUAL "AUTO")
+       message(STATUS "setting -DWITH_SMYRNA=ON")
+       set(WITH_SMYRNA ON)
+@@ -313,7 +314,6 @@
+ find_package(AA)
+ find_package(DevIL)
+ find_package(Freetype)
+-find_package(PANGOCAIRO)
+ find_package(PkgConfig)
+ if(PkgConfig_FOUND)
+   if(WITH_GDK STREQUAL "OFF")
+diff -ur Graphviz-14.1.0/cmd/dot/CMakeLists.txt Graphviz-14.1.0-new/cmd/dot/CMakeLists.txt
+--- Graphviz-14.1.0/cmd/dot/CMakeLists.txt	2025-12-06 18:07:34.000000000 +0000
++++ Graphviz-14.1.0-new/cmd/dot/CMakeLists.txt	2025-12-09 08:08:36.313674974 +0000
+@@ -59,13 +59,16 @@
+     gvc
+     gvplugin_core
+     gvplugin_dot_layout
+-    gvplugin_kitty
+     gvplugin_neato_layout
+     gvplugin_vt
+     pathplan
+     xdot
+   )
+ 
++  if(PANGOCAIRO_FOUND)
++    target_link_libraries(dot_builtins PRIVATE gvplugin_kitty)
++  endif()
++
+   if(WIN32)
+     target_link_libraries(dot_builtins PRIVATE gvplugin_gdiplus)
+   endif()
+@@ -98,7 +101,7 @@
+     target_link_libraries(dot_builtins PRIVATE ${GTS_LINK_LIBRARIES})
+   endif()
+ 
+-  if(LASI_FOUND)
++  if(Freetype_FOUND AND LASI_FOUND AND PANGOCAIRO_FOUND)
+     target_link_libraries(dot_builtins PRIVATE gvplugin_lasi)
+   endif()
+ 
+@@ -133,13 +136,16 @@
+     gvc
+     gvplugin_core
+     gvplugin_dot_layout
+-    gvplugin_kitty
+     gvplugin_neato_layout
+     gvplugin_vt
+     pathplan
+     xdot
+   )
+ 
++  if(PANGOCAIRO_FOUND)
++    target_link_libraries(dot PRIVATE gvplugin_kitty)
++  endif()
++
+   if(WIN32)
+     target_link_libraries(dot PRIVATE gvplugin_gdiplus)
+   endif()
