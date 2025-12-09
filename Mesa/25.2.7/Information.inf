@@ -151,12 +151,6 @@ OPTIONS
         @BaseLibraries-Main:Libclc>=18.1.7
     kernelDependencies:
 
-    name: Intel-Clc
-    description: Enable intel-clc support
-    active: false
-    dependencies:
-    kernelDependencies:
-
     name: Vulkan-Loader
     description: Enable vulkan-loader support for Zink gallium driver
     active: false
