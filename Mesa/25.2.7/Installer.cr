@@ -80,7 +80,6 @@ class Target < ISM::Software
                                     -Dgallium-drivers=\"#{galliumDrivers}\"         \
                                     -Dvulkan-drivers=\"#{vulkanDrivers}\"           \
                                     -Dvalgrind=disabled                             \
-                                    -Dintel-clc=enabled                                             \
                                     -Dinstall-intel-clc=#{option("Intel-Clc") ? "true" : "false"}   \
                                     -Dgallium-rusticl=false                                          \
                                     -Dllvm=enabled                                                  \
