@@ -26,9 +26,6 @@ class Target < ISM::Software
         if option("Gallium-Driver-Svga")
             galliumDrivers += "svga,"
         end
-        if option("Gallium-Driver-Swrast")
-            galliumDrivers += "swrast,"
-        end
         if option("Gallium-Driver-Iris")
             galliumDrivers += "iris,"
         end

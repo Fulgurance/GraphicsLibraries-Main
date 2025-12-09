@@ -56,12 +56,6 @@ OPTIONS
     dependencies:
     kernelDependencies:
 
-    name: Gallium-Driver-Swrast
-    description: Enable gallium support for driver swrast
-    active: true
-    dependencies:
-    kernelDependencies:
-
     name: Gallium-Driver-Iris
     description: Enable gallium support for driver iris
     active: true
