@@ -17,6 +17,7 @@ DEPENDENCIES
         @GraphicsLibraries-Main:Glslang>=14.3.0
         @BaseLibraries-Main:Ply>=3.11.0
         @BaseLibraries-Main:Opencl-Icd-Loader>=0.0.0-20241024
+        @BaseLibraries-Main:PyYaml>=6.0.3
 KERNELDEPENDENCIES
 OPTIONS
     name: Gallium-Driver-R300
