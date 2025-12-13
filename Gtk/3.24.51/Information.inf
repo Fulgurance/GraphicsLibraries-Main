@@ -1,0 +1,59 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    Gtk
+VERSION
+    3.24.51
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Complete set of UI elements
+WEBSITE
+    https://www.gtk.org/
+DEPENDENCIES
+        @GraphicsLibraries-Main:At-Spi2-Core>=2.48.3
+        @GraphicsLibraries-Main:Gdk-Pixbuf>=2.42.10
+        @GraphicsLibraries-Main:Libepoxy>=1.5.10
+        @GraphicsLibraries-Main:Pango>=1.50.14(Gobject-Introspection)
+        @GraphicsLibraries-Main:Cairo>=1.17.6(Glib,Xorg-Libraries)
+        @XorgBase-Main:Libxkbcommon>=1.5.0
+KERNELDEPENDENCIES
+OPTIONS
+    name: Adwaita-Icon-Theme
+    description: Enable adwaita-icon-theme support
+    active: false
+    dependencies:
+        @IconThemes-Main:Adwaita-Icon-Theme>=44.0.0
+    kernelDependencies:
+
+    name: Wayland
+    description: Enable wayland support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Wayland>=1.22.0
+    kernelDependencies:
+
+    name: Wayland-Protocols
+    description: Enable wayland-protocols support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Wayland-Protocols>=1.32.0
+    kernelDependencies:
+
+    name: Colord
+    description: Enable colord support
+    active: false
+    dependencies:
+        @Utilities-Main:Colord>=1.4.6
+    kernelDependencies:
+
+    name: Cups
+    description: Enable cups support
+    active: false
+    dependencies:
+        @Utilities-Main:Cups>=2.4.6
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES
