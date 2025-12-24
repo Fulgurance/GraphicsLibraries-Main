@@ -1,0 +1,19 @@
+PORT
+    GraphicsLibraries-Main
+NAME
+    Weston
+VERSION
+    14.0.91
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    A lightweight and functional Wayland compositor
+WEBSITE
+    https://gitlab.freedesktop.org/wayland/weston
+DEPENDENCIES
+        @GraphicsLibraries-Main:Wayland>=1.24.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES
