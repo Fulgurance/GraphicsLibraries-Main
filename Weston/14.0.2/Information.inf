@@ -12,6 +12,7 @@ WEBSITE
     https://gitlab.freedesktop.org/wayland/weston
 DEPENDENCIES
         @GraphicsLibraries-Main:Wayland>=1.24.0
+        @Utilities-Main:Seatd>=0.9.1
 KERNELDEPENDENCIES
 OPTIONS
 UNIQUEDEPENDENCIES
