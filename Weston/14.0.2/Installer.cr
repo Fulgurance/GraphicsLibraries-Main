@@ -13,7 +13,8 @@ class Target < ISM::Software
                                     #{@buildDirectoryNames["MainBuild"]}    \
                                     --prefix=/usr                           \
                                     --buildtype=release                     \
-                                    -Dimage-webp=false",
+                                    -Dimage-webp=false                      \
+                                    -Dbackend-rdp=false",
                         path:       mainWorkDirectoryPath)
     end
     
