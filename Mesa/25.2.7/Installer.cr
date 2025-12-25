@@ -38,6 +38,12 @@ class Target < ISM::Software
         if option("Gallium-Driver-Zink")
             galliumDrivers += "zink,"
         end
+        if option("Gallium-Driver-Softpipe")
+            galliumDrivers += "softpipe,"
+        end
+        if option("Gallium-Driver-Llvmpipe")
+            galliumDrivers += "llvmpipe,"
+        end
 
         return galliumDrivers[0..-2]
     end

@@ -82,6 +82,18 @@ OPTIONS
         @GraphicsLibraries-Main:Vulkan-Loader>=1.4.307
     kernelDependencies:
 
+    name: Gallium-Driver-Softpipe
+    description: Enable gallium support for driver softpipe
+    active: true
+    dependencies:
+    kernelDependencies:
+
+    name: Gallium-Driver-Llvmpipe
+    description: Enable gallium support for driver llvmpipe
+    active: true
+    dependencies:
+    kernelDependencies:
+
     name: Vulkan-Driver-Amd
     description: Enable vulkan support for driver amd
     active: false
