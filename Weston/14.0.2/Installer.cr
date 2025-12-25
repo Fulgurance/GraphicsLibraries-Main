@@ -14,7 +14,8 @@ class Target < ISM::Software
                                     --prefix=/usr                                           \
                                     --buildtype=release                                     \
                                     -Dimage-webp=#{option("Libwebp") ? "true" : "false"}    \
-                                    -Dbackend-rdp=false",
+                                    -Dbackend-rdp=false                                     \
+                                    -Dbackend-vnc=false",
                         path:       mainWorkDirectoryPath)
     end
     
