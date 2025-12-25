@@ -15,6 +15,13 @@ DEPENDENCIES
         @Utilities-Main:Seatd>=0.9.1
 KERNELDEPENDENCIES
 OPTIONS
+    name: Libwebp
+    description: Enable libwebp support
+    active: true
+    dependencies:
+        @NetworkingLibraries-Main:Libwebp>=1.6.0
+    kernelDependencies:
+
 UNIQUEDEPENDENCIES
 UNIQUEOPTIONS
 ALLOWCODEPENDENCIES

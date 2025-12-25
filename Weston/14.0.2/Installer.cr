@@ -8,12 +8,12 @@ class Target < ISM::Software
     def configure
         super
 
-        runMesonCommand(arguments:  "setup                                  \
-                                    --reconfigure                           \
-                                    #{@buildDirectoryNames["MainBuild"]}    \
-                                    --prefix=/usr                           \
-                                    --buildtype=release                     \
-                                    -Dimage-webp=false                      \
+        runMesonCommand(arguments:  "setup                                                  \
+                                    --reconfigure                                           \
+                                    #{@buildDirectoryNames["MainBuild"]}                    \
+                                    --prefix=/usr                                           \
+                                    --buildtype=release                                     \
+                                    -Dimage-webp=#{option("Libwebp") ? "true" : "false"}    \
                                     -Dbackend-rdp=false",
                         path:       mainWorkDirectoryPath)
     end
